@@ -3,6 +3,6 @@ flowchart LR;
 a[TECNÓLOGO - Sistemas para Internet - UNISUL]
 b[ESTÁGIO - Tecnologia Única];
 c[PROMOÇÃO - Desenvolvedor Jr - Tecnologia Única];
-d[Desenvolvedor - ]
+d[DESENVOLVEDOR JR - ]
 a-->b;
 :::
