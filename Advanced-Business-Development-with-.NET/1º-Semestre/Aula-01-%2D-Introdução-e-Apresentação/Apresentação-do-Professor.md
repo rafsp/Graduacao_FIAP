@@ -38,18 +38,18 @@
           Novo Emprego
                |
                V
-+----------------------------+
-|  Desenvolvedor Web Pleno   |
-|         Unimed FESP        |
-+----------------------------+
++-----------------------------+
+|   Desenvolvedor Web Pleno   |
+|         Unimed FESP         |
++-----------------------------+
                |
             Promoção
                |
                V
-+----------------------------+
-|  Desenvolvedor Web Senior  |
-|         Unimed FESP        |
-+----------------------------+
++-----------------------------+
+|  Desenvolvedor Web Senior   |
+|         Unimed FESP         |
++-----------------------------+
           
 ```
 
