@@ -1,6 +1,22 @@
-# Notas
+# Provas/Trabalhos
+## Challenge Sprint
+## Checkpoint
+## Global Solution
 
-Cálculos
+# Cálculos
+## Challenge Sprints
+- Média das notas da Challenges
+## Checkpoints
+- Média das duas maiores notas dos CheckPoints
+## Global Solution
+- Nota final da GS
+
+# Peso das Notas
+## 
+
+``
+NotaFinal = 
+``
 ## challengeSprints
 - Média das notas da Challenges
 - Trabalho feito em grupo
