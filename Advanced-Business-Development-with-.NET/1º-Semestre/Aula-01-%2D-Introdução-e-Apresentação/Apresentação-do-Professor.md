@@ -1,4 +1,4 @@
 ::: mermaid
 flowchart LR;
-a[Tecnólogo - Sistemas para Internet - UNIL]->b[Estágio - Tecnologia Única];
+a[Tecnólogo - Sistemas para Internet - UNIL] --> b[Estágio - Tecnologia Única];
 :::
