@@ -23,7 +23,15 @@
                |
                V
 +----------------------------+
-|    Analista de Sistemas    |
+|   Analista de Sistemas Jr  |
+|        Grupo Galvão        |
++----------------------------+
+               |
+            Promoção
+               |
+               V
++----------------------------+
+| Analista de Sistemas Pleno |
 |        Grupo Galvão        |
 +----------------------------+
           
