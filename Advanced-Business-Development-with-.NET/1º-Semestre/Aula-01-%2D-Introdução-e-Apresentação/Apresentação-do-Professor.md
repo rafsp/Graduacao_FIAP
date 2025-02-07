@@ -15,7 +15,7 @@
                |
                V
 +----------------------------+
-|  Desenvolvedor WEB         |
+|      Desenvolvedor WEB     |
 |  Tecnologia Única          |
 +----------------------------+
                  |
