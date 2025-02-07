@@ -1,6 +1,6 @@
 ::: mermaid
 flowchart LR;
-a[ shape: stadium, label: "TECNÓLOGO - Sistemas para Internet - UNISUL"];
+a[ shape: stadium, label: TECNÓLOGO - Sistemas para Internet - UNISUL];
 b[ESTÁGIO - Tecnologia Única];
 c[PROMOÇÃO - Desenvolvedor Jr - Tecnologia Única];
 d[ANALISTA DE SISTEMAS JR - Grupo Galvão];
