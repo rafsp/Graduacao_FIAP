@@ -1,6 +1,6 @@
 ::: mermaid
 flowchart LR;
-a[TECNÓLOGO - Sistemas para Internet - UNISUL];
+a[Sistemas para Internet - UNISUL];
 b[Tecnologia Única];
 c[Desenvolvedor Jr - Tecnologia Única];
 d[ANALISTA DE SISTEMAS JR - Grupo Galvão];
