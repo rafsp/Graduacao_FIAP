@@ -7,4 +7,6 @@ d[ANALISTA DE SISTEMAS JR - Grupo Galvão];
 e[PROMOÇÃO - ANALISTA DE SISTEMAS PL - Grupo Galvão];
 f[PROMOÇÃO - ANALISTA DE SISTEMAS PL - Grupo Galvão];
 a-->b;
+b-->c;
+
 :::
