@@ -9,4 +9,5 @@ f[PROMOÇÃO - ANALISTA DE SISTEMAS PL - Grupo Galvão];
 a-->b;
 b-->c;
 c-->d;
+d-->e;
 :::
