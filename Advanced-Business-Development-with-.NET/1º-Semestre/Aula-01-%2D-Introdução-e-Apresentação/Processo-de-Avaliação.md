@@ -12,8 +12,8 @@
 - Nota final da GS
 
 # Peso das Notas
-## 
-
+- 40% = (challengeSprints + checkPoints)/2
+- 60% = globalSolution
 ``
 NotaFinal = 
 ``
