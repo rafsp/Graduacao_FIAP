@@ -7,7 +7,7 @@
                  |
                  V
 +---------------------------------------+
-|    Sistemas para Internet - UNISUL    |
+|   Sistemas para Internet -> UNISUL    |
 +---------------------------------------+
                  |
               Estágio
