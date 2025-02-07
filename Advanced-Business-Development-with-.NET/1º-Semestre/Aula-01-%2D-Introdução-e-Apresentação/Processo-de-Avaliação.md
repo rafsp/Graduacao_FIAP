@@ -1,7 +1,7 @@
 # Provas/Trabalhos
-## Challenge Sprint
-## Checkpoint
-## Global Solution
+- Challenge Sprint
+- Checkpoint
+- Global Solution
 
 # Cálculos
 ## Challenge Sprints
@@ -14,20 +14,25 @@
 # Peso das Notas
 - 40% = (challengeSprints + checkPoints)/2
 - 60% = globalSolution
-``
-NotaFinal = 
-``
-## challengeSprints
-- Média das notas da Challenges
-- Trabalho feito em grupo
+- **40%** = (challengeSprints + checkPoints)/2,
 
-## checkPoints
-- Média das duas maiores notas dos CheckPoints
-- 30% perguntas e respostas
-- 70% Trabalho prático individual
-
-## globalSolution
-- Nota final da GS
-- Trabalho feito em grupo (podendo ser feito em turmas diferentes)
-
-# Peso das notas
+# Exemplo
+- Aluno que tirou as seguintes notas
+  - checkPoints
+    - cp1: nota 8
+    - cp2: nota 9
+    - cp3: nota 10
+    - checkPoints com maior nota: 9 e 10
+    - média dos checkPoints com maior nota: [9.5]()
+  - challengeSprints
+    - cs1: 9
+    - cs2: 8
+    - média das challenges: [8.5]()
+  - globalSolution
+    - gs = [8.0]()
+  - Aplicação dos pesos
+    - notaFinalSemestre = (cp + cs)/2 * 0.4 + gs * 0.6
+    - notaFinalSemestre = ([9.5]() + [8.5]())/2 * 0.4 + [8]() * 0.6
+    - notaFinalSemestre = 9 * 0.4 + 4.8
+    - notaFinalSemestre = 3.6 + 4.8
+    - notaFinalSemestre = 8.4
