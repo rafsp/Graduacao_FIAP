@@ -1,38 +1,46 @@
 ```
-+----------------------------+
-|            Nagib           |
-+----------------------------+
++-----------------------------+
+|            Nagib            |
++-----------------------------+
                |
            Tecnólogo
                |
                V
-+----------------------------+
-|   Sistemas para Internet   |
-|            UNISUL          |
-+----------------------------+
++-----------------------------+
+|   Sistemas para Internet    |
+|            UNISUL           |
++-----------------------------+
                |
             Estágio
                |
                V
-+----------------------------+
-|      Desenvolvedor WEB     |
-|      Tecnologia Única      |
-+----------------------------+
++-----------------------------+
+|      Desenvolvedor WEB      |
+|      Tecnologia Única       |
++-----------------------------+
+               |
+          Novo Emprego
+               |
+               V
++-----------------------------+
+| Analista de Sistemas Junior |
+|        Grupo Galvão         |
++-----------------------------+
+               |
+            Promoção
+               |
+               V
++-----------------------------+
+| Analista de Sistemas Pleno  |
+|        Grupo Galvão         |
++-----------------------------+
                |
           Novo Emprego
                |
                V
 +----------------------------+
-|   Analista de Sistemas Jr  |
-|        Grupo Galvão        |
-+----------------------------+
-               |
-            Promoção
-               |
-               V
-+----------------------------+
-| Analista de Sistemas Pleno |
-|        Grupo Galvão        |
+|  Desenvolvedor Web Pleno   |
+|           Unimed           |
 +----------------------------+
           
 ```
