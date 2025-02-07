@@ -63,8 +63,16 @@
                |
                V
 +-----------------------------+
-|          Consultor Senior   |
+|      Consultor Senior       |
 |            Capco            |
++-----------------------------+
+               |
+          Novo Emprego
+               |
+               V
++-----------------------------+
+|  Líder de Eng. de Software  |
+|        Órigo Energia        |
 +-----------------------------+
           
 ```
