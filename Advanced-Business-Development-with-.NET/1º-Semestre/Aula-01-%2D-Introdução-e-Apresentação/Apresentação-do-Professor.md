@@ -23,8 +23,8 @@
                |
                V
 +----------------------------+
-|      Analista de Sistemas  |
-|      Grupo Galvão          |
+|    Analista de Sistemas    |
+|        Grupo Galvão        |
 +----------------------------+
           
 ```
