@@ -14,10 +14,10 @@
             Estágio
                |
                V
-+---------------------+
-|  Desenvolvedor WEB  |
-|  Tecnologia Única   |
-+---------------------+
++----------------------------+
+|  Desenvolvedor WEB         |
+|  Tecnologia Única          |
++----------------------------+
                  |
               Estágio
                  |
