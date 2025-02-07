@@ -16,7 +16,7 @@
                V
 +----------------------------+
 |      Desenvolvedor WEB     |
-|  Tecnologia Única          |
+|      Tecnologia Única      |
 +----------------------------+
                  |
               Estágio
