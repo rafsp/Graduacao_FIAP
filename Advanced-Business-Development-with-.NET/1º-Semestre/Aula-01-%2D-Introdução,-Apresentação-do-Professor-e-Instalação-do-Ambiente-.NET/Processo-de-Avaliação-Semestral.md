@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Provas/Trabalhos
 - Challenge Sprint
 - Checkpoint
