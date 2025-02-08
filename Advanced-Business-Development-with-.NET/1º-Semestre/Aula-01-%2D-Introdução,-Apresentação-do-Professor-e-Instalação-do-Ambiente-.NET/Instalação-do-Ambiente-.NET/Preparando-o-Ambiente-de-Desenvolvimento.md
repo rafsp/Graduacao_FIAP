@@ -13,3 +13,4 @@ Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
 ```bash
 dotnet --list-sdks
 ```
+
