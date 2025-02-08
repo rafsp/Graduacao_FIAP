@@ -1,7 +1,7 @@
 1. Microsoft. O que é o .NET? Disponível em: <https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet>. Acesso em: 04 fev. 2024.
 2. Microsoft. Página inicial do .NET. Disponível em: <https://dotnet.microsoft.com/pt-br/>. Acesso em: 04 fev. 2024.
 3. Microsoft. Clientes .NET. Disponível em: <https://dotnet.microsoft.com/pt-br/platform/customers/net>. Acesso em: 04 fev. 2024.
-4. Microsoft. O que é o .NET Framework? Disponível em: <https://dotnet.microsoft.com/pt-br/learn/dotnet/what-isdotnet-framework>. Acesso em: 04 fev. 2024.
+4. Microsoft. O que é o .NET Framework? Disponível em: <https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet-framework>. Acesso em: 04 fev. 2024.
 5. Microsoft. Introdução ao .NET Core. Disponível em: <https://learn.microsoft.com/pt-br/dotnet/core/introduction>. Acesso em: 04 fev. 2024.
 6. Microsoft. O que é o ASP.NET Core? Disponível em: <https://dotnet.microsoft.com/pt-br/learn/aspnet/what-isaspnet-core>. Acesso em: 04 fev. 2024.
 7. Stack Overflow. O que é o .NET Core? Disponível em: <https://pt.stackoverflow.com/questions/40671/o-que-%C3%A9-o-net-core>. Acesso em: 04 fev. 2024.
