@@ -7,3 +7,4 @@ Sobre o .NET Framework:
 - Suporta várias linguagens e compiladores, conforme ilustração a seguir.
 
 ![swimlane-architecture-framework.svg](/.attachments/swimlane-architecture-framework-1e2755da-0c90-4551-be99-fa93db2a17e8.svg)
+_Imagem retirada da referência [4]._
