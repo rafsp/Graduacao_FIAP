@@ -41,14 +41,10 @@ Entre as características deles estão:
 
 - .NET 9 é uma versão de suporte de prazo padrão (STS) com foco especial em aplicativos nativos de nuvem e desempenho. Entre suas principais características estão:
     
-  - Aprimoramentos no runtime: introdução de um novo modelo de atributos para alternância de funcionalidades com suporte a trimming, otimizações no coletor de lixo com adaptação dinâmica ao tamanho do aplicativo e diversas melhorias de desempenho, incluindo otimizações de loop, inlining e vetorização para Arm64.
+  - Aprimoramentos no runtime: introdução de um novo modelo de atributos para alternância de funcionalidades com suporte a trimming, otimizações no coletor de lixo com adaptação dinâmica ao tamanho do aplicativo e diversas melhorias de desempenho, incluindo otimizações de loop, inlining e vetorização para Arm64;
     
-  - Melhorias nas bibliotecas: o `System.Text.Json` agora oferece suporte a anotações de tipos de referência nulos e exportação de esquemas JSON a partir de tipos. No LINQ, foram adicionados os métodos `CountBy` e `AggregateBy`, permitindo agregações por chave sem a necessidade de alocar agrupamentos intermediários via `GroupBy`. Além disso, o tipo `System.Collections.Generic.PriorityQueue<TElement, TPriority>` inclui um novo método `Remove` para atualização da prioridade de itens na fila.
+  - Melhorias nas bibliotecas: o `System.Text.Json` agora oferece suporte a anotações de tipos de referência nulos e exportação de esquemas JSON a partir de tipos. No LINQ, foram adicionados os métodos `CountBy` e `AggregateBy`, permitindo agregações por chave sem a necessidade de alocar agrupamentos intermediários via `GroupBy`. Além disso, o tipo `System.Collections.Generic.PriorityQueue<TElement, TPriority>` inclui um novo método `Remove` para atualização da prioridade de itens na fila;
     
-*   **Avanços no SDK**: introdução de conjuntos de carga de trabalho, onde todas as cargas de trabalho permanecem em uma única versão específica até serem atualizadas explicitamente. Para ferramentas, uma nova opção para `dotnet tool install` permite que os usuários decidam se uma ferramenta tem permissão para ser executada em uma versão de runtime do .NET mais recente do que a versão que a ferramenta tem como alvo. Além disso, o teste de unidade possui melhor integração com o MSBuild, permitindo a execução de testes em paralelo.
+  - Avanços no SDK: introdução de conjuntos de carga de trabalho, onde todas as cargas de trabalho permanecem em uma única versão específica até serem atualizadas explicitamente. Para ferramentas, uma nova opção para `dotnet tool install` permite que os usuários decidam se uma ferramenta tem permissão para ser executada em uma versão de runtime do .NET mais recente do que a versão que a ferramenta tem como alvo. Além disso, o teste de unidade possui melhor integração com o MSBuild, permitindo a execução de testes em paralelo;
     
-    [learn.microsoft.com](https://learn.microsoft.com/pt-br/dotnet/core/whats-new/dotnet-9/overview?utm_source=chatgpt.com)
-    
-*   **Blocos de construção de IA**: o .NET 9 inclui novos recursos que facilitam a integração de inteligência artificial em aplicativos, como o `TensorPrimitives` e o `Tensor`, além de atualizações no ML.NET para a versão 4.0, oferecendo suporte aprimorado para modelos de aprendizado de máquina.
-    
-    [learn.microsoft.com](https://learn.microsoft.com/pt-br/dotnet/core/whats-new/dotnet-9/overview?utm_source=chatgpt.com)
+  - Blocos de construção de IA: o .NET 9 inclui novos recursos que facilitam a integração de inteligência artificial em aplicativos, como o `TensorPrimitives` e o `Tensor`, além de atualizações no ML.NET para a versão 4.0, oferecendo suporte aprimorado para modelos de aprendizado de máquina.
