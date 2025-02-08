@@ -33,13 +33,13 @@ Posteriormente, houveram novas versões, como o .NET 6, .NET 7, .NET 8 e .NET 9.
 
 Entre as características deles estão:
 
-- .NET 6 é uma versão de suporte de longo prazo (LTS) que melhora o desempenho e o tempo de execução do .NET, e suporta novas linguagens, tecnologias e plataformas;
+- **.NET 6** é uma versão de suporte de longo prazo (LTS) que melhora o desempenho e o tempo de execução do .NET, e suporta novas linguagens, tecnologias e plataformas;
 
-- .NET 7 é uma versão de suporte de curto prazo (STS) que introduz novos recursos e melhorias para o desenvolvimento de aplicativos nativos híbridos, inteligência artificial, aprendizado de máquina, realidade aumentada e realidade virtual;
+- **.NET 7** é uma versão de suporte de curto prazo (STS) que introduz novos recursos e melhorias para o desenvolvimento de aplicativos nativos híbridos, inteligência artificial, aprendizado de máquina, realidade aumentada e realidade virtual;
 
-- .NET 8 é uma versão de suporte de longo prazo (LTS) que enfatiza melhorias na linguagem e na experiência do desenvolvedor, e suportará novos cenários de computação, como a computação quântica e a computação em borda.
+- **.NET 8** é uma versão de suporte de longo prazo (LTS) que enfatiza melhorias na linguagem e na experiência do desenvolvedor, e suportará novos cenários de computação, como a computação quântica e a computação em borda.
 
-- .NET 9 é uma versão de suporte de prazo padrão (STS) com foco especial em aplicativos nativos de nuvem e desempenho. Entre suas principais características estão:
+- **.NET 9** é uma versão de suporte de prazo padrão (STS) com foco especial em aplicativos nativos de nuvem e desempenho. Entre suas principais características estão:
     
   - Aprimoramentos no runtime: introdução de um novo modelo de atributos para alternância de funcionalidades com suporte a trimming, otimizações no coletor de lixo com adaptação dinâmica ao tamanho do aplicativo e diversas melhorias de desempenho, incluindo otimizações de loop, inlining e vetorização para Arm64;
     
