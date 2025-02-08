@@ -4,4 +4,6 @@ O SDK (Software Development Kit) é o conjunto de ferramentas, bibliotecas e com
 
 Já o Runtime é o conjunto de "runtimes" e bibliotecas que permitem executar aplicativos .NET, ou seja, você precisa do Runtime para rodar um aplicativo .NET no seu computador ou servidor. O Runtime do .NET sempre é instalado com o SDK. 
 
-Em outras palavras, o SDK é para construir o aplicativo e o Runtime é para rodar o aplicativo. Normalmente, por conta de rodar alguns aplicativos na nossa máquina, já existe algum Runtime instalado no nosso computador. Para verificar se já temos alguma versão instalada, basta seguir os passos abaixo. Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
+Em outras palavras, o **SDK é para construir o aplicativo** e o **Runtime é para rodar o aplicativo**.
+
+Normalmente, por conta de rodar alguns aplicativos na nossa máquina, já existe algum Runtime instalado no nosso computador. Para verificar se já temos alguma versão instalada, basta seguir os passos abaixo. Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
