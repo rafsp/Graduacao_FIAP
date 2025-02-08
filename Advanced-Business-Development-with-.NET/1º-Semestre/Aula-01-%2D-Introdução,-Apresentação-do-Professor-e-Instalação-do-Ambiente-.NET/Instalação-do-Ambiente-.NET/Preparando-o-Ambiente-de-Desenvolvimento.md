@@ -6,4 +6,10 @@ Já o Runtime é o conjunto de "runtimes" e bibliotecas que permitem executar ap
 
 Em outras palavras, o **SDK é para construir o aplicativo** e o **Runtime é para rodar o aplicativo**.
 
-Normalmente, por conta de rodar alguns aplicativos na nossa máquina, já existe algum Runtime instalado no nosso computador. Para verificar se já temos alguma versão instalada, basta seguir os passos abaixo. Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
+Normalmente, por conta de rodar alguns aplicativos na nossa máquina, já existe algum Runtime instalado no nosso computador. Para verificar se já temos alguma versão instalada, basta seguir os passos abaixo. 
+
+Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
+
+```bash
+dotnet --list-sdks
+```
