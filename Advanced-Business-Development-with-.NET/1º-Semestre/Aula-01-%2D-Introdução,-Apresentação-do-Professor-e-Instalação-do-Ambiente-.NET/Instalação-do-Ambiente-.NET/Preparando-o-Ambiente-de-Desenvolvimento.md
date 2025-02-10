@@ -13,4 +13,4 @@ Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
 ```bash
 dotnet --list-sdks
 ```
-
+![animacao.gif](/.attachments/animacao-9ee63a6f-eb46-491a-bd82-3ceb77b19f10.gif)
