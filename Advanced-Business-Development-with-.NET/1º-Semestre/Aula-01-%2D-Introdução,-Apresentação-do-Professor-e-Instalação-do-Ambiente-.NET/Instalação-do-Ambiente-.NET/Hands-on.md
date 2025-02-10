@@ -12,6 +12,6 @@ Então vamos lá !!!!
 
 3. O próximo passo está em criar um novo projeto, do tipo console. Para isso vamos digitar o comando abaixo
 
-```bash
-dotnet new console
-```
+   ```bash
+   dotnet new console
+   ```
