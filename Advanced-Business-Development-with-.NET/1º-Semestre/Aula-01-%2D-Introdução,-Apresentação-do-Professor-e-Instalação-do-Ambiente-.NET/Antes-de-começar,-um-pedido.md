@@ -11,4 +11,3 @@
 
 ## 2tdspx - 2025
 ?
-![image.png](/.attachments/image-78bc12e0-2e8f-45ab-a92b-8164066b2ad7.png)
