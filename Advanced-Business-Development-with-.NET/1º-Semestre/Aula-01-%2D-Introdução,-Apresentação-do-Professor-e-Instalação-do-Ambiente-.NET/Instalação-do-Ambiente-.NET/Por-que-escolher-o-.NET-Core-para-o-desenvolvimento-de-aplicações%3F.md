@@ -1,4 +1,5 @@
 # Desempenho
+---
 
 O desempenho é um foco chave do ASP .NET Core. É mais rápido do que outras estruturas populares da Web no independente [Avaliador de desempenho TechEmpower](https://www.techempower.com/benchmarks/#hw=ph&test=plaintext).
 
@@ -6,4 +7,5 @@ O desempenho é um foco chave do ASP .NET Core. É mais rápido do que outras es
 
 Dados obtidos dos testes oficiais disponíveis no [Round 21 do TechEmpower](https://www.techempower.com/benchmarks/#section=data-r21&hw=ph&test=plaintext).
 
-# 
+# Moderno e inovador
+---
