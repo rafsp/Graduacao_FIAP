@@ -1,6 +1,7 @@
 [[_TOC_]]
 
 # Carreira
+---
 ```
 +-----------------------------+
 |            Nagib            |
@@ -96,7 +97,9 @@
 ```
 
 # Formação e Certificados
+---
 [Clique aqui](https://leaders.tec.br/nagib)
 
 # Grupo de Indicações
+---
 https://1drv.ms/x/s!AiGtwQ1v2Gc6kfcK4-pb43GNOEz_tQ?e=1shhI0
