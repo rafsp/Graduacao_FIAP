@@ -7,7 +7,7 @@
 7. Stack Overflow. O que é o .NET Core? Disponível em: <https://pt.stackoverflow.com/questions/40671/o-que-%C3%A9-o-net-core>. Acesso em: 04 fev. 2024.
 8. Microsoft. Lançamentos e suporte do .NET Core. Disponível em: <https://learn.microsoft.com/ptbr/dotnet/core/releases-and-support>. Acesso em: 04 fev. 2024.
 9. Microsoft. Apresentando o .NET 5. Disponível em: <https://devblogs.microsoft.com/dotnet/introducing-net-5/>. Acesso em: 04 fev. 2024.
-10. Microsoft. Download do .NET 8.0. Disponível em: <https://dotnet.microsoft.com/en-us/download/dotnet/9.0>. Acesso em: 04 fev. 2025.
+10. Microsoft. Download do .NET 9.0. Disponível em: <https://dotnet.microsoft.com/en-us/download/dotnet/9.0>. Acesso em: 04 fev. 2025.
 11. Stack Overflow. Dúvidas sobre pastas no ASP.NET Core. Disponível em: <https://pt.stackoverflow.com/questions/430601/d%c3%bavidas-sobre-pastas-no-asp-net-core>. Acesso em: 04 fev. 2024.
 12. Microsoft. Criando um projeto com modelos de CLI. Disponível em: <https://learn.microsoft.com/ptbr/dotnet/core/tutorials/cli-templates-create-project-template>. Acesso em: 04 fev. 2024.
 13. Microsoft. Implantação Web no Enterprise - Entendendo o arquivo de projeto. Disponível em: <https://learn.microsoft.com/en-us/aspnet/web-forms/overview/deployment/web-deployment-in-theenterprise/understanding-the-project-file>. Acesso em: 04 fev. 2024.
