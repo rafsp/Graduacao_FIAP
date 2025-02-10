@@ -23,7 +23,7 @@ Não há maneira melhor de verificar se a instalação foi bem-sucedida do que c
 
    ![image.png](/.attachments/image-2f5849ef-f22a-495d-bf5b-d14851971a93.png)
 
-
+# Significado das pastas e dos arquivos
 
 A pasta “obj” é usada pelo compilador para armazenar objetos temporários usados na compilação do seu projeto [11] . Esses objetos incluem arquivos intermediários, arquivos de dependência e arquivos de configuração [12]. Você não precisa se preocupar com o conteúdo dessa pasta, pois ela é gerada automaticamente pelo SDK do .NET. Você pode excluir essa pasta sem afetar o seu código-fonte, mas ela será recriada na próxima vez que você compilar o seu projeto.
 
