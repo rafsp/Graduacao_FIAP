@@ -1,3 +1,9 @@
+[[_TOC_]]
+
+# Sobre o .NET Core
+---
+O ASP .NET Core é a estrutura moderna de desenvolvimento Web de alto desempenho para .NET, que é executada no Windows, Linux, macOS, and Docker [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-01-%2D-Introdução,-Apresentação-do-Professor-e-Instalação-do-Ambiente-.NET/Instalação-do-Ambiente-.NET/Referências).
+
 # Desempenho
 ---
 
