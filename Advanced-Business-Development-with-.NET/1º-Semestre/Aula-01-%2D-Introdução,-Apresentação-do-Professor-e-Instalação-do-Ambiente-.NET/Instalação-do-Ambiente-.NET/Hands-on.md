@@ -44,3 +44,6 @@ O arquivo “Program.cs” é o arquivo que contém o código principal do seu p
 # Compilando o projeto
 
 O próximo passo está em compilar esse projeto. Para isso, no Prompt de Comando, utilize o comando abaixo:
+   ```bash
+   dotnet new console
+   ```
