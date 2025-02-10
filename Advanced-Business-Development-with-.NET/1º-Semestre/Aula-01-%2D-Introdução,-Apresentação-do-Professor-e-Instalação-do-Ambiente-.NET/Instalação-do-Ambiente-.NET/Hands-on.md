@@ -20,7 +20,7 @@ Não há maneira melhor de verificar se a instalação foi bem-sucedida do que c
    ```bash
    dotnet new console
    ```
-   ![animacao.gif](/.attachments/animacao-0d0fe03c-db64-4c64-a934-252d84da6267.gif)
+   ![animacao.gif](/.attachments/animacao-495a5163-bd8b-4fd7-beaf-3c767ddd6c6c.gif)
 
 4. Depois entre na pasta que você criou, para verificar os arquivos que foram criados:
 
