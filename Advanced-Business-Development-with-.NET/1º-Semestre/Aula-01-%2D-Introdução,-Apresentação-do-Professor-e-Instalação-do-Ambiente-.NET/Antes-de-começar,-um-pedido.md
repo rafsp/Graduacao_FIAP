@@ -1,3 +1,6 @@
+# Bora mostrar os rostos ?
+![image.png](/.attachments/image-78bc12e0-2e8f-45ab-a92b-8164066b2ad7.png)
+
 # 2tdspz - 2024
 ![alunos01.jpg](/.attachments/alunos01-ebbb698f-120f-4192-b848-331d34f08a5d.jpg)
 
