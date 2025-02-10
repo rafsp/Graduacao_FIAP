@@ -8,6 +8,6 @@ Após baixar, só seguir os passos do instalador:
 
 ![animacao.gif](/.attachments/animacao-988f3870-0095-4856-9886-e531db979858.gif)
 
-Para verificar se foi instalado corretamente:
+Para confirmar se foi instalado corretamente:
 
 ![animacao.gif](/.attachments/animacao-8dd74f91-5a94-485d-bb4f-791910c791c9.gif)
