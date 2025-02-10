@@ -10,8 +10,9 @@ Então vamos lá !!!!
 
    ![animacao.gif](/.attachments/animacao-d71bba04-6134-4bb8-bed7-4c2d6762961f.gif)
 
-3. O próximo passo está em criar um novo projeto, do tipo console. Para isso vamos digitar o comando abaixo
+3. O próximo passo está em criar um novo projeto, do tipo console. Para isso vamos digitar o comando abaixo:
 
    ```bash
    dotnet new console
    ```
+
