@@ -51,3 +51,6 @@ dotnet build
 
 Olhando na pasta “HelloWorld”, nós temos agora a pasta “bin”.
 
+![image.png](/.attachments/image-0f22fdb1-942e-44ee-822d-f7addacb25c1.png)
+
+A pasta “bin” é usada para armazenar os arquivos gerados pela compilação do seu projeto dotnet, como o arquivo .exe, o arquivo .dll e o arquivo .pdb.
