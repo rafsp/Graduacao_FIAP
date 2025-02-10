@@ -17,4 +17,5 @@ Então vamos lá !!!!
    ```
    ![animacao.gif](/.attachments/animacao-0d0fe03c-db64-4c64-a934-252d84da6267.gif)
 
-4. 
+4. Depois entre na pasta que você criou, para verificar os arquivos que foram criados:
+
