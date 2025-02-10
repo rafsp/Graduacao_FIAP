@@ -60,3 +60,5 @@ cd C:\HelloWorld\bin\Debug\net9.0\
 dotnet helloworld.dll
 ```
 ![animacao.gif](/.attachments/animacao-b0dcdbf7-b261-458f-99a7-b3408a873f10.gif)
+
+Se você chegou até aqui, parabéns! Você acabou de criar um projeto usando .NET. Caso obteve alguma dificuldade, não se preocupe que vamos rever a criação de um projeto durante as aulas, utilizando o Visual Studio também ;)
