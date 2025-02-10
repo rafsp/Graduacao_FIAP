@@ -21,3 +21,8 @@ Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
   dotnet --list-runtimes
   ```
   ![animacao.gif](/.attachments/animacao-7a0f1d5c-7d32-4a73-8035-4104be496692.gif)
+
+-- Lista os SDKs e os Runtimes do .NET instalados, além de outras informações sobre o ambiente
+  ```bash
+  dotnet --info
+  ```
