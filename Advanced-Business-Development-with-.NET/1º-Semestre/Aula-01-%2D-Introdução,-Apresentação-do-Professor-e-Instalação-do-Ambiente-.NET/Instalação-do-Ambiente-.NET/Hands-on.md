@@ -48,3 +48,6 @@ O próximo passo está em compilar esse projeto. Para isso, no Prompt de Comando
 dotnet build
 ```
 ![animacao.gif](/.attachments/animacao-3659f5b7-ebb9-4ef7-95c7-4a62968834f7.gif)
+
+Olhando na pasta “HelloWorld”, nós temos agora a pasta “bin”.
+
