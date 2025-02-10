@@ -10,14 +10,14 @@ Normalmente, por conta de rodar alguns aplicativos na nossa máquina, já existe
 
 Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
 
-```bash
-dotnet --list-sdks
-```
-![animacao.gif](/.attachments/animacao-9ee63a6f-eb46-491a-bd82-3ceb77b19f10.gif)
+- Lista todos os SDKs do .NET instalados
+  ```bash
+  dotnet --list-sdks
+  ```
+  ![animacao.gif](/.attachments/animacao-9ee63a6f-eb46-491a-bd82-3ceb77b19f10.gif)
 
-O código acima lista todos os SDKs do .NET instalados.
-
-```bash
-dotnet --list-runtimes
-```
-![animacao.gif](/.attachments/animacao-7a0f1d5c-7d32-4a73-8035-4104be496692.gif)
+- Lista todos os Runtimes do .NET instalados
+  ```bash
+  dotnet --list-runtimes
+  ```
+  ![animacao.gif](/.attachments/animacao-7a0f1d5c-7d32-4a73-8035-4104be496692.gif)
