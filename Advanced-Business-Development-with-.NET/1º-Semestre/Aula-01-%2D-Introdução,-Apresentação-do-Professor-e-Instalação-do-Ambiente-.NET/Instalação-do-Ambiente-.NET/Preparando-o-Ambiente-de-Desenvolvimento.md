@@ -26,4 +26,4 @@ Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
   ```bash
   dotnet --info
   ```
-  
+  ![animacao.gif](/.attachments/animacao-cea04ed0-704c-4805-b0dc-81f4a0099003.gif)
