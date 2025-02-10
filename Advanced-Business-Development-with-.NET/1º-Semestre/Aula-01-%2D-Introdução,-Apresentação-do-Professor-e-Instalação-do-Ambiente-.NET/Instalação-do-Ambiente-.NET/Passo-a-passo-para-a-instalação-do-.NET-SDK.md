@@ -4,4 +4,5 @@ Baixe e execute o instalador apropriado para o seu sistema operacional. Por exem
 
 ![image.png](/.attachments/image-ce3bc240-f8f9-48f6-b5f6-c15fa1f0be1c.png)
 
-Após baixar, só seguir os passos do instalador
+Após baixar, só seguir os passos do instalador:
+
