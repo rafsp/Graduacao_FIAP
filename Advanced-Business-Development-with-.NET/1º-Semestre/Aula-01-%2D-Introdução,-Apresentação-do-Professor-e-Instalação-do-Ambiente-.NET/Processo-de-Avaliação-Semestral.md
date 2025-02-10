@@ -41,3 +41,4 @@
 
 # Oportunidade de badge para o LinkedIn
 
+![image.png](/.attachments/image-0d7ce56c-7f9d-410a-9fd8-699a43fac0c2.png)
