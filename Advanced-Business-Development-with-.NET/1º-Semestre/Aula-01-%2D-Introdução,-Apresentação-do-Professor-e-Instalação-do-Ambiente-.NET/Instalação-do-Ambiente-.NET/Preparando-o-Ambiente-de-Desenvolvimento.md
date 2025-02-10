@@ -14,3 +14,5 @@ Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
 dotnet --list-sdks
 ```
 ![animacao.gif](/.attachments/animacao-9ee63a6f-eb46-491a-bd82-3ceb77b19f10.gif)
+
+O código acima lista todos os SDKs do .NET instalados;
