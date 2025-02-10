@@ -5,7 +5,7 @@ Não há maneira melhor de verificar se a instalação foi bem-sucedida do que c
 
 **Então vamos lá !!!!**
 
-# Passos para a criação do seu console
+# Criando o seu console
 
 1. Crie uma pasta chamada “HelloWorld”, em algum local de sua preferência (no meu caso vou criar no “C:”)
 
