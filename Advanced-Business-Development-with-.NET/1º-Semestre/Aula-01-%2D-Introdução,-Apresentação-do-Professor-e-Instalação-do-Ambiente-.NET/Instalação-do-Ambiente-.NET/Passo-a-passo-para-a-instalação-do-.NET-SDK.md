@@ -7,3 +7,6 @@ Baixe e execute o instalador apropriado para o seu sistema operacional. Por exem
 Após baixar, só seguir os passos do instalador:
 
 ![animacao.gif](/.attachments/animacao-988f3870-0095-4856-9886-e531db979858.gif)
+
+Para verificar se foi instalado corretamente:
+
