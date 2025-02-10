@@ -47,4 +47,4 @@ Entre as características deles estão:
     
   - Avanços no SDK: introdução de conjuntos de carga de trabalho, onde todas as cargas de trabalho permanecem em uma única versão específica até serem atualizadas explicitamente. Para ferramentas, uma nova opção para `dotnet tool install` permite que os usuários decidam se uma ferramenta tem permissão para ser executada em uma versão de runtime do .NET mais recente do que a versão que a ferramenta tem como alvo. Além disso, o teste de unidade possui melhor integração com o MSBuild, permitindo a execução de testes em paralelo;
     
-  - Blocos de construção de IA: o .NET 9 inclui novos recursos que facilitam a integração de inteligência artificial em aplicativos, como o `TensorPrimitives` e o `Tensor`, além de atualizações no ML.NET para a versão 4.0, oferecendo suporte aprimorado para modelos de aprendizado de máquina.
+  - Blocos de construção de IA: o .NET 9 inclui novos recursos que facilitam a integração de inteligência artificial em aplicativos, como o `TensorPrimitives` e o `Tensor`, além de atualizações no ML .NET para a versão 4.0, oferecendo suporte aprimorado para modelos de aprendizado de máquina.
