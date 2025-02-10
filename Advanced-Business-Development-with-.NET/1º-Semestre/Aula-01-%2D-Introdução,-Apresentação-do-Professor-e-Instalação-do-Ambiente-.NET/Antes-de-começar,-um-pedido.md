@@ -1,6 +1,5 @@
 [[_TOC_]]
 
-
 # Bora mostrar os rostos ?
 
 ## 2tdspz - 2024
