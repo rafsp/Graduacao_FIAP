@@ -27,3 +27,5 @@ Windows (Prompt de Comando), Linux (bash) ou MAC (Terminal):
   dotnet --info
   ```
   ![animacao.gif](/.attachments/animacao-cea04ed0-704c-4805-b0dc-81f4a0099003.gif)
+
+Caso não tenha nenhum .net instalado, não tem problema pois o objetivo desse passo é somente verificar o ambiente para podermos desenvolver os aplicativos.
