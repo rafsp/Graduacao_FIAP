@@ -6,4 +6,6 @@ Então vamos lá !!!!
 
    ![animacao.gif](/.attachments/animacao-e26c07c5-59d4-4de4-b6f9-bba3071872be.gif)
 
-2. 
+2. Agora abra o Prompt de Comando e digite “cd” junto com o caminho que você acabou de criar
+
+   
