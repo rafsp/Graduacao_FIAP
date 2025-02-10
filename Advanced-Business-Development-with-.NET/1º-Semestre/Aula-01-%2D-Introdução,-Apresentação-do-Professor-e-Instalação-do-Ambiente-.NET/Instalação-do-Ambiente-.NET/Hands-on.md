@@ -41,4 +41,5 @@ O arquivo “HelloWorld.csproj” é um arquivo de projeto do MSBuild, que é o 
 O arquivo “Program.cs” é o arquivo que contém o código principal do seu programa em C#. Ele é o ponto de entrada da sua aplicação, onde você pode definir as instruções que serão executadas quando o programa for iniciado.
 ![image.png](/.attachments/image-6b01f600-4e48-401e-bbe1-7142573dd8c7.png)
 
-#
+# Compilando o projeto
+
