@@ -9,3 +9,8 @@ Dados obtidos dos testes oficiais disponíveis no [Round 21 do TechEmpower](htt
 
 # Moderno e inovador
 ---
+
+ASP .NET Core foi projetado para permitir que componentes de runtime, APIs, compiladores e linguagens evoluam rapidamente, enquanto ainda fornece uma plataforma estável e com suporte para manter os aplicativos em execução.
+
+Várias versões do ASP .NET Core podem existir lado a lado no mesmo servidor. Ou seja, um aplicativo pode adotar a versão mais recente, enquanto outros aplicativos continuam em execução na versão em que foram testados.
+
