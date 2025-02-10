@@ -59,3 +59,4 @@ Agora vamos executar o que foi compilado. Para isso, precisamos entrar na pasta 
 cd C:\HelloWorld\bin\Debug\net9.0\
 dotnet helloworld.dll
 ```
+![animacao.gif](/.attachments/animacao-b0dcdbf7-b261-458f-99a7-b3408a873f10.gif)
