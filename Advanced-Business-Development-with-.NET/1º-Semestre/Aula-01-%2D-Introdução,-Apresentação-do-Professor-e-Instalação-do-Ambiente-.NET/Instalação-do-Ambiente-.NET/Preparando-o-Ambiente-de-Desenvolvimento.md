@@ -20,3 +20,4 @@ O código acima lista todos os SDKs do .NET instalados.
 ```bash
 dotnet --list-runtimes
 ```
+![animacao.gif](/.attachments/animacao-7a0f1d5c-7d32-4a73-8035-4104be496692.gif)
