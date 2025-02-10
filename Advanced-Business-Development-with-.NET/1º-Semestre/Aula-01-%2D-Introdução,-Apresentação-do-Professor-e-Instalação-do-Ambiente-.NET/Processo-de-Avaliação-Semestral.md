@@ -1,11 +1,13 @@
 [[_TOC_]]
 
 # Provas/Trabalhos
+---
 - Challenge Sprint
 - Checkpoint
 - Global Solution
 
 # Cálculos
+---
 ## Challenge Sprints
 - Média das notas da Challenges
 ## Checkpoints
@@ -14,11 +16,12 @@
 - Nota final da GS
 
 # Peso das Notas
+---
 - 40% = (challengeSprints + checkPoints)/2
 - 60% = globalSolution
-- **40%** = (challengeSprints + checkPoints)/2,
 
 # Exemplo
+---
 - Aluno que tirou as seguintes notas
   - checkPoints
     - cp1: nota 8
@@ -40,5 +43,5 @@
     - notaFinalSemestre = 8.4
 
 # Oportunidade de badge para o LinkedIn
-
+---
 ![image.png](/.attachments/image-0d7ce56c-7f9d-410a-9fd8-699a43fac0c2.png)
