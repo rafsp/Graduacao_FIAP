@@ -1,5 +1,7 @@
-# Bora mostrar os rostos ?
+[[_TOC_]]
 
+
+# Bora mostrar os rostos ?
 
 ## 2tdspz - 2024
 ![alunos01.jpg](/.attachments/alunos01-ebbb698f-120f-4192-b848-331d34f08a5d.jpg)
