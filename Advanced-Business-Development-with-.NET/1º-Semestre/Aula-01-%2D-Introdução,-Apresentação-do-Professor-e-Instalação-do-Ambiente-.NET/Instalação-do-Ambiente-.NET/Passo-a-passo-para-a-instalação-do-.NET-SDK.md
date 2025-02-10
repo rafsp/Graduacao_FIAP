@@ -8,6 +8,13 @@ Após baixar, só seguir os passos do instalador:
 
 ![animacao.gif](/.attachments/animacao-988f3870-0095-4856-9886-e531db979858.gif)
 
-Para confirmar se a versão foi instalada corretamente:
+Para confirmar se a versão foi instalada corretamente, abra um terminal (como o Prompt de Comando ou o PowerShell) e execute o seguinte comando para verificar se o .NET SDK foi instalado com sucesso:
 
 ![animacao.gif](/.attachments/animacao-8dd74f91-5a94-485d-bb4f-791910c791c9.gif)
+
+O ``dotnet --version`` também ajuda na verificação:
+
+```bash
+dotnet --version
+```
+![animacao.gif](/.attachments/animacao-bae343f1-b23c-44db-ac9b-3bc3f251d43a.gif)
