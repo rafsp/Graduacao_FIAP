@@ -20,3 +20,7 @@ Não há maneira melhor de verificar se a instalação foi bem-sucedida do que c
 4. Depois entre na pasta que você criou, para verificar os arquivos que foram criados:
 
    ![image.png](/.attachments/image-2f5849ef-f22a-495d-bf5b-d14851971a93.png)
+
+A pasta “obj” é usada pelo compilador para armazenar objetos temporários usados na compilação do seu projeto [11] . Esses objetos incluem arquivos intermediários, arquivos de dependência e arquivos de configuração [12]. Você não precisa se preocupar com o conteúdo dessa pasta, pois ela é gerada automaticamente pelo SDK do .NET. Você pode excluir essa pasta sem afetar o seu código-fonte, mas ela será recriada na próxima vez que você compilar o seu projeto.
+
+![image.png](/.attachments/image-d525d6a1-73d4-432b-8e72-9c1cd40b93dd.png)
