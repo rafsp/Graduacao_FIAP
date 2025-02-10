@@ -28,6 +28,7 @@ Não há maneira melhor de verificar se a instalação foi bem-sucedida do que c
 
 # Significado das pastas e dos arquivos
 
+## Pasta obj
 A pasta “obj” é usada pelo compilador para armazenar objetos temporários usados na compilação do seu projeto [[11]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-01-%2D-Introdução,-Apresentação-do-Professor-e-Instalação-do-Ambiente-.NET/Instalação-do-Ambiente-.NET/Referências). Esses objetos incluem arquivos intermediários, arquivos de dependência e arquivos de configuração [[12]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-01-%2D-Introdução,-Apresentação-do-Professor-e-Instalação-do-Ambiente-.NET/Instalação-do-Ambiente-.NET/Referências). Você não precisa se preocupar com o conteúdo dessa pasta, pois ela é gerada automaticamente pelo SDK do .NET. Você pode excluir essa pasta sem afetar o seu código-fonte, mas ela será recriada na próxima vez que você compilar o seu projeto.
 
 ![image.png](/.attachments/image-d525d6a1-73d4-432b-8e72-9c1cd40b93dd.png)
