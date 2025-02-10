@@ -37,6 +37,8 @@ A pasta “obj” é usada pelo compilador para armazenar objetos temporários u
 O arquivo “HelloWorld.csproj” é um arquivo de projeto do MSBuild, que é o mecanismo usado pelo .NET para compilar e implantar seus projetos [[13]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-01-%2D-Introdução,-Apresentação-do-Professor-e-Instalação-do-Ambiente-.NET/Instalação-do-Ambiente-.NET/Referências). Esse arquivo contém informações como o tipo de projeto (console, web, desktop, etc.), a plataforma alvo, as dependências de outros projetos ou bibliotecas de terceiros, e as tarefas que devem ser executadas durante o processo de construção [[14]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-01-%2D-Introdução,-Apresentação-do-Professor-e-Instalação-do-Ambiente-.NET/Instalação-do-Ambiente-.NET/Referências). O arquivo csproj é um documento XML que segue o esquema do MSBuild, e você pode editá-lo manualmente para personalizar o comportamento do seu projeto [[15]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-01-%2D-Introdução,-Apresentação-do-Professor-e-Instalação-do-Ambiente-.NET/Instalação-do-Ambiente-.NET/Referências).
 ![image.png](/.attachments/image-e1df5618-ce2a-424d-959b-ed388b03fd0c.png)
 
-# Arquivo Program.cs
+## Arquivo Program.cs
 O arquivo “Program.cs” é o arquivo que contém o código principal do seu programa em C#. Ele é o ponto de entrada da sua aplicação, onde você pode definir as instruções que serão executadas quando o programa for iniciado.
 ![image.png](/.attachments/image-6b01f600-4e48-401e-bbe1-7142573dd8c7.png)
+
+#
