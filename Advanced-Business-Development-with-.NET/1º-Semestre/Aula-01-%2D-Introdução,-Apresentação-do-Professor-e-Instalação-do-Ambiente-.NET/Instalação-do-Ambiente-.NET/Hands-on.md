@@ -55,4 +55,6 @@ Olhando na pasta “HelloWorld”, nós temos agora a pasta “bin”.
    ![image.png](/.attachments/image-0f22fdb1-942e-44ee-822d-f7addacb25c1.png)
 
 Agora vamos executar o que foi compilado. Para isso, precisamos entrar na pasta “bin\Debug\net9.0” pelo Prompt de Comando;
+```bash
 
+```
