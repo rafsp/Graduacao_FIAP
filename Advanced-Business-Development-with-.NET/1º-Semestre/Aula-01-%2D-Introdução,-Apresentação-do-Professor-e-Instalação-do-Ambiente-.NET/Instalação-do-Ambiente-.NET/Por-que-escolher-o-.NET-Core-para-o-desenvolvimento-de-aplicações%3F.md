@@ -20,5 +20,4 @@ Como o resto do .NET, o ASP.NET é de código aberto no GitHub. O .NET tem mais 
 
 # Implantação flexível
 ---
-
 O runtime ASP .NET Core no qual seu aplicativo é executado pode ser implantado como parte do aplicativo ou instalado centralmente no servidor Web. ASP .NET Core também é perfeitamente adequado para contêineres do Docker.
