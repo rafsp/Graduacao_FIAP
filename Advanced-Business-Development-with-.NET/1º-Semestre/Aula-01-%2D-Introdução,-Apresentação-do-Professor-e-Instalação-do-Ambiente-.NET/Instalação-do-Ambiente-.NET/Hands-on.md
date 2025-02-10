@@ -56,5 +56,6 @@ Olhando na pasta “HelloWorld”, nós temos agora a pasta “bin”.
 
 Agora vamos executar o que foi compilado. Para isso, precisamos entrar na pasta “bin\Debug\net9.0” pelo Prompt de Comando;
 ```bash
-bin\Debug\net9.0\dotnet helloworld.dll
+cd C:\HelloWorld\bin\Debug\net9.0\
+dotnet helloworld.dll
 ```
