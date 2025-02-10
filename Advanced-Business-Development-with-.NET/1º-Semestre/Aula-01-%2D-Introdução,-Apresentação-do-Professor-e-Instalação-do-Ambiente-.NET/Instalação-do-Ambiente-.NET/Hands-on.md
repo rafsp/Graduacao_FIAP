@@ -9,7 +9,7 @@ Não há maneira melhor de verificar se a instalação foi bem-sucedida do que c
 
 1. Crie uma pasta chamada “HelloWorld”, em algum local de sua preferência (no meu caso vou criar no “C:”)
 
-   ![animacao.gif](/.attachments/animacao-e26c07c5-59d4-4de4-b6f9-bba3071872be.gif)
+   ![animacao.gif](/.attachments/animacao-495a5163-bd8b-4fd7-beaf-3c767ddd6c6c.gif)
 
 2. Agora abra o Prompt de Comando e digite “cd” junto com o caminho que você acabou de criar
 
@@ -20,7 +20,7 @@ Não há maneira melhor de verificar se a instalação foi bem-sucedida do que c
    ```bash
    dotnet new console
    ```
-   ![animacao.gif](/.attachments/animacao-495a5163-bd8b-4fd7-beaf-3c767ddd6c6c.gif)
+   ![animacao.gif](/.attachments/animacao-0d0fe03c-db64-4c64-a934-252d84da6267.gif)
 
 4. Depois entre na pasta que você criou, para verificar os arquivos que foram criados:
 
