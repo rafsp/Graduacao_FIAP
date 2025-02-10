@@ -14,3 +14,7 @@ Entre as razões de usar o .NET está:
 - A sua utilização pelas principais organizações do Mundo, por exemplo o Stack overflow [[3]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-01-%2D-Introdução,-Apresentação-do-Professor-e-Instalação-do-Ambiente-.NET/Instalação-do-Ambiente-.NET/Referências);
 
 - O suporte da Microsoft (difícil te deixar na mão).
+
+::: video
+<iframe width="655" height="368" src="https://www.youtube.com/embed/6BcPIvVfVAw?list=PLdo4fOcmZ0oUwBEC2bnwPtHqbU8Vmh_tj" title="What is .NET? [Pt 1] | .NET for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::
