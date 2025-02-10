@@ -38,3 +38,6 @@
     - notaFinalSemestre = 9 * 0.4 + 4.8
     - notaFinalSemestre = 3.6 + 4.8
     - notaFinalSemestre = 8.4
+
+# Oportunidade de badge para o LinkedIn
+
