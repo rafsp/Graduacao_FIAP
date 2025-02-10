@@ -15,4 +15,4 @@ Então vamos lá !!!!
    ```bash
    dotnet new console
    ```
-
+   ![animacao.gif](/.attachments/animacao-0d0fe03c-db64-4c64-a934-252d84da6267.gif)
