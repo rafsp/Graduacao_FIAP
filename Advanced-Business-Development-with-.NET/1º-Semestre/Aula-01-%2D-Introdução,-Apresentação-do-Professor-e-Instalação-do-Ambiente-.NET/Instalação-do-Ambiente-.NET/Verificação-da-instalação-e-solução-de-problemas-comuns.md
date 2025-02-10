@@ -3,3 +3,4 @@ Abra um terminal (como o Prompt de Comando ou o PowerShell) e execute o seguinte
 ```bash
 dotnet --version
 ```
+
