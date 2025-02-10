@@ -14,3 +14,4 @@ ASP .NET Core foi projetado para permitir que componentes de runtime, APIs, comp
 
 Várias versões do ASP .NET Core podem existir lado a lado no mesmo servidor. Ou seja, um aplicativo pode adotar a versão mais recente, enquanto outros aplicativos continuam em execução na versão em que foram testados.
 
+# Código aberto
