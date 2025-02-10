@@ -8,4 +8,4 @@ Então vamos lá !!!!
 
 2. Agora abra o Prompt de Comando e digite “cd” junto com o caminho que você acabou de criar
 
-   
+   ![animacao.gif](/.attachments/animacao-d71bba04-6134-4bb8-bed7-4c2d6762961f.gif)
