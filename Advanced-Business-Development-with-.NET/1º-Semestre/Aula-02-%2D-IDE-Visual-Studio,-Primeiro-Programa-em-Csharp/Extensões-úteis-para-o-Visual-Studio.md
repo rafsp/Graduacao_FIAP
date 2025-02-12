@@ -4,3 +4,4 @@ Como vamos atuar com o Visual Studio nas próximas aulas, sugiro instalarmos alg
 
 # SonarLint
 O SonarLint é uma extensão gratuita e de código aberto para o Visual Studio que identifica e ajuda a corrigir problemas de qualidade e segurança do código enquanto você programa. Ele funciona como um corretor ortográfico, destacando os defeitos no código com linhas onduladas, fornecendo correções rápidas e dando orientações educativas e contextuais para ajudá-lo a melhorar suas habilidades enquanto resolve o problema. O SonarLint usa mais de 5.000 regras específicas para cada linguagem para detectar erros comuns de codificação, bugs e vulnerabilidades. Ele também suporta vários frameworks e tecnologias web, como ASP .NET, Angular, React, Vue.js, Node.js, AWS, Docker, Kubernetes, etc [[5]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
