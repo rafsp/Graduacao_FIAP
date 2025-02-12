@@ -22,4 +22,5 @@ Nesse primeiro momento, vamos selecionar as seguintes cargas de trabalho:
 - Web e Nuvem > ASP .NET e desenvolvimento Web
   ![image.png](/.attachments/image-ec03286e-77fa-48be-b0a7-b82b583c5acb.png)
 
-- 
+- Área de Trabalho e Dispositivos móveis > Desenvolvimento para Desktop com .NET
+  
