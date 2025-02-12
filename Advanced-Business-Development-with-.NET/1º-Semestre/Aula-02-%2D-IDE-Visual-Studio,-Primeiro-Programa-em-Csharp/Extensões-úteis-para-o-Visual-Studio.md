@@ -9,5 +9,4 @@ Para isso, vamos abrir o “Visual Studio 2022” (que foi instalado recentement
 
 ![image.png](/.attachments/image-838f555b-20ea-433a-b2c9-453c1d33c294.png)
 
-      
 Posteriormente, vamos clicar no menu superior em “Extensions”, depois em “Manage Extensions”.
