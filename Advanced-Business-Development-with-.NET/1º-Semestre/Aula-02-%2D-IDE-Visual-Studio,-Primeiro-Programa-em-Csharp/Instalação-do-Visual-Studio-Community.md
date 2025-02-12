@@ -6,4 +6,4 @@ Ele é ideal para estudantes, desenvolvedores individuais ou para projetos de c�
 
 Com o Visual Studio Community, você pode usar vários idiomas de programação, como C#, Visual Basic, F#, C++, HTML, JavaScript, TypeScript, Python e muito mais. Você também pode usar ferramentas avançadas de codificação, depuração, teste, design, gerenciamento de versão e implantação [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
 
-Para instalar o Visual Studio, acesse o site do [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/) e clique em “Download gratuito”.
+Para instalar o Visual Studio, acesse o site do [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/) e clique em “Baixar”.
