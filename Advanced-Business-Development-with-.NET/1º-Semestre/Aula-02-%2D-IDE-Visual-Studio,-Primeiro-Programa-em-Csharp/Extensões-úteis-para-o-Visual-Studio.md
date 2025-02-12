@@ -13,7 +13,7 @@ Para isso, vamos seguis os passos abaixo:
 - Clicar no menu superior em “Extensions”, depois em “Manage Extensions”
   ![image.png](/.attachments/image-99555e22-bc41-42d5-9b20-6885af969e17.png)
 
-- Em “Online”, pesquisar por “SonarLint”. Depois clique em “Download”
+- Em “Online”, pesquisar por “SonarQube”. Depois clique em “Download”
   ![image.png](/.attachments/image-340c8560-4ca0-4771-a67d-28b7e10c89b9.png)
    
 - Fechar o Visual Studio, o procedimento de instalação vai iniciar
