@@ -16,6 +16,8 @@ Com o Visual Studio Community, você pode usar vários idiomas de programação,
 - Aparecerá a tela abaixo
   ![image.png](/.attachments/image-25f2816f-99fc-49ec-99f9-dc67966ac550.png)
 
+# Aba "Carga de Trabalho"
+
 A aba “Carga de Trabalho” serve para você escolher e instalar os recursos necessários para as linguagens de programação ou plataformas que você quer usar no Visual Studio. Cada carga de trabalho contém os componentes essenciais para o tipo de desenvolvimento que você quer fazer, como Web, Desktop, Mobile, Cloud, etc.
 Nesse primeiro momento, vamos selecionar as seguintes cargas de trabalho:
 
