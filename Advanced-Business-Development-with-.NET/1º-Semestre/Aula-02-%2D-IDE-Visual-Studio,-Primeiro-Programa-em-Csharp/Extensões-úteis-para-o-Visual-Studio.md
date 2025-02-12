@@ -10,7 +10,7 @@ Para isso, vamos seguis os passos abaixo:
 - Abrir o “Visual Studio 2022” (que foi instalado recentemente) e depois clicar em “Continue without code”
   ![image.png](/.attachments/image-838f555b-20ea-433a-b2c9-453c1d33c294.png)
 
-Posteriormente, vamos clicar no menu superior em “Extensions”, depois em “Manage Extensions”.
-![image.png](/.attachments/image-99555e22-bc41-42d5-9b20-6885af969e17.png)
+- Clicar no menu superior em “Extensions”, depois em “Manage Extensions”.
+  ![image.png](/.attachments/image-99555e22-bc41-42d5-9b20-6885af969e17.png)
 
        Em “Online”, pesquise por “SonarLint”. Depois clique em “Download”.
