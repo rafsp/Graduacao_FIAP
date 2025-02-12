@@ -7,3 +7,4 @@ O SonarLint é uma extensão gratuita e de código aberto para o Visual Studio q
 
 Para isso, vamos abrir o “Visual Studio 2022” (que foi instalado recentemente) e depois clicar em “Continue without code”.
 
+![image.png](/.attachments/image-838f555b-20ea-433a-b2c9-453c1d33c294.png)
