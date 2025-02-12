@@ -17,3 +17,4 @@ Para isso, vamos seguis os passos abaixo:
   ![image.png](/.attachments/image-340c8560-4ca0-4771-a67d-28b7e10c89b9.png)
    
 - Fechar o Visual Studio, o procedimento de instalação vai iniciar
+  
