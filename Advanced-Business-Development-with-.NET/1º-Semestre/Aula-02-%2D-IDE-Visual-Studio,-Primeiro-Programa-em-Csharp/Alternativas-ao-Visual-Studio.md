@@ -12,3 +12,4 @@ Para instalar o VS Code, você precisa seguir os seguintes passos
     
 - Executar o arquivo baixado e seguir as instruções do instalador. Você pode aceitar as configurações padrão ou personalizá-las de acordo com sua preferência.
 
+  ![animacao.gif](/.attachments/animacao-246ccb80-8146-4042-89ca-71e0cfd299e4.gif)
