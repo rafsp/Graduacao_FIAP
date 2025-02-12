@@ -23,4 +23,4 @@ Nesse primeiro momento, vamos selecionar as seguintes cargas de trabalho:
   ![image.png](/.attachments/image-ec03286e-77fa-48be-b0a7-b82b583c5acb.png)
 
 - Área de Trabalho e Dispositivos móveis > Desenvolvimento para Desktop com .NET
-  
+  ![image.png](/.attachments/image-a09d9738-f048-4bef-b85d-2ce1a33efad9.png)
