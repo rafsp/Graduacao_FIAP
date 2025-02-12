@@ -8,3 +8,4 @@ O VS Code é muito utilizado no mercado e é um editor de código-fonte gratuito
 
 Para instalar o VS Code, você precisa seguir os seguintes passos
 - Acessar o site oficial do VS Code ([https://code.visualstudio.com/Download](https://code.visualstudio.com/Download))  e clicar no botão de download correspondente ao seu sistema operacional (Windows, Mac ou Linux).
+  ![image.png](/.attachments/image-e3266085-7e66-499a-b3be-eb9714becc12.png)
