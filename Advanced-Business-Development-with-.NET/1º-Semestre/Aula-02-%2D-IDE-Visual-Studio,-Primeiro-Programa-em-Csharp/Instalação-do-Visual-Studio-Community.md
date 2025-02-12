@@ -28,6 +28,5 @@ Nesse primeiro momento, vamos selecionar as seguintes cargas de trabalho:
 - Outros conjuntos de ferramentas > Processamento e armazenamentos de Dados
   ![image.png](/.attachments/image-14ff0ac0-194c-40b5-bb83-89ddd6b2db89.png)
 
-      
 A aba “Componentes Individuais” é uma opção que permite selecionar e instalar componentes específicos do Visual Studio, como linguagens de programação, ferramentas de desenvolvimento, bibliotecas e extensões.
 Quando os itens da aba “Cargas de trabalho” foram preenchidos, automaticamente os “Componentes Individuais” também foram. O bônus da aba “Componentes Individuais” é permitir uma customização maior do que é selecionado nas “Cargas de Trabalho”.
