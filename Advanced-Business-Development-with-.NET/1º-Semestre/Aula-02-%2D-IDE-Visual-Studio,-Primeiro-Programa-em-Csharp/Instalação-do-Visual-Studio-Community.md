@@ -47,3 +47,7 @@ Quando os itens da aba “Cargas de trabalho” foram preenchidos, automaticamen
 A aba “Pacotes de idiomas” vai definir qual idioma nós vamos considerar durante o uso do Visual Studio. Por padrão ele está em português. Durante as aulas vamos usar o Visual Studio em “inglês”, porém nada impede da instalação do pacote de Idiomas em português (caso você queira).
 
 ![image.png](/.attachments/image-fe5e81be-9117-498f-bdef-c29f33401003.png)
+
+# Aba "Locais de Instalação"
+      
+Por fim, em “Locais de instalação”, você pode definir a pasta onde ficarão os arquivos da instalação.
