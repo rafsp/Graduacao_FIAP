@@ -13,4 +13,4 @@ Para isso, vamos seguis os passos abaixo:
 - Clicar no menu superior em “Extensions”, depois em “Manage Extensions”.
   ![image.png](/.attachments/image-99555e22-bc41-42d5-9b20-6885af969e17.png)
 
-       Em “Online”, pesquise por “SonarLint”. Depois clique em “Download”.
+- Em “Online”, pesquisar por “SonarLint”. Depois clique em “Download”.
