@@ -12,3 +12,4 @@ Para instalar o Visual Studio, acesse o site do [Visual Studio Community](https:
       
 Posteriormente, aceite os termos de licença e política de privacidade:
 ![image.png](/.attachments/image-b57e9e3b-9525-4aed-9b70-d85caa826187.png)
+
