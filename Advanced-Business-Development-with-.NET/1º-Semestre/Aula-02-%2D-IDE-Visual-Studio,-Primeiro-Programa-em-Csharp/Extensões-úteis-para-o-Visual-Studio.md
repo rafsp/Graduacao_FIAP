@@ -14,4 +14,4 @@ Para isso, vamos seguis os passos abaixo:
   ![image.png](/.attachments/image-99555e22-bc41-42d5-9b20-6885af969e17.png)
 
 - Em “Online”, pesquisar por “SonarLint”. Depois clique em “Download”
-
+  
