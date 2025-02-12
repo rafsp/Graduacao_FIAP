@@ -16,3 +16,4 @@ Para instalar o VS Code, você precisa seguir os seguintes passos
   Exemplo de imagem mostrando o funcionamento do VS Code:
   ![image.png](/.attachments/image-e10b0257-cd6b-4dd2-87a0-4091b478ad3f.png)
 
+- 
