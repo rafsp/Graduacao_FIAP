@@ -26,4 +26,4 @@ Nesse primeiro momento, vamos selecionar as seguintes cargas de trabalho:
   ![image.png](/.attachments/image-a09d9738-f048-4bef-b85d-2ce1a33efad9.png)
 
 - Outros conjuntos de ferramentas > Processamento e armazenamentos de Dados
-  
+  ![image.png](/.attachments/image-14ff0ac0-194c-40b5-bb83-89ddd6b2db89.png)
