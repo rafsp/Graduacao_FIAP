@@ -1,3 +1,7 @@
+[[_TOC_]]
+
+# Introdução
+
 Durante as aulas vamos focar na utilização do Visual Studio para criar aplicações .NET.
 
 O Visual Studio Community é uma versão gratuita para estudantes e essencial do Visual Studio, um IDE (Ambiente de Desenvolvimento Integrado) poderoso e abrangente para criar aplicativos modernos para Windows, Android, iOS, Web e nuvem [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
