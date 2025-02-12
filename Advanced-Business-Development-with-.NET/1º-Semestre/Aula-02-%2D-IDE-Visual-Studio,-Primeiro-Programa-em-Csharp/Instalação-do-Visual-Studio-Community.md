@@ -53,4 +53,3 @@ A aba “Pacotes de idiomas” vai definir qual idioma nós vamos considerar dur
 Por fim, em “Locais de instalação”, você pode definir a pasta onde ficarão os arquivos da instalação.
 
 ![image.png](/.attachments/image-c070fef2-ecf2-44ef-9a45-c0348e58ea8d.png)
-
