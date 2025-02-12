@@ -18,7 +18,6 @@ Para instalar o VS Code, você precisa seguir os seguintes passos
 
 # JetBrains Rider
 
-      
 Para quem é familiarizado com o IntelliJ, essa ferramenta é de grande valia. O JetBrains Rider é um IDE para desenvolver aplicações .NET em diferentes plataformas, como Windows, Mac e Linux. Ele é baseado na plataforma IntelliJ e no ReSharper, que oferecem ferramentas avançadas para edição, navegação, refatoração, depuração e teste de código. O Rider também suporta várias frameworks e tecnologias Web, como ASP.NET, Angular, React, Vue.js, Node.js, AWS, Docker, Kubernetes, etc [[4]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
 
 - Para instalar o Rider é só seguir as instruções no link de download ([https://www.jetbrains.com/pt-br/rider/download](https://www.jetbrains.com/pt-br/rider/download)). Selecione a plataforma de sua preferência e siga as etapas para a instalação.
