@@ -20,4 +20,4 @@ A aba “Carga de Trabalho” serve para você escolher e instalar os recursos n
 Nesse primeiro momento, vamos selecionar as seguintes cargas de trabalho:
 
 - Web e Nuvem > ASP .NET e desenvolvimento Web
-  
+  ![image.png](/.attachments/image-ec03286e-77fa-48be-b0a7-b82b583c5acb.png)
