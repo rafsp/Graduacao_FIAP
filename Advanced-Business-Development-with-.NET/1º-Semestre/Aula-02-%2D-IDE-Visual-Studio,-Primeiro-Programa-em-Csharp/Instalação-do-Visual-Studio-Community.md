@@ -1,0 +1,5 @@
+Durante as aulas vamos focar na utilização do Visual Studio para criar aplicações .NET.
+
+O Visual Studio Community é uma versão gratuita para estudantes e essencial do Visual Studio, um IDE (Ambiente de Desenvolvimento Integrado) poderoso e abrangente para criar aplicativos modernos para Windows, Android, iOS, Web e nuvem [16]. Ele é ideal para estudantes, desenvolvedores individuais ou para projetos de código aberto [17].
+Com o Visual Studio Community, você pode usar vários idiomas de programação, como C#, Visual Basic, F#, C++, HTML, JavaScript, TypeScript, Python e muito mais. Você também pode usar ferramentas avançadas de codificação, depuração, teste, design, gerenciamento de versão e implantação [16].
+Para instalar o Visual Studio, acesse o site do Visual Studio Community e clique em “Download gratuito”.
