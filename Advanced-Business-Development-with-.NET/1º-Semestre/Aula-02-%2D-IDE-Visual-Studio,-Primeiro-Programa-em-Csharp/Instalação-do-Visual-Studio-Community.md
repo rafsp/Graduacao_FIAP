@@ -9,5 +9,6 @@ Com o Visual Studio Community, você pode usar vários idiomas de programação,
 Para instalar o Visual Studio, acesse o site do [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/) e clique em “Baixar”.
 
 ![image.png](/.attachments/image-5be61904-57f7-4618-91d3-3e3bc5c34654.png)
-
+      
+Posteriormente, aceite os termos de licença e política de privacidade:
 ![image.png](/.attachments/image-b57e9e3b-9525-4aed-9b70-d85caa826187.png)
