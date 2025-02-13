@@ -7,8 +7,8 @@ Agora que estamos mais familiarizados com C#, o próximo passo é compreender um
 Nessa primeira tela do Visual Studio nós temos algumas opções, como:
 
 ## Clone a Repository
-  Serve para copiar um repositório git existente de um provedor remoto, como o GitHub ou o Azure DevOps, para o seu computador local. Dessa forma, você pode trabalhar com o código do repositório no Visual Studio, fazer alterações, sincronizar e enviar suas contribuições.
+Serve para copiar um repositório git existente de um provedor remoto, como o GitHub ou o Azure DevOps, para o seu computador local. Dessa forma, você pode trabalhar com o código do repositório no Visual Studio, fazer alterações, sincronizar e enviar suas contribuições.
 
-  Vamos ver melhor como funciona através dos passos abaixo:
+Vamos ver melhor como funciona através dos passos abaixo:
   
-  1. Entrar no Visual Studio, depois clicar em “Clone a repository”;
+1. Entrar no Visual Studio, depois clicar em “Clone a repository”;
