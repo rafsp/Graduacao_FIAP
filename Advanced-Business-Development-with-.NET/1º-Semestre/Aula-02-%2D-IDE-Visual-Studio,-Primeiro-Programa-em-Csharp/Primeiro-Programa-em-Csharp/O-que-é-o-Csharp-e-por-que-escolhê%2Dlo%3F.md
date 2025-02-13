@@ -1,6 +1,5 @@
 # Sobre o C#
 
-      
 C# é uma linguagem de programação de código aberto, moderna e inovadora, que faz parte da plataforma .NET [[7]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
 
 É uma das linguagens que compõem a “família” .NET de linguagens [[7]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências). Existem outras linguagens como o Visual Basic e F# que também participam dessa família, porém para as aulas vamos considerar o desenvolvimento em C#.
@@ -138,3 +137,12 @@ Sistema s = new Sistema(a, b);
 // Invocando o método Executar do sistema
 s.Executar();
 ```
+      
+# Por que escolher o C#?
+
+Considero essa pergunta inviesada, pois depende do perfil de cada pessoa. Contudo, vou abordar algumas questões que eu acredito importantes para aventurarmos com C#.
+
+- **Salário**
+  Considerando uma pesquisa feita nos dados da Indeed [7] no dia 13 de fevereiro de 2024, a faixa salarial média para o cargo de desenvolvedor C# era de R$ 5.573 por mês para o Brasil. Esse valor pode variar de acordo com o nível de experiência, a localização, a empresa e outros fatores.
+
+Utilizando outra referência [8], um desenvolvedor C# sênior pode ganhar até R$ 18.000 por mês, enquanto um desenvolvedor C# júnior pode ganhar até R$ 8.000 por mês.
