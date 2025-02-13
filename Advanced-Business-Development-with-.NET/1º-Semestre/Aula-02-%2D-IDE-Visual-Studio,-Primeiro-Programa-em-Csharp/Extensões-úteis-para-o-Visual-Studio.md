@@ -27,3 +27,5 @@ O Code Maid é uma extensão gratuita e de código aberto para o Visual Studio q
 O Code Maid é uma ferramenta útil para melhorar a qualidade, a legibilidade e a manutenção do código, seguindo padrões e convenções de codificação. Ele também facilita a navegação e a compreensão do código, destacando os problemas e fornecendo correções rápidas. O Code Maid é altamente configurável e personalizável, permitindo que o usuário ajuste as preferências de acordo com suas necessidades. Ele também é compatível com várias versões do Visual Studio, desde a 2005 até a 2022.
 Para instalar o Code Maid, realizar o mesmo procedimento que foi feito para o SonarQube.
 ![image.png](/.attachments/image-90becbf9-a149-4380-abbd-b7039fe75c34.png)
+Exemplo de funcionamento do Code Maid no Visual Studio Community
+![image.png](/.attachments/image-f8c8ba2d-0815-44c7-8344-1e1751f3b7f5.png)
