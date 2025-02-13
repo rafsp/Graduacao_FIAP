@@ -153,3 +153,6 @@ Além disso, algumas cidades como Blumenau, São Paulo e Belo Horizonte oferecem
 
 Lembrando que essas informações não são uma regra, pois a mesma pode variar de acordo com a localização, expertise técnica em outras linguagens, tamanho da corporação e experiência profissional.
 
+## Abrangência
+
+
