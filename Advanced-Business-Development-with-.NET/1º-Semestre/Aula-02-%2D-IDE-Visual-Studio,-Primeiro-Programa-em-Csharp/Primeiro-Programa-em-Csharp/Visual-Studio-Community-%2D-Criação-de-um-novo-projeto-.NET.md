@@ -16,4 +16,6 @@ Vamos ver melhor como funciona através dos passos abaixo:
 
   ![image.png](/.attachments/image-8c862d96-bfd6-45d1-85e5-d5ab4fe71319.png)
 
-2. Em "Repository Location"
+2. Em "Repository Location", copie e cole o link abaixo:
+
+   
