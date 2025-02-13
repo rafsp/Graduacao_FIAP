@@ -13,3 +13,7 @@ Serve para copiar um repositório git existente de um provedor remoto, como o Gi
 Vamos ver melhor como funciona através dos passos abaixo:
   
 1. Entrar no Visual Studio, depois clicar em “Clone a repository”;
+
+  ![image.png](/.attachments/image-8c862d96-bfd6-45d1-85e5-d5ab4fe71319.png)
+
+2. Em "Repository Location"
