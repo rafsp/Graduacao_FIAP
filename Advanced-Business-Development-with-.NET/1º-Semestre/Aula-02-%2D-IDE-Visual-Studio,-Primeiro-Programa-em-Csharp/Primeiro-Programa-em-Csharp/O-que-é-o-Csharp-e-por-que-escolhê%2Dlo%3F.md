@@ -143,6 +143,6 @@ s.Executar();
 Considero essa pergunta inviesada, pois depende do perfil de cada pessoa. Contudo, vou abordar algumas questões que eu acredito importantes para aventurarmos com C#.
 
 - **Salário**
-  Considerando uma pesquisa feita nos dados da Indeed [7] no dia 13 de fevereiro de 2024, a faixa salarial média para o cargo de desenvolvedor C# era de R$ 5.573 por mês para o Brasil. Esse valor pode variar de acordo com o nível de experiência, a localização, a empresa e outros fatores.
+  Considerando uma pesquisa feita nos dados da Indeed [[13]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências) no dia 13 de fevereiro de 2024, a faixa salarial média para o cargo de desenvolvedor C# era de R$ 5.573 por mês para o Brasil. Esse valor pode variar de acordo com o nível de experiência, a localização, a empresa e outros fatores.
 
-Utilizando outra referência [8], um desenvolvedor C# sênior pode ganhar até R$ 18.000 por mês, enquanto um desenvolvedor C# júnior pode ganhar até R$ 8.000 por mês.
+Utilizando outra referência [[14]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências), um desenvolvedor C# sênior pode ganhar até R$ 18.000 por mês, enquanto um desenvolvedor C# júnior pode ganhar até R$ 8.000 por mês.
