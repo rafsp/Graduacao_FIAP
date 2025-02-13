@@ -174,3 +174,4 @@ Esses são apenas alguns exemplos de grandes empresas que utilizam C# nos seus s
 ## Similaridade com outras linguagens
 
 
+Sim, o C# tem similaridade com outras linguagens de programação, especialmente as que são baseadas em C, como C++ e Java. O C# também compartilha alguns recursos com linguagens como JavaScript, Python, Ruby, etc. Por exemplo, o C# suporta expressões lambda, métodos de extensão, consultas LINQ, etc., que são características comuns em outras linguagens modernas [[18]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências) [[19]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
