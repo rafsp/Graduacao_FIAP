@@ -168,3 +168,7 @@ C# é uma linguagem de programação muito popular e versátil, que pode ser usa
 - **PedidosYa:** é uma empresa latino-americana de delivery de comida, que opera em mais de 400 cidades em 12 países. PedidosYa usa C# para desenvolver seu aplicativo móvel, que permite aos usuários fazer pedidos, acompanhar o status da entrega e avaliar os restaurantes [[15]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
 
 Esses são apenas alguns exemplos de grandes empresas que utilizam C# nos seus sistemas. Há muitas outras, como Microsoft, Amazon, Google, Intel, Oracle, NASA, Dropbox, VMware, LinkedIn, Siemens, etc [[16]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências). C# é uma linguagem que oferece muitas vantagens, como simplicidade, produtividade, desempenho, portabilidade, interoperabilidade, etc. Por isso, ela é uma das linguagens mais requisitadas no mercado de trabalho em 2023 [[17]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
+## Similaridade com outras linguagens
+
+
