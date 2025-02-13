@@ -23,9 +23,9 @@
 
 12. REACT. Documentação oficial do React - React. Disponível em: https://pt-br.legacy.reactjs.org/. Acesso em: 17 fev. 2024.
 
-13. INDEED. Salários para Desenvolvedor C# no Brasil - Indeed. Disponível em: https://br.indeed.com/career/desenvolvedor-c%23/salaries. Acesso em: 17 fev. 2024.
+13. INDEED. Salários para Desenvolvedor C# no Brasil - Indeed. Disponível em: https://br.indeed.com/career/desenvolvedor-c%23/salaries. Acesso em: 10 fev. 2025.
 
-14. PROGRAMATHOR. Salário Programador C# - Programathor. Disponível em: https://programathor.com.br/salario-programador-c-sharp. Acesso em: 17 fev. 2024.
+14. PROGRAMATHOR. Salário Programador C# - Programathor. Disponível em: https://programathor.com.br/salario-programador-c-sharp. Acesso em: 10 fev. 2025.
 
 15. BACK4APP. Startups usando C# - Back4App. Disponível em: https://blog.back4app.com/pt/startups-usando-c-sharp/. Acesso em: 17 fev. 2024.
 
