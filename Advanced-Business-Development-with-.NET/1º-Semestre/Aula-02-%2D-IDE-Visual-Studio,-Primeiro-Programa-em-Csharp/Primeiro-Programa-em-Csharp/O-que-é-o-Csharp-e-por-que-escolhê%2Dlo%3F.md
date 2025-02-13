@@ -69,4 +69,72 @@ pessoa.Imprimir();
 ```
       
 Esse código demonstra como definir uma classe com atributos e métodos, como criar um objeto a partir de uma classe e como acessar os membros do objeto. Esse é um conceito básico da programação orientada a objetos em C#. Exemplos assim também podem ser encontrados na referência [[10]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
 Agora para compreender a orientação de componentes, seria interessante considerarmos como exemplo o código a seguir:
+
+```csharp
+// Definindo uma interface IComponente que define um método Comunicar
+interface IComponente
+{
+    void Comunicar();
+}
+
+// Definindo uma classe ComponenteA que implementa a interface IComponente
+class ComponenteA : IComponente
+{
+    // Implementando o método Comunicar da interface
+    public void Comunicar()
+    {
+        Console.WriteLine("Olá, eu sou o Componente A");
+    }
+}
+
+// Definindo uma classe ComponenteB que implementa a interface IComponente
+class ComponenteB : IComponente
+{
+    // Implementando o método Comunicar da interface
+    public void Comunicar()
+    {
+        Console.WriteLine("Olá, eu sou o Componente B");
+    }
+}
+
+// Definindo uma classe Sistema que usa os componentes A e B
+class Sistema
+{
+    // Criando uma lista de componentes
+    private List<IComponente> componentes;
+
+    // Construtor da classe que recebe os componentes como parâmetros
+    public Sistema(params IComponente[] componentes)
+    {
+        // Inicializando a lista de componentes
+        this.componentes = new List<IComponente>();
+
+        // Adicionando os componentes à lista
+        foreach (IComponente componente in componentes)
+        {
+            this.componentes.Add(componente);
+        }
+    }
+
+    // Método que invoca o método Comunicar de cada componente da lista
+    public void Executar()
+    {
+        foreach (IComponente componente in componentes)
+        {
+            componente.Comunicar();
+        }
+    }
+}
+
+// Criando objetos dos componentes A e B
+ComponenteA a = new ComponenteA();
+ComponenteB b = new ComponenteB();
+
+// Criando um objeto do sistema passando os componentes A e B como parâmetros
+Sistema s = new Sistema(a, b);
+
+// Invocando o método Executar do sistema
+s.Executar();
+```
