@@ -22,4 +22,4 @@ Vamos ver melhor como funciona através dos passos abaixo:
    https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/hello-world
    ```
 
-   
+   ![image.png](/.attachments/image-7c20b1dd-f81c-47f2-ba44-c5fb3c564203.png)
