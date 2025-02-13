@@ -19,4 +19,4 @@ Para isso, vamos seguis os passos abaixo:
 - Fechar o Visual Studio, o procedimento de instalação vai iniciar
   ![image.png](/.attachments/image-e86acfd3-dec5-41e5-9970-db0730f43d5a.png)
 
-- Exemplo de funcionamento do SonarLint no Visual Studio Community
+- Exemplo de funcionamento do SonarQube no Visual Studio Community
