@@ -7,6 +7,6 @@
 
 4. JetBrains. Rider. Disponível em: <https://www.jetbrains.com/rider/>. Acesso em: 04 fev. 2024.
 
-5. SonarSource. SonarLint para Visual Studio. Disponível em: <https://docs.sonarsource.com/sonarlint/visual-studio/>. Acesso em: 04 fev. 2024.
+5. SonarSource. SonarQube para Visual Studio. Disponível em: <https://docs.sonarsource.com/sonarqube-for-ide/visual-studio/>. Acesso em: 04 fev. 2024.
 
 6. Visual Studio Marketplace. CodeMaid. Disponível em: <https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid>. Acesso em: 04 fev. 2024.
