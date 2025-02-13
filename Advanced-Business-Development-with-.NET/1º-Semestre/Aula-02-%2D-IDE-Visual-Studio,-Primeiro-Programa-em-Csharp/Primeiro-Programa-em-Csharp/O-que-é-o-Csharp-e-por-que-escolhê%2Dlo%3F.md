@@ -155,4 +155,20 @@ Lembrando que essas informações não são uma regra, pois a mesma pode variar 
 
 ## Abrangência
 
+C# é uma linguagem de programação muito popular e versátil, que pode ser usada para desenvolver diversos tipos de aplicações, como jogos, aplicativos móveis, sites, serviços web, sistemas operacionais, etc. Muitas grandes empresas utilizam C# nos seus sistemas, tanto para criar produtos internos quanto para oferecer soluções para seus clientes. Aqui estão alguns exemplos de empresas que usam C#:
 
+o   **Delivery Hero:** é um serviço multinacional de entrega de comida online que opera em mais de 50 países, em parceria com mais de 500.000 restaurantes. Delivery Hero usa C# para desenvolver sua plataforma de q-commerce, que permite entregar itens essenciais em menos de uma hora [9].  
+  
+
+o   **Stack Overflow:** é um site de perguntas e respostas sobre programação, que conta com mais de 14 milhões de usuários registrados. Stack Overflow usa C# para construir sua interface web, sua API e sua infraestrutura de banco de dados [9].  
+  
+
+o   **Trustpilot:** é uma plataforma online de avaliação de empresas, que permite aos consumidores compartilhar suas experiências e opiniões sobre produtos e serviços. Trustpilot usa C# para desenvolver seu sistema de coleta e análise de dados, que processa mais de 4 bilhões de solicitações por mês [9].  
+  
+
+o   **Venmo:** é um aplicativo de pagamento móvel, que permite aos usuários enviar e receber dinheiro de forma rápida e fácil. Venmo usa C# para desenvolver seu aplicativo para Windows Phone, que oferece as mesmas funcionalidades que as versões para iOS e Android [9].  
+  
+
+o   **PedidosYa:** é uma empresa latino-americana de delivery de comida, que opera em mais de 400 cidades em 12 países. PedidosYa usa C# para desenvolver seu aplicativo móvel, que permite aos usuários fazer pedidos, acompanhar o status da entrega e avaliar os restaurantes [9].
+
+Esses são apenas alguns exemplos de grandes empresas que utilizam C# nos seus sistemas. Há muitas outras, como Microsoft, Amazon, Google, Intel, Oracle, NASA, Dropbox, VMware, LinkedIn, Siemens, etc [10]. C# é uma linguagem que oferece muitas vantagens, como simplicidade, produtividade, desempenho, portabilidade, interoperabilidade, etc. Por isso, ela é uma das linguagens mais requisitadas no mercado de trabalho em 2023 [11].
