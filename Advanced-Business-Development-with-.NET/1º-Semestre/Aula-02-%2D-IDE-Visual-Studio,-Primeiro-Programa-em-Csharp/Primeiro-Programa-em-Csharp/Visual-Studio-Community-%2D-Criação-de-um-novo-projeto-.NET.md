@@ -14,8 +14,10 @@ Vamos ver melhor como funciona através dos passos abaixo:
   
 1. Entrar no Visual Studio, depois clicar em “Clone a repository”;
 
-  ![image.png](/.attachments/image-8c862d96-bfd6-45d1-85e5-d5ab4fe71319.png)
+   ![image.png](/.attachments/image-8c862d96-bfd6-45d1-85e5-d5ab4fe71319.png)
 
 2. Em "Repository Location", copie e cole o link abaixo:
+
+   ``https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/hello-world``
 
    
