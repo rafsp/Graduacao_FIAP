@@ -147,3 +147,4 @@ Considerando uma pesquisa feita nos dados da Indeed [[13]](/Advanced-Business-De
 
 Utilizando outra referência, do Programathor [[14]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências), um desenvolvedor C# sênior pode ganhar até R$ 18.000 por mês, enquanto um desenvolvedor C# júnior pode ganhar até R$ 8.000 por mês.
 
+![image.png](/.attachments/image-637c6efa-edc8-4022-9125-0232312afbab.png)
