@@ -20,3 +20,4 @@ Para isso, vamos seguis os passos abaixo:
   ![image.png](/.attachments/image-e86acfd3-dec5-41e5-9970-db0730f43d5a.png)
 
 - Exemplo de funcionamento do SonarQube no Visual Studio Community
+  
