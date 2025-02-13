@@ -10,7 +10,6 @@
 5. SonarSource. SonarQube para Visual Studio. Disponível em: <https://docs.sonarsource.com/sonarqube-for-ide/visual-studio/>. Acesso em: 04 fev. 2025.
 
 6. Visual Studio Marketplace. CodeMaid. Disponível em: <https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid>. Acesso em: 04 fev. 2024.
-
        
 7. MICROSOFT. C# - Microsoft. Disponível em: https://dotnet.microsoft.com/pt-br/languages/csharp. Acesso em: 17 fev. 2024.
 
