@@ -18,6 +18,8 @@ Vamos ver melhor como funciona através dos passos abaixo:
 
 2. Em "Repository Location", copie e cole o link abaixo:
 
-   ``https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/hello-world``
+   ```git
+   https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/hello-world
+   ```
 
    
