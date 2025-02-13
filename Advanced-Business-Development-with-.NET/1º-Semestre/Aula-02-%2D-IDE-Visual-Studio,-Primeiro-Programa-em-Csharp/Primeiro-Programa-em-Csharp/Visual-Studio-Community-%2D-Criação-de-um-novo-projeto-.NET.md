@@ -4,4 +4,4 @@ Agora que estamos mais familiarizados com C#, o próximo passo é compreender um
 
 ![image.png](/.attachments/image-53435c8e-b4f4-4606-986d-e8828b56befe.png)
 
-       Nessa primeira tela do Visual Studio nós temos algumas opções, como:
+Nessa primeira tela do Visual Studio nós temos algumas opções, como:
