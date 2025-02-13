@@ -149,5 +149,6 @@ Utilizando outra referência, do Programathor [[14]](/Advanced-Business-Developm
 
 ![image.png](/.attachments/image-637c6efa-edc8-4022-9125-0232312afbab.png)
 
-Além disso, algumas cidades como Blumenau, São Paulo e Belo Horizonte oferecem salários mais altos do que outras como Porto Alegre, Ribeirão Preto e Curitiba [7].
+Além disso, algumas cidades como Blumenau, São Paulo e Belo Horizonte oferecem salários mais altos do que outras como Porto Alegre, Ribeirão Preto e Curitiba [[13]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
 Lembrando que essas informações não são uma regra, pois a mesma pode variar de acordo com a localização, expertise técnica em outras linguagens, tamanho da corporação e experiência profissional.
