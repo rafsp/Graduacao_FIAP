@@ -22,4 +22,5 @@ Para isso, vamos seguis os passos abaixo:
 - Exemplo de funcionamento do SonarQube no Visual Studio Community
   ![image.png](/.attachments/image-43956eda-4860-4904-8310-80e78b0d21ab.png)
 
-# 
+# Code Maid
+
