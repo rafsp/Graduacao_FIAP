@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-# Sobre o C#
+# Sobre o Csharp
 
 C# é uma linguagem de programação de código aberto, moderna e inovadora, que faz parte da plataforma .NET [[7]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
 
