@@ -67,3 +67,6 @@ Console.WriteLine("A altura da pessoa é " + pessoa.GetAltura());
 // Invocando o método Imprimir do objeto
 pessoa.Imprimir();
 ```
+      
+Esse código demonstra como definir uma classe com atributos e métodos, como criar um objeto a partir de uma classe e como acessar os membros do objeto. Esse é um conceito básico da programação orientada a objetos em C#. Exemplos assim também podem ser encontrados na referência [[10]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+Agora para compreender a orientação de componentes, seria interessante considerarmos como exemplo o código a seguir:
