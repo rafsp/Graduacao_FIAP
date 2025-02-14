@@ -2,4 +2,16 @@ Um projeto .NET é uma coleção de arquivos que contém código-fonte, recursos
 
 # SDK-style
 
-Um projeto **SDK-style**, que usa um formato simplificado de arquivo de projeto baseado em **XML** e pode ser direcionado a **múltiplas plataformas** e versões do .NET. Esse tipo de projeto é recomendado para projetos novos ou migrados que usam o .NET Core, o .NET Standard ou o .NET 5 ou superior [15].
+Um projeto **SDK-style**, que usa um formato simplificado de arquivo de projeto baseado em **XML** e pode ser direcionado a **múltiplas plataformas** e versões do .NET. Esse tipo de projeto é recomendado para projetos novos ou migrados que usam o .NET Core, o .NET Standard ou o .NET 5 ou superior [[21]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
+```
