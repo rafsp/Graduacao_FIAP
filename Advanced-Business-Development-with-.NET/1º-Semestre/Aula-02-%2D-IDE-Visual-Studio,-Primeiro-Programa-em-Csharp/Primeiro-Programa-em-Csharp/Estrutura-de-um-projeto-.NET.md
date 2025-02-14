@@ -18,3 +18,4 @@ Um projeto **SDK-style**, que usa um formato simplificado de arquivo de projeto 
 
 ## Não SDK-style
 
+Um projeto **não SDK-style**, que usa um formato mais detalhado de arquivo de projeto baseado em XML e é direcionado a versão do .NET Framework. Esse tipo de projeto é mais comum em projetos existentes que usam o .NET Framework 4.8 ou inferior [[22]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
