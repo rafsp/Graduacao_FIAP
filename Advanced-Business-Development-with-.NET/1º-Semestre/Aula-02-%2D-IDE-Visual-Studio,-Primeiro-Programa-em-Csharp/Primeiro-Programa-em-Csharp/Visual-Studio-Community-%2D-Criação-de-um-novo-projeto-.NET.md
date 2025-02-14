@@ -52,3 +52,8 @@ Vamos ver melhor como funciona através dos passos abaixo:
 
 ## Create a new project
 
+Opção que permite aos usuários iniciar um novo projeto de software a partir de uma variedade de modelos e modelos predefinidos. Essa funcionalidade é essencial para começar a desenvolver um novo aplicativo, biblioteca ou serviço a partir do zero.
+
+Para ver a variedade de projetos disponíveis, basta clicar para ter mais informações:
+
+
