@@ -38,3 +38,7 @@ Vamos ver melhor como funciona através dos passos abaixo:
 
 ## Open a project or solution
 
+É uma opção no Visual Studio que permite ao usuário abrir um projeto ou uma solução existente para edição e desenvolvimento de software.
+
+![image.png](/.attachments/image-515f0574-e98b-4206-9806-e7c8e9e57e13.png)
+
