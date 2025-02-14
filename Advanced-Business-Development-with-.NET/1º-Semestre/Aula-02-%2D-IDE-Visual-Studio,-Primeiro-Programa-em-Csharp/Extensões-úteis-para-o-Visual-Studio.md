@@ -30,3 +30,6 @@ Para instalar o Code Maid, realizar o mesmo procedimento que foi feito para o So
   ![image.png](/.attachments/image-90becbf9-a149-4380-abbd-b7039fe75c34.png)
 - Exemplo de funcionamento do Code Maid no Visual Studio Community
   ![image.png](/.attachments/image-f8c8ba2d-0815-44c7-8344-1e1751f3b7f5.png)
+
+# Repositório para testarmos
+  https://github.com/renatogroffe/DotNet9-2024-06
