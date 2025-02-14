@@ -141,7 +141,7 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
 | .suo |
 |--|
 | Layout da janela do Visual Studio |
-|  |
+| Configurações de depuração |
 |  |
 |  |
 |  |
