@@ -31,3 +31,4 @@ Vamos ver melhor como funciona através dos passos abaixo:
    ```git
    git config --global http.sslverify "false"
    ```
+
