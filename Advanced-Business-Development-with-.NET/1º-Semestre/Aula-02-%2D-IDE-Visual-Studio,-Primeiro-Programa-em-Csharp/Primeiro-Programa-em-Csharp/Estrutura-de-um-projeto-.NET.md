@@ -144,5 +144,5 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
 | Configurações de depuração |
 | Configurações do editor |
 | Estado de depuração (breakpoints, variáveis) |
-|  |
+| Preferências de usuário (atalhos de teclado, etc) |
 
