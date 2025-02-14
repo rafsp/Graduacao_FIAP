@@ -96,3 +96,15 @@ As extensões de projetos e solução no Visual Studio .NET são os arquivos que
 ## .csproj, .vbproj, .fsproj
 
 São os arquivos dos projetos, que contem os metadados sobre os arquivos, as referências, as configurações e as tarefas do projeto. Eles também especificam o tipo de projeto, como C#, Visual Basic, F#, etc [[24]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>primeiro_programa_csharp</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
+```
