@@ -16,4 +16,5 @@ Um projeto **SDK-style**, que usa um formato simplificado de arquivo de projeto 
 </Project>
 ```
 
-## 
+## Não SDK-style
+
