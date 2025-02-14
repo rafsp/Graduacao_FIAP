@@ -134,3 +134,7 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
   <!-- Outras configurações específicas do usuário podem ser incluídas aqui -->
 </Project>
 ```
+
+## .suo
+
+É o arquivo de opções da solução do usuário, que armazena as preferências do usuário para a solução, como o layout das janelas, os pontos de interrupção e os favoritos. Ele é gerado automaticamente pelo Visual Studio e não deve ser compartilhado com outros desenvolvedores.
