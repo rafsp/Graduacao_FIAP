@@ -146,4 +146,4 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
 | Estado de depuração (breakpoints, variáveis) |
 | Preferências de usuário (atalhos de teclado, etc) |
 | Preferências de usuário (atalhos de teclado, etc) |
-
+| Informações sobre projetos abertos e arquivos |
