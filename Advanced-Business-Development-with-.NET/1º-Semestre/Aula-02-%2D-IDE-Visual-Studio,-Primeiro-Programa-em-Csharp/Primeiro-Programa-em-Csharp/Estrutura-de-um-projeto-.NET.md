@@ -143,6 +143,6 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
 | Layout da janela do Visual Studio |
 | Configurações de depuração |
 | Configurações do editor |
-|  |
+| Estado de depuração (breakpoints, variáveis) |
 |  |
 
