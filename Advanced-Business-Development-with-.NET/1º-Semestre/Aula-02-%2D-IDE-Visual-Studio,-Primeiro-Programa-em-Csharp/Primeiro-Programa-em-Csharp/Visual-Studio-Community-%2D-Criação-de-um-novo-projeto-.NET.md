@@ -36,3 +36,5 @@ Vamos ver melhor como funciona através dos passos abaixo:
 
    ![image.png](/.attachments/image-f99d34d7-081a-4439-b017-9cab66ebe4fe.png)
 
+## Open a project or solution
+
