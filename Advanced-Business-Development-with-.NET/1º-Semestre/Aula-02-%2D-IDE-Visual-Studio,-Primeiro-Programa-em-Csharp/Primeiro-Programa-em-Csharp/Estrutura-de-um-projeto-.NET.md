@@ -1,3 +1,8 @@
+[[_TOC_]]
+
+
+# Introdução
+
 Um projeto .NET é uma coleção de arquivos que contém código-fonte, recursos, configurações e referências a bibliotecas que são usadas para compilar e executar um aplicativo ou uma biblioteca. Um projeto .NET, em conjunto com o C#, pode ter uma das seguintes estruturas:
 
 # Tipos de Projetos
@@ -83,3 +88,10 @@ Um projeto **não SDK-style**, que usa um formato mais detalhado de arquivo de p
 # Extensões de Arquivos
       
 As extensões de projetos e solução no Visual Studio .NET são os arquivos que armazenam as informações sobre os componentes da solução, como os projetos, as configurações, as referências e as propriedades. As extensões mais comuns são:
+
+## .sln
+
+É o arquivo da solução, que contém os metadados sobre os projetos e as configurações da solução. Ele também define a ordem de compilação dos projetos e as dependências entre eles [[23]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
+## .csproj, .vbproj, .fsproj
+
