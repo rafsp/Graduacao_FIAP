@@ -32,3 +32,4 @@ Vamos ver melhor como funciona através dos passos abaixo:
    git config --global http.sslverify "false"
    ```
 
+5. 
