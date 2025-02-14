@@ -39,9 +39,9 @@
 
 20. DEVMEDIA. A evolução da linguagem de programação C# - DevMedia. Disponível em: https://www.devmedia.com.br/a-evolucao-da-linguagem-de-programacao-csharp/28639. Acesso em: 17 fev. 2024.
 
-21. MICROSOFT. Estrutura do projeto - Microsoft. Disponível em: https://learn.microsoft.com/pt-br/dotnet/core/porting/project-structure. Acesso em: 17 fev. 2024.
+21. MICROSOFT. Visão geral do SDK do projeto .NET. Disponível em: https://learn.microsoft.com/pt-br/dotnet/core/project-sdk/overview. Acesso em: 13 fev. 2025.
 
-22. MICROSOFT. Estrutura do programa em C# - Microsoft. Disponível em: https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/. Acesso em: 17 fev. 2024.
+22. MICROSOFT. Identificar o formato do projeto. Disponível em: https://learn.microsoft.com/pt-br/nuget/resources/check-project-format. Acesso em: 13 fev. 2025.
 
 23. MICROSOFT. Soluções e projetos no Visual Studio - Microsoft. Disponível em: https://learn.microsoft.com/pt-br/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022. Acesso em: 17 fev. 2024.
 
