@@ -56,4 +56,4 @@ Opção que permite aos usuários iniciar um novo projeto de software a partir d
 
 Para ver a variedade de projetos disponíveis, basta clicar para ter mais informações:
 
-
+![image.png](/.attachments/image-28528e62-9a6b-4379-9f36-8f5d6e594204.png)
