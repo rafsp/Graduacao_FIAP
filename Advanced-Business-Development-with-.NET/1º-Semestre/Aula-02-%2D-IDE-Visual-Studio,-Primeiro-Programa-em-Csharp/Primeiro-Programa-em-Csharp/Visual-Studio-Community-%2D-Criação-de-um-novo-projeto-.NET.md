@@ -49,3 +49,6 @@ Vamos ver melhor como funciona através dos passos abaixo:
 É uma opção que permite aos usuários abrir uma pasta do sistema de arquivos local diretamente no ambiente de desenvolvimento do Visual Studio. Essa funcionalidade é útil para projetos que não estão necessariamente organizados como projetos formais do Visual Studio, mas que contêm código-fonte, arquivos de configuração, recursos e outros elementos necessários para o desenvolvimento de software.
 
 ![image.png](/.attachments/image-128fe7e9-7029-421c-9ab5-3fed3d811d31.png)
+
+## Create a new project
+
