@@ -34,4 +34,4 @@ Vamos ver melhor como funciona através dos passos abaixo:
 
 5. Pronto! Perceba que você acabou de “baixar” o projeto que criamos na primeira aula:
 
-   
+   ![image.png](/.attachments/image-f99d34d7-081a-4439-b017-9cab66ebe4fe.png)
