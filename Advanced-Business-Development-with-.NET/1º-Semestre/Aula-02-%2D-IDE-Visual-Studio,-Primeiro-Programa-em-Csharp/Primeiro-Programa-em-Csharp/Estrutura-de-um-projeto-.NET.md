@@ -108,3 +108,7 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
   </PropertyGroup>
 </Project>
 ```
+
+## .user
+      
+É o arquivo de opções do usuário, que armazena as preferências do usuário para o projeto, como as configurações de depuração e execução. Ele é gerado automaticamente pelo Visual Studio e não deve ser compartilhado com outros desenvolvedores [19].
