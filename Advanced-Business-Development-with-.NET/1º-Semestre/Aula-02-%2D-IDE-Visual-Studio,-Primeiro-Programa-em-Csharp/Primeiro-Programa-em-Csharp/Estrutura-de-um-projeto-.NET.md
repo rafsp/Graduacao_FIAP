@@ -112,3 +112,25 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
 ## .user
       
 É o arquivo de opções do usuário, que armazena as preferências do usuário para o projeto, como as configurações de depuração e execução. Ele é gerado automaticamente pelo Visual Studio e não deve ser compartilhado com outros desenvolvedores [[25]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Configurações específicas do usuário -->
+    <StartAction>Program</StartAction>
+    <StartProgram>$(TargetDir)MyApp.exe</StartProgram>
+    <StartArguments>-arg1 value1 -arg2 value2</StartArguments>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Lista de arquivos abertos no editor do Visual Studio -->
+    <OpenDocument Include="Views\MainView.xaml">
+      <Visible>True</Visible>
+    </OpenDocument>
+    <OpenDocument Include="ViewModels\MainViewModel.cs">
+      <Visible>True</Visible>
+    </OpenDocument>
+  </ItemGroup>
+  <!-- Outras configurações específicas do usuário podem ser incluídas aqui -->
+</Project>
+```
