@@ -147,3 +147,6 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
 | Preferências de usuário (atalhos de teclado, etc) |
 | Preferências de usuário (atalhos de teclado, etc) |
 | Informações sobre projetos abertos e arquivos |
+
+      
+Existem outras extensões de arquivos que podem fazer parte de uma solução ou de um projeto, dependendo do tipo de aplicação, da linguagem e das ferramentas usadas. Por exemplo, um projeto de banco de dados pode ter a extensão .dbproj, um projeto de teste pode ter a extensão .testsettings, um projeto de extensão do Visual Studio pode ter a extensão .vsix, etc.
