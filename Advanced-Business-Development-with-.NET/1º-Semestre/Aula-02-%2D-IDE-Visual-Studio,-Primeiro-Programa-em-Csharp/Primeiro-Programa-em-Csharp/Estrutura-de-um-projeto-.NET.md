@@ -111,4 +111,4 @@ São os arquivos dos projetos, que contem os metadados sobre os arquivos, as ref
 
 ## .user
       
-É o arquivo de opções do usuário, que armazena as preferências do usuário para o projeto, como as configurações de depuração e execução. Ele é gerado automaticamente pelo Visual Studio e não deve ser compartilhado com outros desenvolvedores [19].
+É o arquivo de opções do usuário, que armazena as preferências do usuário para o projeto, como as configurações de depuração e execução. Ele é gerado automaticamente pelo Visual Studio e não deve ser compartilhado com outros desenvolvedores [[25]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
