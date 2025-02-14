@@ -32,4 +32,6 @@ Vamos ver melhor como funciona através dos passos abaixo:
    git config --global http.sslverify "false"
    ```
 
-5. 
+5. Pronto! Perceba que você acabou de “baixar” o projeto que criamos na primeira aula:
+
+   
