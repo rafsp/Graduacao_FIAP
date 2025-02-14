@@ -23,3 +23,11 @@ Vamos ver melhor como funciona através dos passos abaixo:
    ```
 
    ![image.png](/.attachments/image-7c20b1dd-f81c-47f2-ba44-c5fb3c564203.png)
+   
+3. Clique em “Clone”;
+
+4. Caso encontre algum problema de segurança ao clonar um repositório, escreva o código abaixo para retirar a validação de ssl
+
+   ```git
+   git config --global http.sslverify "false"
+   ```
