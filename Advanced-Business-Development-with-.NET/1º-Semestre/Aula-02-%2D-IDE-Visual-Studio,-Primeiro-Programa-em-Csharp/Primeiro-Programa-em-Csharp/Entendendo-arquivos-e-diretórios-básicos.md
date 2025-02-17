@@ -20,3 +20,4 @@ Este diretório é usado para armazenar referências a serviços conectados, com
 
 # Dependencies
 
+![image.png](/.attachments/image-75b12fad-1db8-4c9b-b208-e2604a1b1ba8.png)
