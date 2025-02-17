@@ -59,25 +59,25 @@ Possui as configurações de iniciação e disponibilização da solução.
 
 ## Program.cs
 
-- Linha CreateBuilder
+- Linha **CreateBuilder**
   ```csharp
   var builder = WebApplication.CreateBuilder(args);
   ```
       
   Serve para criar uma instância da classe WebApplicationBuilder, que é usada para configurar e construir uma aplicação web usando o ASP.NET Core. O parâmetro args é um array de strings que contém os argumentos da linha de comando passados para o programa [[26]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências). O WebApplicationBuilder permite adicionar serviços, configurar o ambiente, definir pontos finais de roteamento e outras opções para a aplicação web.
 
-- Linha Build
+- Linha **Build**
   ```csharp
   var app = builder.Build();
   ```
 
   Serve para executar o Builder, retornando um objeto do tipo WebApplication.
 
-- Linha MapGet
+- Linha **MapGet**
   ```csharp
   app.MapGet("/", () => "Olá Mundo FIAP!");
   ```
 
   Cria o retorno de acordo com o path que é estabelecido (nesse caso “/”).
 
-- Linha Run
+- Linha **Run**
