@@ -10,3 +10,4 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
    
 3. Seguir os passos abaixo;
 
+![image.png](/.attachments/image-22af6e73-594a-4b0d-b2f8-ac68d0814d36.png)
