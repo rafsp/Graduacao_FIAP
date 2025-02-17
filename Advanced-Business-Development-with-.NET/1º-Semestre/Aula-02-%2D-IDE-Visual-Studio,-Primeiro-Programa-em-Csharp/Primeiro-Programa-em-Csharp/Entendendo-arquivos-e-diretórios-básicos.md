@@ -29,3 +29,4 @@ Este diretório armazena as dependências do projeto, como bibliotecas de tercei
 ![image.png](/.attachments/image-1ef159cf-6bdb-4567-94fc-6e3d00bdb439.png)
       
 O diretório Properties geralmente contém arquivos de configuração e metadados relacionados ao projeto, como arquivos de configuração de compilação e informações sobre o assembly.
+
