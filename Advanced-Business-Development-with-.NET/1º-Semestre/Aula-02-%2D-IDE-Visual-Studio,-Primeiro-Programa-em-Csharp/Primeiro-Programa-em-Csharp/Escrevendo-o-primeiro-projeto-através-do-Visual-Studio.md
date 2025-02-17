@@ -36,5 +36,7 @@ Agora que temos o nosso projeto em mãos, podemos verificar cada parte do códig
 
 ## launchSettings.json
 
-Possui as configurações de iniciação e disponibilização da solução
+Possui as configurações de iniciação e disponibilização da solução.
+
+![image.png](/.attachments/image-65e40fcc-7d04-459b-8bc2-a4806fe0d0fc.png)
 
