@@ -16,3 +16,8 @@ Você também pode realizar esse procedimento para a solução inteira, ou seja,
 ## Utilizando atalhos
       
 Caso prefira utilizar atalhos, basta usar o “Ctrl + Shift + B”.
+
+A opção Build no Visual Studio realiza uma compilação incremental, ou seja, somente os arquivos que foram alterados serão recriados e os arquivos que não foram modificados não serão compilados.
+
+## Resultado final
+O resultado do Build fica dentro da pasta “bin”.
