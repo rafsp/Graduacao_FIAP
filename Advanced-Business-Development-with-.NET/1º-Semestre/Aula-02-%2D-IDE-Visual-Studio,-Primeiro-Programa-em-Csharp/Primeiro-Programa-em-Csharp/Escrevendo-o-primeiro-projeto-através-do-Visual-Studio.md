@@ -40,3 +40,19 @@ Agora que temos o nosso projeto em mãos, podemos verificar cada parte do códig
 
 Possui as configurações de iniciação e disponibilização da solução.
 
+```json
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5078",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+```
