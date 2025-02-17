@@ -42,3 +42,6 @@ Este diretório geralmente contém os controladores da Web API. Os controladores
 
 Este arquivo contém configurações de aplicativo, como cadeias de conexão de banco de dados, configurações de log, chaves de API, entre outras. Ele é usado para configurar o comportamento da aplicação e pode ser acessado durante a execução.
 
+# First-webapi.http
+
+
