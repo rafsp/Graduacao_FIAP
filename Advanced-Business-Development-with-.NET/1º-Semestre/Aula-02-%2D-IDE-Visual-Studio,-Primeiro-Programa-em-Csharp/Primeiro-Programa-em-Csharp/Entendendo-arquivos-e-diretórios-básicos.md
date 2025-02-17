@@ -82,3 +82,16 @@ namespace first_webapi
 # Entendendo a estrutura da solução
       
 Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForecast através da sua estrutura, considerando as suas relações com os arquivos/diretórios.
+
+
+| Estrutura | Arquivo/Diretório |
+|--|--|
+| Ponto de Entrada | Program.cs |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
