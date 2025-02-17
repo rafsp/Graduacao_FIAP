@@ -82,6 +82,8 @@ Possui as configurações de iniciação e disponibilização da solução.
 
 - Linha **Run**
 
-  
+  ```csharp
+  app.Run();
+  ```
 
   Roda o WebApplication
