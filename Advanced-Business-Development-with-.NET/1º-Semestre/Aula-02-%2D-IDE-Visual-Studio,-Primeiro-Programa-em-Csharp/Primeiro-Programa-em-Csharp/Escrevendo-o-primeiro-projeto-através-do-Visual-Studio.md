@@ -36,3 +36,5 @@ Agora que temos o nosso projeto em mãos, podemos verificar cada parte do códig
 
 ## launchSettings.json
 
+Possui as configurações de iniciação e disponibilização da solução
+
