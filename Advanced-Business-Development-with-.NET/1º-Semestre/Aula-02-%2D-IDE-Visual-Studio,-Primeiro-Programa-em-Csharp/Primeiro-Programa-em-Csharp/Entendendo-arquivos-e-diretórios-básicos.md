@@ -89,7 +89,7 @@ Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForeca
 | Ponto de Entrada | Program.cs |
 | Configuração do Serviço | Startup.cs |
 | Controllers | Controladores |
-| Modelos |  |
+| Modelos | WeatherForecast.cs |
 |  |  |
 |  |  |
 |  |  |
