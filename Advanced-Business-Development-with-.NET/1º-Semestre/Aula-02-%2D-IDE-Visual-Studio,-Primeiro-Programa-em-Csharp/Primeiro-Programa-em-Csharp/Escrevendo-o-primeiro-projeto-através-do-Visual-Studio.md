@@ -21,7 +21,7 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Olá Mundo FIAP!");
 
 app.Run();
 ```
