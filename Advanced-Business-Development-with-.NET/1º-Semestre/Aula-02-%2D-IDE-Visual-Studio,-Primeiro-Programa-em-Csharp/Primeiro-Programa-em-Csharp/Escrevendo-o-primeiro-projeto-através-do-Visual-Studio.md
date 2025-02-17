@@ -31,4 +31,3 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
    ```
 
 # Explicando o projeto
-
