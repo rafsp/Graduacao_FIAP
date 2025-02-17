@@ -48,3 +48,5 @@ Este arquivo contém configurações de aplicativo, como cadeias de conexão de 
       
 Este arquivo contém solicitações HTTP de teste ou exemplos de solicitações que podem ser feitas para a Web API. Ele pode ser usado para testar e depurar a API diretamente do ambiente de desenvolvimento.
 
+# Program.cs
+
