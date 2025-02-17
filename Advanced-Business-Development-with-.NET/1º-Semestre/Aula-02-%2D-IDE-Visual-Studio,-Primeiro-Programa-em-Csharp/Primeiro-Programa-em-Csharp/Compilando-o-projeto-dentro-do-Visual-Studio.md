@@ -56,3 +56,9 @@ Agora, quando for realizar o build do projeto/solução, a pasta “Release” t
 
 O próximo passo é publicar este conjunto de arquivos em um servidor local (localhost), para que o resultado possa ser visualizado em um navegador. Ao pressionar a tecla "F5", a publicação é realizada considerando o que está selecionado no ícone de "play".
 
+![image.png](/.attachments/image-3807e185-cbf1-403b-b90a-28f0b901d8c2.png)
+      
+Como resultado, o navegador vai abrir automaticamente, mostrando o Hello World.
+
+![image.png](/.attachments/image-d6521f8b-4a98-4ac4-ba67-37ac1f49f31f.png)
+
