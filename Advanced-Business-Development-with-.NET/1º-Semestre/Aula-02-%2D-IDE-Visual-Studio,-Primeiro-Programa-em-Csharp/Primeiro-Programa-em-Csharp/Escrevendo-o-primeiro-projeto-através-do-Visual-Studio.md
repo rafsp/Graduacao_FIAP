@@ -9,3 +9,4 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
 ![image.png](/.attachments/image-8390b3e7-0005-40af-8ae8-26bd1be2fc8f.png)
    
 3. Seguir os passos abaixo;
+
