@@ -56,6 +56,10 @@ Este arquivo contém solicitações HTTP de teste ou exemplos de solicitações 
       
 Este arquivo contém o ponto de entrada da aplicação. Nele, geralmente é configurada a inicialização da aplicação, bem como a configuração do serviço do host da Web e a inicialização de outros serviços.
 
+## WeatherForecast.cs
+
+
+
 # Entendendo a estrutura da solução
       
 Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForecast através da sua estrutura, considerando as suas relações com os arquivos/diretórios.
