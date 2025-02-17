@@ -62,6 +62,23 @@ Este arquivo contém o ponto de entrada da aplicação. Nele, geralmente é conf
       
 Este arquivo é uma classe de modelo utilizada para representar os dados de previsão do tempo. É comum em muitas APIs de exemplo, como a Web API do ASP.NET Core, ter uma classe de modelo simples para demonstrar a funcionalidade básica da API.
 
+```csharp
+namespace first_webapi
+{
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+
+        public string? Summary { get; set; }
+    }
+}
+```
+
+
 # Entendendo a estrutura da solução
       
 Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForecast através da sua estrutura, considerando as suas relações com os arquivos/diretórios.
