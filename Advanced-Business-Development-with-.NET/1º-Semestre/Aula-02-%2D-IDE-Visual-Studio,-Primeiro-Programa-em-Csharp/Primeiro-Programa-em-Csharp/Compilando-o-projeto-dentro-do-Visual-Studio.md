@@ -23,3 +23,4 @@ A opção Build no Visual Studio realiza uma compilação incremental, ou seja, 
 O resultado do Build fica dentro da pasta “bin”.
 
 ![image.png](/.attachments/image-72eb0b72-b811-4b33-bcd7-1b0800ace0fb.png)
+
