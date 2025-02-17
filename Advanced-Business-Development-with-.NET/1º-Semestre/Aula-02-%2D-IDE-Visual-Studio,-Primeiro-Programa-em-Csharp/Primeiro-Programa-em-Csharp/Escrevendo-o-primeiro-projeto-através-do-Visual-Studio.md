@@ -13,3 +13,4 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
 
 4. O projeto deverá ficar conforme abaixo
    
+   ![image.png](/.attachments/image-ee6cb582-68dd-44d5-ae0f-8d5164ccf249.png)
