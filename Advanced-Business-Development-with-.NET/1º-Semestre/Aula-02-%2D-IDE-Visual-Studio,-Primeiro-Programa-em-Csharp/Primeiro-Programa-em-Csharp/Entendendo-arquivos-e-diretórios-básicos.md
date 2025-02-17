@@ -16,7 +16,7 @@ Para compreender os arquivos e diretórios, vamos passar pelos principais arquiv
 
 Este diretório é usado para armazenar referências a serviços conectados, como APIs externas, bancos de dados, serviços em nuvem, entre outros. Essas referências são frequentemente gerenciadas e configuradas usando o Visual Studio.
 
-![image.png](/.attachments/image-ab2bde6c-93aa-4505-b85c-440f831f4bde.png)
+![image.png](/.attachments/image-955fc851-f2c5-4ae1-b94e-4e28316c239b.png)
 
 # Dependencies
 
