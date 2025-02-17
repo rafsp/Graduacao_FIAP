@@ -57,7 +57,7 @@ Possui as configurações de iniciação e disponibilização da solução.
 }
 ```
 
-## Program.cs
+## program.cs
 
 - Linha **CreateBuilder**
   ```csharp
