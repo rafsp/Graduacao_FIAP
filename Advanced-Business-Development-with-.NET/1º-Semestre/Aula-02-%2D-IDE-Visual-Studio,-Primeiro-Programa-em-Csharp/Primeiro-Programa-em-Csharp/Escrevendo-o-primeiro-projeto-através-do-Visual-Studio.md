@@ -62,3 +62,5 @@ Possui as configurações de iniciação e disponibilização da solução.
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 ```
+      
+Serve para criar uma instância da classe WebApplicationBuilder, que é usada para configurar e construir uma aplicação web usando o ASP.NET Core. O parâmetro args é um array de strings que contém os argumentos da linha de comando passados para o programa [20]. O WebApplicationBuilder permite adicionar serviços, configurar o ambiente, definir pontos finais de roteamento e outras opções para a aplicação web.
