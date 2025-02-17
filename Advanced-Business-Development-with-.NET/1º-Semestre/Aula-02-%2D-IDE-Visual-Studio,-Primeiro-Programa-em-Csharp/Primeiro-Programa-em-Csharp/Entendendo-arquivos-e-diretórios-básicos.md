@@ -93,5 +93,5 @@ Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForeca
 | Configuração da aplicação | appsettings.json |
 | Arquivos de Configuração e Metadados | Properties |
 | Dependências | Dependencies |
-|  |  |
+| Serviços Conectados |  |
 
