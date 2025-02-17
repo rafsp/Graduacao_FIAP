@@ -59,3 +59,6 @@ Possui as configurações de iniciação e disponibilização da solução.
 
 ## Program.cs
 
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+```
