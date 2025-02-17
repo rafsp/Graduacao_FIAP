@@ -46,3 +46,5 @@ Existem algumas formas que podemos fazer para compilar no modo “Release”. En
 
 Depois em “Active solution configuration” selecionar “Release”.
 
+![image.png](/.attachments/image-b3249ef4-1920-4833-97e7-940916b7f406.png)
+
