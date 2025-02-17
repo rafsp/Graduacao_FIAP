@@ -32,3 +32,5 @@ O diretório Properties geralmente contém arquivos de configuração e metadado
 
 # Controllers
 
+      
+Este diretório geralmente contém os controladores da Web API. Os controladores são responsáveis por receber as solicitações HTTP, processá-las e retornar as respostas apropriadas. Eles são uma parte fundamental de uma Web API em C#.
