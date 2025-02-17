@@ -27,3 +27,5 @@ app.MapGet("/", () => "Olá Mundo FIAP!");
 
 app.Run();
 ```
+
+# Explicando o projeto
