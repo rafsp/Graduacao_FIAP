@@ -34,3 +34,4 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
 
 Agora que temos o nosso projeto em mãos, podemos verificar cada parte do código, como por ex os namespaces, classes e métodos.
 
+## 
