@@ -90,7 +90,7 @@ Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForeca
 | Configuração do Serviço | Startup.cs |
 | Controllers | Controladores |
 | Modelos | WeatherForecast.cs |
-|  |  |
+| Configuração da aplicação |  |
 |  |  |
 |  |  |
 |  |  |
