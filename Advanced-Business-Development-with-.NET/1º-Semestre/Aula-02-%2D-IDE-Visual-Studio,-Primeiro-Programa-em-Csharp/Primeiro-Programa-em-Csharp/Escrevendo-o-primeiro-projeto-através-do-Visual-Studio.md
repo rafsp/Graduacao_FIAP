@@ -70,3 +70,4 @@ var app = builder.Build();
 ```
 
 Serve para executar o Builder, retornando um objeto do tipo WebApplication.
+
