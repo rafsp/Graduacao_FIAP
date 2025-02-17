@@ -94,4 +94,5 @@ Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForeca
 | Arquivos de Configuração e Metadados | Properties |
 | Dependências | Dependencies |
 | Serviços Conectados | Connected Services |
+| Serviços Conectados | Connected Services |
 
