@@ -55,3 +55,6 @@ Este arquivo contém solicitações HTTP de teste ou exemplos de solicitações 
 ![image.png](/.attachments/image-a8e2fa9a-4f93-4b4f-a6bd-a8ca65469cbe.png)
       
 Este arquivo contém o ponto de entrada da aplicação. Nele, geralmente é configurada a inicialização da aplicação, bem como a configuração do serviço do host da Web e a inicialização de outros serviços.
+
+# Entendendo a estrutura da solução
+
