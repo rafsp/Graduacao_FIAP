@@ -54,3 +54,4 @@ Agora, quando for realizar o build do projeto/solução, a pasta “Release” t
 
 # Executando o projeto e entendendo a saída
 
+O próximo passo é publicar este conjunto de arquivos em um servidor local (localhost), para que o resultado possa ser visualizado em um navegador. Ao pressionar a tecla "F5", a publicação é realizada considerando o que está selecionado no ícone de "play".
