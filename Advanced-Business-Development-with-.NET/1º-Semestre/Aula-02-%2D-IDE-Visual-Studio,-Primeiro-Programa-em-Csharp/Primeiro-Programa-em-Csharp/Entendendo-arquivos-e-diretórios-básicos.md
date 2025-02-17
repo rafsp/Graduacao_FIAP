@@ -44,6 +44,7 @@ Este arquivo contém configurações de aplicativo, como cadeias de conexão de 
 
 # First-webapi.http
 
-
+![image.png](/.attachments/image-043157ae-7d1f-4d4f-bb21-e42d50878a5b.png)
       
 Este arquivo contém solicitações HTTP de teste ou exemplos de solicitações que podem ser feitas para a Web API. Ele pode ser usado para testar e depurar a API diretamente do ambiente de desenvolvimento.
+
