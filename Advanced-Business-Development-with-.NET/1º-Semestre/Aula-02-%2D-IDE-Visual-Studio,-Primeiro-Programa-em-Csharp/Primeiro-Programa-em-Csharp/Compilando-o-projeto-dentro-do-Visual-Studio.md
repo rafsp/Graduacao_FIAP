@@ -39,3 +39,6 @@ O modo Debug também define a variável de compilação DEBUG, que pode ser usad
 
 # Release
 
+      
+Para distribuir a versão final, no ambiente de produção, utilizamos o modo “Release”.
+Existem algumas formas que podemos fazer para compilar no modo “Release”. Entre elas está em escolher a opção padrão de “Build” através do menu “Build” e depois em “Configuration Manager”.
