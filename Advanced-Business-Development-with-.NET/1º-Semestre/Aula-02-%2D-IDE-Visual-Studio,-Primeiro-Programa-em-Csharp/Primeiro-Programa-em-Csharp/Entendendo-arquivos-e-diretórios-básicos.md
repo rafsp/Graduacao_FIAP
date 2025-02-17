@@ -10,6 +10,8 @@ git clone https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/first-webapi
 
 Para compreender os arquivos e diretórios, vamos passar pelos principais arquivos e diretórios.
 
+# Arquivos e diretórios básicos
+
 # Connect Services
 
 ![image.png](/.attachments/image-0bcc30df-34a7-432f-84c6-2ffa46a3c140.png)
