@@ -61,4 +61,3 @@ O próximo passo é publicar este conjunto de arquivos em um servidor local (loc
 Como resultado, o navegador vai abrir automaticamente, mostrando o Hello World.
 
 ![image.png](/.attachments/image-d6521f8b-4a98-4ac4-ba67-37ac1f49f31f.png)
-
