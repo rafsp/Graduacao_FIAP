@@ -50,3 +50,6 @@ Este arquivo contém solicitações HTTP de teste ou exemplos de solicitações 
 
 # Program.cs
 
+![image.png](/.attachments/image-a8e2fa9a-4f93-4b4f-a6bd-a8ca65469cbe.png)
+
+
