@@ -38,7 +38,7 @@ Este diretório geralmente contém os controladores da Web API. Os controladores
 
 # Appsettings.json
 
-
+![image.png](/.attachments/image-b3f5bc98-cffc-4a7f-85d5-686cd7e4626b.png)
 
 Este arquivo contém configurações de aplicativo, como cadeias de conexão de banco de dados, configurações de log, chaves de API, entre outras. Ele é usado para configurar o comportamento da aplicação e pode ser acessado durante a execução.
 
