@@ -87,7 +87,7 @@ Abaixo uma tabela simples para entender o funcionamento do projeto WeatherForeca
 | Estrutura | Arquivo/Diretório |
 |--|--|
 | Ponto de Entrada | Program.cs |
-|  |  |
+| Configuração do Serviço |  |
 |  |  |
 |  |  |
 |  |  |
