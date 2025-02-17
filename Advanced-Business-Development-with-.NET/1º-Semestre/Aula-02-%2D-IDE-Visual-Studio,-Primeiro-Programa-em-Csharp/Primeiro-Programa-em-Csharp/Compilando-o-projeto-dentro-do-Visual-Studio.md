@@ -33,3 +33,5 @@ O resultado do Build fica dentro da pasta “bin”.
 
 Outro ponto importante foi que a compilação foi gerada no modo “Debug”.
 
+      
+Quando compilamos o nosso projeto no modo “Debug”, o Visual Studio gera um arquivo executável ou uma biblioteca com informações de depuração simbólicas e sem otimização [21]. Essas informações permitem que o depurador seja usado para acompanhar e analisar a execução do seu código, encontrar e corrigir erros, inspecionar variáveis, definir pontos de interrupção e etc.
