@@ -9,3 +9,7 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
 3. Seguir os passos abaixo;
    ![image.png](/.attachments/image-96fb50d7-57bf-424f-b21e-fdadd272431e.png)
 
+   ![image.png](/.attachments/image-bd9a33f5-8b01-4839-ab51-45627b27b412.png)
+
+4. O projeto deverá ficar conforme abaixo
+   
