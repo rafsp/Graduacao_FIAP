@@ -73,6 +73,8 @@ Possui as configurações de iniciação e disponibilização da solução.
 
   Serve para executar o Builder, retornando um objeto do tipo WebApplication.
 
+- Linha MapGet
+
 ```csharp
 app.MapGet("/", () => "Olá Mundo FIAP!");
 ```
