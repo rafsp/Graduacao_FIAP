@@ -7,4 +7,5 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
    ![image.png](/.attachments/image-22af6e73-594a-4b0d-b2f8-ac68d0814d36.png)
    
 3. Seguir os passos abaixo;
-   
+   ![image.png](/.attachments/image-96fb50d7-57bf-424f-b21e-fdadd272431e.png)
+
