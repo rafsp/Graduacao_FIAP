@@ -58,7 +58,10 @@ Este arquivo contém o ponto de entrada da aplicação. Nele, geralmente é conf
 
 ## WeatherForecast.cs
 
+![image.png](/.attachments/image-b75b873a-09e3-45d1-b30d-eaa34ad5ab54.png)
 
+      
+Este arquivo é uma classe de modelo utilizada para representar os dados de previsão do tempo. É comum em muitas APIs de exemplo, como a Web API do ASP.NET Core, ter uma classe de modelo simples para demonstrar a funcionalidade básica da API.
 
 # Entendendo a estrutura da solução
       
