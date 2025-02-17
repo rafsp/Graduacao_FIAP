@@ -43,3 +43,6 @@ Para distribuir a versão final, no ambiente de produção, utilizamos o modo �
 Existem algumas formas que podemos fazer para compilar no modo “Release”. Entre elas está em escolher a opção padrão de “Build” através do menu “Build” e depois em “Configuration Manager”.
 
 ![image.png](/.attachments/image-459f86e2-e85c-4cdc-a3d8-7a320d90d9f1.png)
+
+Depois em “Active solution configuration” selecionar “Release”.
+
