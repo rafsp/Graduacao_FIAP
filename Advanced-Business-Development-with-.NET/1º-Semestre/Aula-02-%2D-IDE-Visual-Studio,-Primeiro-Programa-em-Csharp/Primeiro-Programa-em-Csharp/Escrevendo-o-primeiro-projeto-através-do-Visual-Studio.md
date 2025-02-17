@@ -21,14 +21,14 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
 
 5. Agora, em Program.cs, escreva, além de "Hello World", "Olá Mundo FIAP":
 
-```csharp
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+   ```csharp
+   var builder = WebApplication.CreateBuilder(args);
+   var app = builder.Build();
 
-app.MapGet("/", () => "Olá Mundo FIAP!");
+   app.MapGet("/", () => "Olá Mundo FIAP!");
 
-app.Run();
-```
+   app.Run();
+   ```
 
 # Explicando o projeto
 
