@@ -31,5 +31,6 @@ O resultado do Build fica dentro da pasta “bin”.
 
 # Debug
 
-
+      
+Outro ponto importante foi que a compilação foi gerada no modo “Debug”.
 
