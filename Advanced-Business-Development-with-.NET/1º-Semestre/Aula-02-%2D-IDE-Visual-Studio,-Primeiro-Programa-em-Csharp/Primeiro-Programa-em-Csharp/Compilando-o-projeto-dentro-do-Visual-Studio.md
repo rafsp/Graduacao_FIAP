@@ -12,9 +12,9 @@ Para Buildar, pode-se considerar clicar com o botão direito no projeto do Visua
 
 ![image.png](/.attachments/image-e1b1f875-6229-40f6-bfe8-96b8f8f42e67.png)
 
-Você também pode realizar esse procedimento para a solução inteira, ou seja, realizar o “build” em todos os projetos que configuram aquela solução.
-
 ## Através da solução
+
+Você também pode realizar esse procedimento para a solução inteira, ou seja, realizar o “build” em todos os projetos que configuram aquela solução.
 
 ![image.png](/.attachments/image-8568b520-2ab5-45d2-8d4a-9f83d9e625eb.png)
 
