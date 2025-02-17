@@ -74,3 +74,4 @@ Serve para executar o Builder, retornando um objeto do tipo WebApplication.
 ```csharp
 app.MapGet("/", () => "Olá Mundo FIAP!");
 ```
+
