@@ -1,6 +1,5 @@
 [[_TOC_]]
 
-
 Durante a compilação do "Hello World" no Visual Studio podem ocorrer alguns problemas comuns. Aqui estão eles e possíveis soluções:
       
 - **Erro de sintaxe ou de digitação:** Certifique-se de que o código digitado esteja correto e não contenha erros de sintaxe. Verifique se todas as aspas, ponto e vírgulas e parênteses estão corretos;
