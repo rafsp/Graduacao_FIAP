@@ -75,5 +75,4 @@ Serve para executar o Builder, retornando um objeto do tipo WebApplication.
 app.MapGet("/", () => "Olá Mundo FIAP!");
 ```
 
-      
 Cria o retorno de acordo com o path que é estabelecido (nesse caso “/”).
