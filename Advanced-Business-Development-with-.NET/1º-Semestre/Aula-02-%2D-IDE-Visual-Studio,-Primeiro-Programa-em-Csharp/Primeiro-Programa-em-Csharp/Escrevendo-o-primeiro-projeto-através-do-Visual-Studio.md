@@ -5,7 +5,6 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
 1. Primeiro, será necessário criar um novo projeto entrando em “File > New > Project”;
 
 ![image.png](/.attachments/image-eb0a6df8-a62c-4c39-bd75-40ad980284ea.png)
-
       
 2. Depois, selecionar “ASP.NET Core Empty”, conforme ilustração;
 
