@@ -49,3 +49,5 @@ Depois em “Active solution configuration” selecionar “Release”.
 ![image.png](/.attachments/image-b3249ef4-1920-4833-97e7-940916b7f406.png)
       
 Agora, quando for realizar o build do projeto/solução, a pasta “Release” terá os arquivos compilados.
+
+![image.png](/.attachments/image-8aebdc00-011c-42ec-8708-e793d0076192.png)
