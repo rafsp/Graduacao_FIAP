@@ -68,3 +68,5 @@ Serve para criar uma instância da classe WebApplicationBuilder, que é usada pa
 ```csharp
 var app = builder.Build();
 ```
+
+Serve para executar o Builder, retornando um objeto do tipo WebApplication.
