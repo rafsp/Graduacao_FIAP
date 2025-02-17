@@ -6,3 +6,5 @@ Agora que tivemos um entendimento base sobre como que funciona uma aplicação d
       
 2. Depois, selecionar “ASP.NET Core Empty”, conforme ilustração;
 
+![image.png](/.attachments/image-8390b3e7-0005-40af-8ae8-26bd1be2fc8f.png)
+
