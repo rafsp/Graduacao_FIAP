@@ -25,3 +25,8 @@ Abaixo uma animação, mostrando como clonar o repositório utilizando o Visual 
 Abaixo uma animação, mostrando como clonar o repositório utilizando o Visual Studio Code
 
 ![animacao.gif](/.attachments/animacao-83fcdff1-36ab-4957-a3bc-7260da10d7f9.gif)
+
+# Clonar o projeto através do Git Bash
+
+Abaixo uma animação, mostrando como clonar o repositório utilizando o Git Bash
+
