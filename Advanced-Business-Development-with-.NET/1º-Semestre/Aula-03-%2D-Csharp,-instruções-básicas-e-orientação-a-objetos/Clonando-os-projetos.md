@@ -14,6 +14,8 @@ O principal objetivo é permitir um ambiente interativo e que retorne os dados l
 
 Para uma compreensão prática, foram desenvolvidos 7 projetos, cada um abordando um tópico específico, mas todos eles implementando a mesma solução e incorporando os conceitos discutidos no respectivo tópico. Para esse tópico, considerar o link do repositório abaixo:
 
+
+
 ## Clonar o projeto através do Visual Studio Community
 
 ![animacao.gif](/.attachments/animacao-188b08e2-cf6d-4a1f-86f1-4ce6f62481d2.gif)
