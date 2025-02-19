@@ -16,7 +16,12 @@ Para uma compreensão prática, foram desenvolvidos 7 projetos, cada um abordand
 
 ## Clonar o projeto através do Visual Studio Community
 
+Abaixo uma animação, mostrando como clonar o repositório utilizando o Visual Studio Community
+
 ![animacao.gif](/.attachments/animacao-188b08e2-cf6d-4a1f-86f1-4ce6f62481d2.gif)
 
 ## Clonar o projeto através do Visual Studio Code
 
+Abaixo uma animação, mostrando como clonar o repositório utilizando o Visual Studio Code
+
+![animacao.gif](/.attachments/animacao-83fcdff1-36ab-4957-a3bc-7260da10d7f9.gif)
