@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-# Introdução
+# Sobre o projeto
 
 Nessa aula vamos atuar, basicamente, com a prática no desenvolvimento de um console.
 
