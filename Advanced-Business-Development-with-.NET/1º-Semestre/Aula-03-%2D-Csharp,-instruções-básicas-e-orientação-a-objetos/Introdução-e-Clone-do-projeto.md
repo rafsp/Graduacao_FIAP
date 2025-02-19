@@ -36,3 +36,5 @@ Abaixo uma animação, mostrando como clonar o repositório utilizando o Visual 
 
 Abaixo uma animação, mostrando como clonar o repositório utilizando o Git Bash
 
+![animacao.gif](/.attachments/animacao-b399d803-5cd0-46a6-970e-6c59a3aff6c8.gif)
+
