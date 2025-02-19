@@ -8,3 +8,4 @@ O principal objetivo é permitir um ambiente interativo e que retorne os dados l
 
 ![image.png](/.attachments/image-021bc87a-2e62-4609-b5b4-d42f2144f0b1.png)
 
+Para uma compreensão prática, foram desenvolvidos 7 projetos, cada um abordando um tópico específico, mas todos eles implementando a mesma solução e incorporando os conceitos discutidos no respectivo tópico. Para esse tópico, considerar o link do repositório abaixo:
