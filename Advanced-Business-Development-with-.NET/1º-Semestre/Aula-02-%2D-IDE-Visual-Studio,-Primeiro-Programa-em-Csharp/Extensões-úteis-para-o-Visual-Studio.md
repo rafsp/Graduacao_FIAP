@@ -42,3 +42,9 @@ Para instalar o Code Maid, realizar o mesmo procedimento que foi feito para o So
 
 # Repositório para testarmos
   https://github.com/renatogroffe/DotNet9-2024-06
+
+## Instalando outras extensões para o Visual Studio Code
+- Embora o Visual Studio Code não tenha a extensão do CodeMaid, o mesmo possibilita a instalação de outras extensões (como por exemplo o C# dev kit
+  ![image.png](/.attachments/image-d83eeff7-a37d-43bb-a928-0e508ef3f335.png)
+- Exemplo de funcionamento
+  
