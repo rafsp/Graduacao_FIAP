@@ -5,8 +5,7 @@ Como vamos atuar com o Visual Studio nas próximas aulas, sugiro instalarmos alg
 # SonarQube for IDE (SonarLint)
 O SonarQube for IDE é uma extensão gratuita e de código aberto para o Visual Studio que identifica e ajuda a corrigir problemas de qualidade e segurança do código enquanto você programa. Ele funciona como um corretor ortográfico, destacando os defeitos no código com linhas onduladas, fornecendo correções rápidas e dando orientações educativas e contextuais para ajudá-lo a melhorar suas habilidades enquanto resolve o problema. O SonarLint usa mais de 5.000 regras específicas para cada linguagem para detectar erros comuns de codificação, bugs e vulnerabilidades. Ele também suporta vários frameworks e tecnologias web, como ASP .NET, Angular, React, Vue.js, Node.js, AWS, Docker, Kubernetes, etc [[5]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
 
-## Visual Studio Community
-Para isso, vamos seguis os passos abaixo:
+## Instalando a extensão no Visual Studio Community
 
 - Abrir o “Visual Studio 2022” (que foi instalado recentemente) e depois clicar em “Continue without code”
   ![image.png](/.attachments/image-838f555b-20ea-433a-b2c9-453c1d33c294.png)
@@ -22,6 +21,10 @@ Para isso, vamos seguis os passos abaixo:
 
 - Exemplo de funcionamento do SonarQube no Visual Studio Community
   ![image.png](/.attachments/image-43956eda-4860-4904-8310-80e78b0d21ab.png)
+
+## Instalando a extensão no Visual Studio Code
+
+
 
 # Code Maid
 O Code Maid é uma extensão gratuita e de código aberto para o Visual Studio que ajuda a limpar e simplificar o código em várias linguagens, como C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript e TypeScript. Ele oferece recursos como limpeza de código, reorganização de membros, formatação de comentários, junção de linhas, ordenação alfabética, etc [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
