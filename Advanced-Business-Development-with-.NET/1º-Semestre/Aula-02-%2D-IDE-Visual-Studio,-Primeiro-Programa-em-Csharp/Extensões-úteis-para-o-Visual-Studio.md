@@ -24,7 +24,8 @@ O SonarQube for IDE é uma extensão gratuita e de código aberto para o Visual 
 
 ## Instalando a extensão no Visual Studio Code
 
-
+- Abrir o Visual Studio Code e depois clicar em "Extensions"
+![image.png](/.attachments/image-100a183b-aa03-45ba-8aa7-5a14990a4b51.png)
 
 # Code Maid
 O Code Maid é uma extensão gratuita e de código aberto para o Visual Studio que ajuda a limpar e simplificar o código em várias linguagens, como C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript e TypeScript. Ele oferece recursos como limpeza de código, reorganização de membros, formatação de comentários, junção de linhas, ordenação alfabética, etc [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-02-%2D-IDE-Visual-Studio,-Primeiro-Programa-em-Csharp/Referências).
