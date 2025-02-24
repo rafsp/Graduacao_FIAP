@@ -12,29 +12,4 @@ O principal objetivo é permitir um ambiente interativo e que retorne os dados l
 
 ![image.png](/.attachments/image-021bc87a-2e62-4609-b5b4-d42f2144f0b1.png)
 
-Para uma compreensão prática, foram desenvolvidos 7 projetos, cada um abordando um tópico específico, mas todos eles implementando a mesma solução e incorporando os conceitos discutidos no respectivo tópico. Para esse tópico, considerar o link do repositório abaixo:
-
-# Link para o Clone
-
-```
-https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/csharp-sintax
-```
-
-# Clonar o projeto através do Visual Studio Community
-
-Abaixo uma animação, mostrando como clonar o repositório utilizando o Visual Studio Community
-
-![animacao.gif](/.attachments/animacao-188b08e2-cf6d-4a1f-86f1-4ce6f62481d2.gif)
-
-# Clonar o projeto através do Visual Studio Code
-
-Abaixo uma animação, mostrando como clonar o repositório utilizando o Visual Studio Code
-
-![animacao.gif](/.attachments/animacao-83fcdff1-36ab-4957-a3bc-7260da10d7f9.gif)
-
-# Clonar o projeto através do Git Bash
-
-Abaixo uma animação, mostrando como clonar o repositório utilizando o Git Bash
-
-![animacao.gif](/.attachments/animacao-b399d803-5cd0-46a6-970e-6c59a3aff6c8.gif)
-
+Para uma compreensão prática, foram desenvolvidos 7 projetos, cada um abordando um tópico específico, mas todos eles implementando a mesma solução e incorporando os conceitos discutidos no respectivo tópico.
