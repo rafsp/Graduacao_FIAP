@@ -137,3 +137,11 @@ public class Widget : IWidget
     }
 }
 ```
+
+# Considerações
+    
+- Apenas um modificador de acesso é permitido para um membro ou tipo, com exceção para **protected internal** e **private protected** [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
+
+- Dependendo do contexto no qual ocorre uma declaração de membro, apenas algumas acessibilidades declaradas são permitidas [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Se não for especificado nenhum modificador de acesso em uma declaração de membro, uma acessibilidade padrão será usada [2].
+
+·         Da mesma forma, tipos aninhados, que são membros de outros tipos, podem ter acessibilidades declaradas, conforme a tabela à seguir:
