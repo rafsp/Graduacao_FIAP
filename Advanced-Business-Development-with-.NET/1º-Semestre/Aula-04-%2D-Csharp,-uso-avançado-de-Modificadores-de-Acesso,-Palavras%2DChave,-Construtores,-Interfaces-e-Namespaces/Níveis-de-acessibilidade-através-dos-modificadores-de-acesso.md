@@ -84,3 +84,27 @@ public class Exemplo
 
 O acesso é limitado à classe que o contém **ou** a tipos derivados da classe que o contém no assembly atual [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Isso significa que o membro é acessível dentro da classe em que foi definido e em classes derivadas (subclasses), porém apenas dentro do mesmo **assembly**:
 
+```csharp      
+public class ClasseBase
+{
+    private protected int ValorPrivadoProtegido;
+}
+
+public class SubClasseNoMesmoAssembly : ClasseBase
+{
+    public void Exemplo()
+    {
+        // Acesso permitido, pois SubClasse é uma subclasse de ClasseBase e estão no mesmo assembly.
+        ValorPrivadoProtegido = 10;
+    }
+}
+
+public class SubClasseEmAssemblyDiferente : ClasseBase
+{
+    public void Exemplo()
+    {
+        // Acesso não permitido, pois OutraSubClasse é uma subclasse de ClasseBase, mas estão em assemblies diferentes.
+        ValorPrivadoProtegido = 10;
+    }
+}
+```
