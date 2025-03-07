@@ -40,9 +40,3 @@ public class Derivada : Base
 }
 ```
 
-
-
-·         **public**
-  
-Com public, o acesso não é restrito [1]. Isso significa que ele é visível em qualquer lugar, dentro ou fora da classe que o contém:
-
