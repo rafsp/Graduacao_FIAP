@@ -111,3 +111,4 @@ public class SubClasseEmAssemblyDiferente : ClasseBase
     }
 }
 ```
+
