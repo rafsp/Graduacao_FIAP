@@ -113,6 +113,9 @@ public class SubClasseEmAssemblyDiferente : ClasseBase
 ```
 
 # file
+      
+O tipo declarado apenas é visível no arquivo de origem atual [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Geralmente, é usado para geradores de código-fonte:
+
 ```csharp      
 // In Arquivo.cs:
 file interface IWidget
