@@ -65,3 +65,22 @@ public class Base
     }
 }
 ```
+
+# private
+
+O acesso é limitado ao tipo recipiente [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Isso significa que o membro é visível apenas dentro da própria classe:
+
+```csharp      
+public class Exemplo
+{
+    private int MeuMetodoPrivado()
+    {
+        // Código aqui
+    }
+}
+```
+
+# private protected
+
+O acesso é limitado à classe que o contém **ou** a tipos derivados da classe que o contém no assembly atual [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Isso significa que o membro é acessível dentro da classe em que foi definido e em classes derivadas (subclasses), porém apenas dentro do mesmo **assembly**:
+
