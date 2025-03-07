@@ -40,3 +40,4 @@ public class Derivada : Base
 }
 ```
 
+# internal
