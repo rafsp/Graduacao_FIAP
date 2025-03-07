@@ -54,12 +54,14 @@ internal class Interna
 
 # protected internal
 
-      
-O acesso é limitado ao assembly atual [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Isso significa que o membro é visível apenas dentro do mesmo assembly (DLL ou executável):
+O acesso é limitado ao assembly atual **ou** aos tipos derivados da classe que os contém [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Isso significa que o modificador protected internal combina as características do protected e do internal. Ele permite acesso dentro do assembly atual e também por classes derivadas:
 
-```csharp     
-internal class Interna
+```csharp
+public class Base
 {
-    // Código aqui
+    protected internal int MeuMetodoProtegidoInterno()
+    {
+        // Código aqui
+    }
 }
 ```
