@@ -22,7 +22,7 @@ public class Exemplo
 
 O acesso é limitado à classe que os contém ou aos tipos derivados da classe que os contém [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Isso significa que ele é visível apenas dentro da hierarquia de herança:
 
-```csharp      
+```csharp
 public class Base
 {
     protected int MeuMetodoProtegido()
@@ -41,3 +41,13 @@ public class Derivada : Base
 ```
 
 # internal
+
+      
+O acesso é limitado ao assembly atual [[1]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Isso significa que o membro é visível apenas dentro do mesmo assembly (DLL ou executável):
+
+```csharp     
+internal class Interna
+{
+    // Código aqui
+}
+```
