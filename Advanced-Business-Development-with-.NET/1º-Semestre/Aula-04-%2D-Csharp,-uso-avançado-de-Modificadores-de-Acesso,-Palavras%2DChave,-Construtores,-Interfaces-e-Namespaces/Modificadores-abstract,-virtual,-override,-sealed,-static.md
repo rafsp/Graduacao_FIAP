@@ -68,4 +68,11 @@ Caso o método makeSound() não seja implementado pela classe Dog, então teremo
 
 ## Métodos Virtuais
 
-O modificador **virtual** é usado para modificar implementações em C# [4]. Ele permite que os membros sejam substituídos em classes derivadas. À seguir um exemplo de método com o modificador **virtual**:
+O modificador **virtual** é usado para modificar implementações em C# [[4]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Ele permite que os membros sejam substituídos em classes derivadas. À seguir um exemplo de método com o modificador **virtual**:
+
+```csharp
+public virtual double Area()
+{
+    return x * y;
+}
+```
