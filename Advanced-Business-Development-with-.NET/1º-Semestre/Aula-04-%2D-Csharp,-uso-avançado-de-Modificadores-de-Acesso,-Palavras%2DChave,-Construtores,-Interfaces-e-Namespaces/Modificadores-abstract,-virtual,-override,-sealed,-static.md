@@ -122,3 +122,11 @@ class MyDerivedClass : MyBaseClass
     }
 }
 ```
+
+Perceba que no exemplo acima, a propriedade virtual foi declarada mesmo dentro de uma classe que não é abstrata. Isso é possível.
+
+A diferença é que, quando um método ou propriedade é declarado como **virtual** em uma classe **abstrata**, estamos dando ênfase a sua **implementação**. O conceito de classe abstrata enfatiza contratos e obrigações, enquanto outros tipos de classes oferecem flexibilidade sem obrigações rígidas.
+
+Isso transparece de uma forma para que todas as classes derivadas tenham uma versão do método ou propriedade, mesmo que essa versão seja diferente para cada classe.
+
+## Override
