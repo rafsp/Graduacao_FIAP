@@ -220,3 +220,5 @@ class Jogador
     }
 }
 ```
+
+O motivo disso é que com a **struct** podemos evitar uma sobrecarga de memória ao passar dados diretamente na stack. Porém, devido a sua limitação, é aconselhável usar **class** para compartilhar e manipular os dados de forma mais complexa (já compreendendo que ela vai armazenar uma referências para os dados em memória).
