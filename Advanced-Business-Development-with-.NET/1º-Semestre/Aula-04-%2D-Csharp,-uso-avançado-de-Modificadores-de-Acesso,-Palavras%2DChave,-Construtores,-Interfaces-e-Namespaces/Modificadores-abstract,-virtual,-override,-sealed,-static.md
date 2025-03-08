@@ -29,3 +29,8 @@ static void Main()
 }
 // Saída: Área do quadrado = 144
 ```
+
+Note que a classe **Square** herda da classe abstrata **Shape** e implementa o método abstrato **GetArea()**.
+
+## Métodos Abstratos
+
