@@ -215,3 +215,9 @@ static class EmpresaFuncionario
     }
 }
 ```
+
+No exemplo acima, a classe EmpresaFuncionario contém apenas métodos estáticos e não pode ser instanciada.
+Se a palavra-chave **static** for aplicada a uma classe, todos os membros da classe deverão ser estáticos.
+Além de classes é possível usar o static em métodos,  propriedades e construtores.
+Um membro estático não pode ser referenciado através de uma instância. Em vez disso, ele é referenciado pelo nome do tipo. Por exemplo:
+
