@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Ref
   
 A palavra-chave **ref** é usada para passar ou retornar referências de valores ou de métodos. Basicamente, isso significa que qualquer alteração feita em um valor que é passado por referência será refletida, pois está sendo modificado o valor no endereço de memória e não apenas o valor em si [8].
