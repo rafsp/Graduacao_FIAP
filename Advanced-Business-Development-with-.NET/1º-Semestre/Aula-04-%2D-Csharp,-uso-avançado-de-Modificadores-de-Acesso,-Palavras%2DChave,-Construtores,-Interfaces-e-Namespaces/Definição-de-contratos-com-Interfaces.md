@@ -1,3 +1,7 @@
+
+
+# Introdução
+
 As interfaces em C# são uma parte importante da linguagem e permitem definir contratos que as classes devem seguir [11]. Vamos explorar os conceitos relacionados a interfaces:
 
 # O que é uma Interface?
