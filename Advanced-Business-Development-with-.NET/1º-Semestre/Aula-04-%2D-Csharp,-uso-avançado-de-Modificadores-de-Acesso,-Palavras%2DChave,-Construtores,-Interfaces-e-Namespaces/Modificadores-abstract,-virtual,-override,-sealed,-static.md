@@ -36,3 +36,26 @@ Note que a classe **Square** herda da classe abstrata **Shape** e implementa o m
 
 Um método abstrato não possui uma implementação real (corpo). Ele é declarado apenas na classe abstrata e deve ser implementado pelas classes derivadas.
 Exemplo de uma classe abstrata **Animal** com um método abstrato **makeSound()**.
+
+```csharp
+abstract class Animal
+{
+    public abstract void makeSound();
+}
+
+class Dog : Animal
+{
+    public override void makeSound()
+    {
+        Console.WriteLine("Au Au");
+    }
+}
+
+static void Main()
+{
+    var dog = new Dog();
+    dog.makeSound();
+}
+// Saída: Au Au
+```
+
