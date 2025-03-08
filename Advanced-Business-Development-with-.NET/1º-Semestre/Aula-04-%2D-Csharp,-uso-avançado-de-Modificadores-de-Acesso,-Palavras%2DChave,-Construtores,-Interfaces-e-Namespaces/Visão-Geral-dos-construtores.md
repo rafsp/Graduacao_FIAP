@@ -1,7 +1,7 @@
 [[_TOC_]]
 
 # O que são construtores?
-Um construtor em C# é chamado quando uma classe (class) ou estrutura (struct) é criada [10].
+Um construtor em C# é chamado quando uma classe (class) ou estrutura (struct) é criada [[10]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
 Utilizamos construtores para:
 - Definir valores padrão;
 - Limitar a instanciação;
