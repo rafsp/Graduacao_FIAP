@@ -7,3 +7,18 @@ O modificador abstract em C# indica que o item que está sendo modificado tem um
 Uma classe abstrata não pode ser instanciada diretamente. Ela serve como uma classe **base** para outras classes.
 Exemplo de uma classe abstrata chamada **Shape** com um método abstrato **GetArea()**:
 
+```csharp
+abstract class Shape
+{
+    public abstract int GetArea();
+}
+
+class Square : Shape
+{
+    private int _side;
+
+    public Square(int n) => _side = n;
+
+    public override int GetArea() => _side * _side;
+}
+```
