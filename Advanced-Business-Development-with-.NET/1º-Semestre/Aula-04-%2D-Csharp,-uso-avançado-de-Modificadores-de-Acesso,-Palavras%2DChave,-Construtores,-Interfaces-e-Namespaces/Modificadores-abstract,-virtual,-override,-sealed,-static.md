@@ -79,7 +79,46 @@ public virtual double Area()
 
 ## Propriedades Virtuais
 
-
 Propriedades virtuais funcionam de maneira semelhante a métodos virtuais, mas são usadas para acessar campos de dados.
 Exemplo de uma propriedade virtual chamada **Name**:
 
+```csharp      
+class MyBaseClass
+{
+    // Propriedade virtual com implementação automática.
+    public virtual string Name { get; set; }
+
+    // Propriedade virtual com campo de suporte.
+    private int _num;
+    public virtual int Number
+    {
+        get { return _num; }
+        set { _num = value; }
+    }
+}
+
+class MyDerivedClass : MyBaseClass
+{
+    private string _name;
+
+    // Substituição da propriedade para fornecer comportamento especializado.
+    public override string Name
+    {
+        get
+        {
+            return _name;
+        }
+        set
+        {
+            if (!string.IsNullOrEmpty(value))
+            {
+                _name = value;
+            }
+            else
+            {
+                _name = "Unknown";
+            }
+        }
+    }
+}
+```
