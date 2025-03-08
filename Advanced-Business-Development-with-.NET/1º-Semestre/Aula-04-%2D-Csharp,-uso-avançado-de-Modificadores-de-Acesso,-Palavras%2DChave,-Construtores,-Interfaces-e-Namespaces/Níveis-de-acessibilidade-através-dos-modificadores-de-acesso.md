@@ -193,7 +193,7 @@ public enum DiasDaSemana
     ...
 }
 ```
-Ainda considerando o exemplo acima. Segue um exemplo sobre o que **é possível** de ser feito:
+Considerando o exemplo acima, segue um exemplo sobre o que **é possível** de ser feito:
 ```csharp
 internal enum DiasDaSemana
 {
