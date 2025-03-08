@@ -1,1 +1,1 @@
-Neste exemplo prático
+Neste exemplo prático, vamos criar 2 projetos do tipo library, sendo um utilizando struct e outro utilizando class.
