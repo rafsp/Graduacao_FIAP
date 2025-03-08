@@ -4,7 +4,6 @@
 
 Tipos aninhados, que são membros de outros tipos, podem ter acessibilidades declaradas, conforme a tabela à seguir [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências):
 
-
 | Membro pai | Padrão de acessibilidade para o membro filho | Acessibilidade permitida para o membro filho |
 |--|--|--|
 | enum | public | Nenhum |
@@ -179,3 +178,25 @@ class Program
     }
 }
 ```
+
+# Struct
+
+Sobre **struct**, em resumo, é utilizado para dados pequenos e simples, já **class** é para dados mais complexos.
+
+Use **struct** quando existe um tipo de dados pequeno e simples, como coordenadas, cores, ou qualquer coisa que possa ser representada com poucos campos de dados. Exemplo:
+
+```csharp
+struct Ponto2D
+{
+    public int X { get; set; }
+    public int Y { get; set; }
+
+    public Ponto2D(int x, int y)
+    {
+        X = x;
+        Y = y;
+    }
+}
+```
+      
+Use **class** quando é necessário de um tipo de dados mais complexo, com métodos, herança ou comportamento personalizado.
