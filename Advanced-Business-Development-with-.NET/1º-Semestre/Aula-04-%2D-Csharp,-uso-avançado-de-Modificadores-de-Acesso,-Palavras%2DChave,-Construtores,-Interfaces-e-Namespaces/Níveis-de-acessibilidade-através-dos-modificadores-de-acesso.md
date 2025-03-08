@@ -177,7 +177,7 @@ Membros do tipo **enum** tem uma acessibilidade padrão de **public**. Isso sign
 
 Da mesma forma, não é possível definir explicitamente a acessibilidade de "membros filhos" de um **enum**.
 
-Isso não significa que o nível de acessibilidade não pode ser alterado. Por exemplo:
+Isso não significa que o nível de acessibilidade do próprio **enum** não pode ser alterado. Por exemplo:
 
 
 ```csharp
