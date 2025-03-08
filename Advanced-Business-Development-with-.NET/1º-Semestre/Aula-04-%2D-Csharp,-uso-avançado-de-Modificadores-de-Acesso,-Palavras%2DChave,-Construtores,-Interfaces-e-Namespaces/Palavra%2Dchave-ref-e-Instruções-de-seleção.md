@@ -9,7 +9,7 @@ Dessa forma, temos 2 possibilidades:
   ```csharp
   void AlterarValor(ref int numero)
   {
-      numero += 10;
+    numero += 10;
   }
 
   int valor = 5;
