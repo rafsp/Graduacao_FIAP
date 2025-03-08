@@ -166,3 +166,5 @@ Neste exemplo:
 Além disso, aqui estão algumas informações importantes sobre o uso do override:
 - O método base substituído deve ser **virtual**, **abstract** ou **override**;
 - Uma declaração override **não** pode alterar a acessibilidade do método **virtual**.
+
+## Sealed
