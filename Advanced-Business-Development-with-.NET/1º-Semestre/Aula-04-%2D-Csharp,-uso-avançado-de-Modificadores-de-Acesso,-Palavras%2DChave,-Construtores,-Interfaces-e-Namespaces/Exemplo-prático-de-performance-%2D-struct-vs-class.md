@@ -4,4 +4,5 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 
 ## Entrar no GitHub
 
-Para acessar o GitHub, entre no link https://github.com
+- Para acessar o GitHub, entre no link https://github.com
+- Se você não tem uma conta, você pode criar uma através do link https://github.com/signup
