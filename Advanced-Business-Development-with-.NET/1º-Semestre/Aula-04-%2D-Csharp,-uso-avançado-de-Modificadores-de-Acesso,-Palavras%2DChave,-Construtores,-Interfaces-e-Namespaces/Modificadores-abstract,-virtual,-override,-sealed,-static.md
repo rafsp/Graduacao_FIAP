@@ -238,3 +238,6 @@ public class ChamarMinhaBase
     }
 }
 ```
+
+Outro ponto interessante é que é possível ter um construtor como static:
+
