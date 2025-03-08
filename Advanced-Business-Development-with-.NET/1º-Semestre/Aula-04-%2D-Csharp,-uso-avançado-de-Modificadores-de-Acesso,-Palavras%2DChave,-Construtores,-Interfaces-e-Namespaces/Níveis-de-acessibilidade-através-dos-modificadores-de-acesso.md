@@ -142,6 +142,17 @@ public class Widget : IWidget
     
 - Apenas um modificador de acesso é permitido para um membro ou tipo, com exceção para **protected internal** e **private protected** [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
 
-- Dependendo do contexto no qual ocorre uma declaração de membro, apenas algumas acessibilidades declaradas são permitidas [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Se não for especificado nenhum modificador de acesso em uma declaração de membro, uma acessibilidade padrão será usada [2].
+- Dependendo do contexto no qual ocorre uma declaração de membro, apenas algumas acessibilidades declaradas são permitidas [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Se não for especificado nenhum modificador de acesso em uma declaração de membro, uma acessibilidade padrão será usada [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
 
-·         Da mesma forma, tipos aninhados, que são membros de outros tipos, podem ter acessibilidades declaradas, conforme a tabela à seguir:
+- Da mesma forma, tipos aninhados, que são membros de outros tipos, podem ter acessibilidades declaradas, conforme a tabela à seguir [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências):
+
+
+| Membro pai | Padrão de acessibilidade para o membro filho | Acessibilidade permitida para o membro filho |
+|--|--|--|
+| enum | public | Nenhum |
+| class | private | public, protected, internal, private, protected internal, private protected |
+| interface | public | public, protected, internal, private, protected internal, private protected |
+| struct | private | public, internal, private |
+
+
+
