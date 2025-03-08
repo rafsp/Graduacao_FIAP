@@ -21,4 +21,11 @@ class Square : Shape
 
     public override int GetArea() => _side * _side;
 }
+
+static void Main()
+{
+    var sq = new Square(12);
+    Console.WriteLine($"Área do quadrado = {sq.GetArea()}");
+}
+// Saída: Área do quadrado = 144
 ```
