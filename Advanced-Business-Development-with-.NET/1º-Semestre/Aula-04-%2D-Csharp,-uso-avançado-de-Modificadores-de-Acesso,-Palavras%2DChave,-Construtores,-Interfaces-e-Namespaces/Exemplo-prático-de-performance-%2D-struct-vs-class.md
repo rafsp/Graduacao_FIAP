@@ -18,4 +18,5 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 
 ## Clonar o Repositório
 
-- Nas aulas anteriores já vimos várias formas de poder clonar um repositório
+- Nas aulas anteriores já vimos várias formas de poder clonar um repositório, porém vamos recapitular, utilizando o git bash
+  
