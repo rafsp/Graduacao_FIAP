@@ -18,4 +18,4 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 
 ## Clonar o Repositório
 
-- 
+- Nas aulas anteriores já vimos várias formas de poder clonar um repositório
