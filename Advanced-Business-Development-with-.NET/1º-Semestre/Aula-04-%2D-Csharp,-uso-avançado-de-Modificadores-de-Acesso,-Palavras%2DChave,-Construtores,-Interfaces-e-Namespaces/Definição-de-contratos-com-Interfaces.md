@@ -2,7 +2,7 @@
 
 # Introdução
 
-As interfaces em C# são uma parte importante da linguagem e permitem definir contratos que as classes devem seguir [11]. Vamos explorar os conceitos relacionados a interfaces:
+As interfaces em C# são uma parte importante da linguagem e permitem definir contratos que as classes devem seguir [[11]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Vamos explorar os conceitos relacionados a interfaces:
 
 # O que é uma Interface?
 - Uma interface define um contrato;
