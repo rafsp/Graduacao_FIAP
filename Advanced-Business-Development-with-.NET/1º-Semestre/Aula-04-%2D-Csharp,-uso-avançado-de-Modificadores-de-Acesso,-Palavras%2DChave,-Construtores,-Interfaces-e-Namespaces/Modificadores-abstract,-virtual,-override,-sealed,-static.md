@@ -130,3 +130,30 @@ A diferença é que, quando um método ou propriedade é declarado como **virtua
 Isso transparece de uma forma para que todas as classes derivadas tenham uma versão do método ou propriedade, mesmo que essa versão seja diferente para cada classe.
 
 ## Override
+
+      
+O modificador **override** fornece uma **nova implementação** de um membro herdado de uma classe base [[5]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Ele permite que os membros sejam substituídos em classes derivadas. À seguir um exemplo de método com o modificador **override**:
+
+```csharp
+abstract class Shape
+{
+    public abstract int GetArea();
+}
+
+class Square : Shape
+{
+    private int _side;
+
+    public Square(int n) => _side = n;
+
+    // O método GetArea é necessário para evitar um erro de compilação.
+    public override int GetArea() => _side * _side;
+
+    static void Main()
+    {
+        var sq = new Square(12);
+        Console.WriteLine($"Área do quadrado = {sq.GetArea()}");
+    }
+}
+// Saída: Área do quadrado = 144
+```
