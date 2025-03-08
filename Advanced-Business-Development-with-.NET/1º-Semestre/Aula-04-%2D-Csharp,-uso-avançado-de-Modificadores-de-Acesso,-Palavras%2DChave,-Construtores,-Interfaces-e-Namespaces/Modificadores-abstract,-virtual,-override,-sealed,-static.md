@@ -76,3 +76,5 @@ public virtual double Area()
     return x * y;
 }
 ```
+
+## Propriedades Virtuais
