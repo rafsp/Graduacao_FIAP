@@ -186,17 +186,26 @@ enum DiasDaSemana
     ...
 }
 ```
-Tem o mesmo nível de acessibilidade de:
+Tem o **mesmo nível de acessibilidade** de:
 ```csharp
 public enum DiasDaSemana
 {
     ...
 }
 ```
-Porém o nível de acessibilidade pode ser alterado para esse membro. Ex:
+Ainda considerando o exemplo acima. Segue um exemplo sobre o que **é possível** de ser feito:
 ```csharp
 internal enum DiasDaSemana
 {
     ...
+}
+```
+Abaixo, um exemplo sobre o que **não é possível** de ser feito:
+```csharp
+internal enum DiasDaSemana
+{
+    internal Segunda,
+    internal Terca
+    ...
 }
 ```
