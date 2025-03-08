@@ -62,3 +62,9 @@ static void Main()
 Aqui, a classe **Dog** herda de **Animal** e fornece a implementação do método abstrato **makeSound()**.
 Caso o método makeSound() não seja implementado pela classe Dog, então teremos o erro à seguir:
 
+![image.png](/.attachments/image-c99c0f53-733a-467a-a03a-d90933392258.png)
+
+# Virtual
+
+## Métodos Virtuais
+
