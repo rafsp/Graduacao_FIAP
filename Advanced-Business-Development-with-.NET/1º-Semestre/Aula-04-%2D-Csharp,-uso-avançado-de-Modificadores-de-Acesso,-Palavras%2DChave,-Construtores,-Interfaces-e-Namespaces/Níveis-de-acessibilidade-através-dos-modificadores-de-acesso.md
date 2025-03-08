@@ -175,7 +175,7 @@ public enum DiasDaSemana
 
 Membros do tipo **enum** tem uma acessibilidade padrão de **public**. Isso significa que todos os membros de um enum são, por padrão, **public**.
 
-Da mesma forma, não é possível definir explicitamente a acessibilidade de membros de um **enum**.
+Da mesma forma, não é possível definir explicitamente a acessibilidade de "membros filhos" de um **enum**.
 
 Isso não significa que o nível de acessibilidade não pode ser alterado. Por exemplo:
 
