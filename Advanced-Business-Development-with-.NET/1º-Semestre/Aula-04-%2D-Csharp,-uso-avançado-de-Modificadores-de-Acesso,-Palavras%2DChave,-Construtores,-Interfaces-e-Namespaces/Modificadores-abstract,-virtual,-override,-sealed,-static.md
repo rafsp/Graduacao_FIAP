@@ -201,3 +201,17 @@ class Z : Y
 O modificador static em C# é usado para declarar membros estáticos que pertencem ao próprio tipo, em vez de um objeto específico [[7]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
 Quando aplicado a uma classe, o **static** impede que ela seja instanciada. Ou seja, não é possível usar o operador **new** para criar uma variável do tipo dessa classe, conforme exemplo à seguir:
 
+```csharp     
+static class EmpresaFuncionario
+{
+    public static void FazerAlgo()
+    {
+        // Implementação...
+    }
+
+    public static void FazerOutraCoisa()
+    {
+        // Implementação...
+    }
+}
+```
