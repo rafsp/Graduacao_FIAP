@@ -194,3 +194,6 @@ class Z : Y
     protected override void F2() { Console.WriteLine("Z.F2"); }
 }
 ```
+
+## Static
+
