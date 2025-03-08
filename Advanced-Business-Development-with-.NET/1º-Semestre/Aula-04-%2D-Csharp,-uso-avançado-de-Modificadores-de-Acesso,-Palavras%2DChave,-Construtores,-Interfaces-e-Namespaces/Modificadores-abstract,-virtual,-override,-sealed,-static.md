@@ -131,7 +131,7 @@ A diferença é que, quando um método ou propriedade é declarado como **virtua
 
 Isso transparece de uma forma para que todas as classes derivadas tenham uma versão do método ou propriedade, mesmo que essa versão seja diferente para cada classe.
 
-## Override
+# Override
 
       
 O modificador **override** fornece uma **nova implementação** de um membro herdado de uma classe base [[5]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Ele permite que os membros sejam substituídos em classes derivadas. À seguir um exemplo de método com o modificador **override**:
@@ -169,7 +169,7 @@ Além disso, aqui estão algumas informações importantes sobre o uso do overri
 - O método base substituído deve ser **virtual**, **abstract** ou **override**;
 - Uma declaração override **não** pode alterar a acessibilidade do método **virtual**.
 
-## Sealed
+# Sealed
 
 O modificador sealed em C# é usado para restringir a herança de classes, métodos ou propriedades.
 
@@ -197,7 +197,7 @@ class Z : Y
 }
 ```
 
-## Static
+# Static
 
       
 O modificador static em C# é usado para declarar membros estáticos que pertencem ao próprio tipo, em vez de um objeto específico [[7]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
