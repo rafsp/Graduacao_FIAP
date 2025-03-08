@@ -34,6 +34,5 @@ Note que a classe **Square** herda da classe abstrata **Shape** e implementa o m
 
 ## Métodos Abstratos
 
-      
 Um método abstrato não possui uma implementação real (corpo). Ele é declarado apenas na classe abstrata e deve ser implementado pelas classes derivadas.
 Exemplo de uma classe abstrata **Animal** com um método abstrato **makeSound()**.
