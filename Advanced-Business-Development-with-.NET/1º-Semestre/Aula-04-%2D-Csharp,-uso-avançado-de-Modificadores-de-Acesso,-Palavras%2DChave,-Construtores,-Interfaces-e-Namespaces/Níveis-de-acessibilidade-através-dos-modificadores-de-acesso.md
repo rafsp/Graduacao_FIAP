@@ -177,3 +177,44 @@ Membros do tipo **enum** tem uma acessibilidade padrão de **public**. Isso sign
 
 Da mesma forma, não é possível definir explicitamente a acessibilidade de membros de um **enum**.
 
+Isso não significa que o nível de acessibilidade não pode ser alterado. Por exemplo:
+
+
+```csharp
+enum DiasDaSemana
+{
+    Segunda,
+    Terça,
+    Quarta,
+    Quinta,
+    Sexta,
+    Sábado,
+    Domingo
+}
+```
+Tem o mesmo nível de acessibilidade de:
+```csharp
+public enum DiasDaSemana
+{
+    Segunda,
+    Terça,
+    Quarta,
+    Quinta,
+    Sexta,
+    Sábado,
+    Domingo
+}
+```
+Porém o nível de acessibilidade pode ser alterado para esse membro. Ex:
+```csharp
+internal enum DiasDaSemana
+{
+    Segunda,
+    Terça,
+    Quarta,
+    Quinta,
+    Sexta,
+    Sábado,
+    Domingo
+}
+```
