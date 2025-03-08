@@ -164,11 +164,11 @@ Em C#, **enum** é uma abreviação de "enumeration" (enumeração), e é um tip
 public enum DiasDaSemana
 {
     Segunda,
-    Terça,
+    Terca,
     Quarta,
     Quinta,
     Sexta,
-    Sábado,
+    Sabado,
     Domingo
 }
 ```
@@ -183,38 +183,20 @@ Isso não significa que o nível de acessibilidade não pode ser alterado. Por e
 ```csharp
 enum DiasDaSemana
 {
-    Segunda,
-    Terça,
-    Quarta,
-    Quinta,
-    Sexta,
-    Sábado,
-    Domingo
+    ...
 }
 ```
 Tem o mesmo nível de acessibilidade de:
 ```csharp
 public enum DiasDaSemana
 {
-    Segunda,
-    Terça,
-    Quarta,
-    Quinta,
-    Sexta,
-    Sábado,
-    Domingo
+    ...
 }
 ```
 Porém o nível de acessibilidade pode ser alterado para esse membro. Ex:
 ```csharp
 internal enum DiasDaSemana
 {
-    Segunda,
-    Terça,
-    Quarta,
-    Quinta,
-    Sexta,
-    Sábado,
-    Domingo
+    ...
 }
 ```
