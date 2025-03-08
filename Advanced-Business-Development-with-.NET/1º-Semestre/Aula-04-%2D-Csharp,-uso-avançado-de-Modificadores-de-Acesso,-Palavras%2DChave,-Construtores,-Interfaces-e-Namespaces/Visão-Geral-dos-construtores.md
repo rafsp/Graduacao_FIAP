@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # O que são construtores?
 Um construtor em C# é chamado quando uma classe (class) ou estrutura (struct) é criada [10].
 Utilizamos construtores para:
