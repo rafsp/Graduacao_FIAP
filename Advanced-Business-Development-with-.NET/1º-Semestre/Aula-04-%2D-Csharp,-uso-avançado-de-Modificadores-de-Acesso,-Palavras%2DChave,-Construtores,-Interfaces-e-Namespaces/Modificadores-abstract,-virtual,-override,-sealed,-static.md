@@ -221,7 +221,7 @@ Se a palavra-chave **static** for aplicada a uma classe, todos os membros da cla
 Além de classes é possível usar o static em métodos,  propriedades e construtores.
 Um membro estático não pode ser referenciado através de uma instância. Em vez disso, ele é referenciado pelo nome do tipo. Por exemplo:
 
-```csharp          
+```csharp
 public class MinhaBase
 {
     public struct MinhaEstrutura
@@ -241,3 +241,20 @@ public class ChamarMinhaBase
 
 Outro ponto interessante é que é possível ter um construtor como static:
 
+```csharp     
+public static class MinhaBase
+{
+    public static MinhaBase()
+    {
+        //seu código aqui
+    }
+}
+
+public class ChamarMinhaBase
+{
+    public ChamarMinhaBase()
+    {
+        MinhaBase();
+    }
+}
+```
