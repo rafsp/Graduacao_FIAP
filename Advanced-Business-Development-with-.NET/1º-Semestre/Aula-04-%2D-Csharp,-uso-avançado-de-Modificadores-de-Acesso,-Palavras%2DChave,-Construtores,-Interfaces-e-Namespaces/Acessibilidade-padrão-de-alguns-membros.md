@@ -200,3 +200,23 @@ struct Ponto2D
 ```
       
 Use **class** quando é necessário de um tipo de dados mais complexo, com métodos, herança ou comportamento personalizado.
+
+```csharp
+class Jogador
+{
+    public string Nome { get; set; }
+    public int Pontuacao { get; private set; }
+
+    public Jogador(string nome)
+    {
+        Nome = nome;
+        Pontuacao = 0;
+    }
+
+    public void AdicionarPontos(int pontos)
+    {
+        Pontuacao += pontos;
+        Console.WriteLine($"{Nome} agora tem {Pontuacao} pontos.");
+    }
+}
+```
