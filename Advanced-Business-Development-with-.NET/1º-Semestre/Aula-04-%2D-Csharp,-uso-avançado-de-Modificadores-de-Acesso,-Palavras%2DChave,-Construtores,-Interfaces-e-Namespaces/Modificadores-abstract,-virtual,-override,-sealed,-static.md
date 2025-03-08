@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Abstract
 
 O modificador abstract em C# indica que o item que está sendo modificado tem uma implementação ausente ou incompleta [[3]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
