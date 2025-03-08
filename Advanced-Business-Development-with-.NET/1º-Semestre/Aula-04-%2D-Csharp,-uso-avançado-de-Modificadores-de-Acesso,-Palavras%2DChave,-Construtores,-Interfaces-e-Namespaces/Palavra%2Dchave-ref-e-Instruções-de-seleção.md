@@ -2,12 +2,12 @@
 
 # Ref
   
-A palavra-chave **ref** é usada para passar ou retornar referências de valores ou de métodos. Basicamente, isso significa que qualquer alteração feita em um valor que é passado por referência será refletida, pois está sendo modificado o valor no endereço de memória e não apenas o valor em si [8].
+A palavra-chave **ref** é usada para passar ou retornar referências de valores ou de métodos. Basicamente, isso significa que qualquer alteração feita em um valor que é passado por referência será refletida, pois está sendo modificado o valor no endereço de memória e não apenas o valor em si [[8]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
 Dessa forma, temos 2 possibilidades:
 
 ## Passagem de Argumentos por Referência
 
-Em uma assinatura de método e em uma chamada de método, é possível usar **ref** para passar um argumento para um método por referência. Isso permite que o método modifique o valor original do argumento [8] :
+Em uma assinatura de método e em uma chamada de método, é possível usar **ref** para passar um argumento para um método por referência. Isso permite que o método modifique o valor original do argumento [[8]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências) :
 ```csharp
 void AlterarValor(ref int numero)
 {
@@ -21,7 +21,7 @@ AlterarValor(ref valor);
 
 ## Retorno de Valores por Referência
 
-Também é possível usar **ref** em uma assinatura de método para retornar um valor para o chamador por referência. Isso permite que o método altere o valor original da variável que o chamou [8].
+Também é possível usar **ref** em uma assinatura de método para retornar um valor para o chamador por referência. Isso permite que o método altere o valor original da variável que o chamou [[8]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências).
 ```csharp
 ref int ObterReferencia(ref int[] array)
 {
@@ -38,7 +38,7 @@ Uma consideração importante é procurar evitar o uso de **ref** desnecessariam
 
 # Instruções de Seleção
 
-As instruções de seleção no C# permitem que seja possível escolher diferentes caminhos de código com base em condições específicas [9]:
+As instruções de seleção no C# permitem que seja possível escolher diferentes caminhos de código com base em condições específicas [[9]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências):
 
 ## Instrução if
 
