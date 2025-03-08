@@ -146,7 +146,7 @@ public class Widget : IWidget
 
 # Padrão de acessibilidade
 
-- Da mesma forma, tipos aninhados, que são membros de outros tipos, podem ter acessibilidades declaradas, conforme a tabela à seguir [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências):
+Tipos aninhados, que são membros de outros tipos, podem ter acessibilidades declaradas, conforme a tabela à seguir [[2]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências):
 
 
 | Membro pai | Padrão de acessibilidade para o membro filho | Acessibilidade permitida para o membro filho |
@@ -156,7 +156,20 @@ public class Widget : IWidget
 | interface | public | public, protected, internal, private, protected internal, private protected |
 | struct | private | public, internal, private |
 
+## enum
 
+Em C#, **enum** é uma abreviação de "enumeration" (enumeração), e é um tipo de dados que permite definir um conjunto nomeado de constantes relacionadas. Em outras palavras, um enum é uma **lista de valores** constantes que podem ser usados ​​como valores válidos para uma variável:
 
-
+```csharp
+public enum DiasDaSemana
+{
+    Segunda,
+    Terça,
+    Quarta,
+    Quinta,
+    Sexta,
+    Sábado,
+    Domingo
+}
+```
 
