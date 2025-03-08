@@ -67,4 +67,12 @@ internal enum DiasDaSemana
 ```
 
 # class
+
+      
+A acessibilidade padrão para membros de uma classe é **private**.
+      
+Os membros de uma classe podem ser explicitamente declarados como **private**, **public**, **protected**, **internal**, **protected internal** ou **private protected**.
+
+Exemplo:
+
  
