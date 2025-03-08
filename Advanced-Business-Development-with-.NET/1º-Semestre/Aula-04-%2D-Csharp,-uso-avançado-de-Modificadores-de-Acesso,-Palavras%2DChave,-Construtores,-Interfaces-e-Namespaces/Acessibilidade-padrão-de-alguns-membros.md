@@ -140,4 +140,42 @@ class Program
 ```
 
 # Interface
+  
+Interfaces tem uma acessibilidade padrão de **public**. Isso significa que todas as interfaces e seus membros são automaticamente **public**.
 
+Os membros de uma interface podem ser explicitamente declarados como **private**, **public**, **protected**, **internal**, **protected internal** ou **private protected**.
+
+No caso de um membro declarado como **private** dentro de uma **interface**, o mesmo precisará ter uma implementação padrão (sim, existe essa possibilidade, a partir do C# 8):
+
+```csharp
+using System;
+
+public interface IExemplo
+{
+    // Método privado com implementação padrão (permitido a partir do C# 8.0)
+    private void MetodoPrivado()
+    {
+        Console.WriteLine("Este é um método privado com implementação padrão na interface.");
+    }
+
+    // Método com implementação padrão que chama o método privado
+    void MetodoPublico()
+    {
+        MetodoPrivado();
+    }
+}
+
+public class Exemplo : IExemplo
+{
+    // Nenhuma implementação necessária, pois a interface já fornece uma implementação padrão
+}
+
+class Program
+{
+    static void Main()
+    {
+        IExemplo exemplo = new Exemplo();
+        exemplo.MetodoPublico(); // Saída esperada: "Este é um método privado com implementação padrão na interface."
+    }
+}
+```
