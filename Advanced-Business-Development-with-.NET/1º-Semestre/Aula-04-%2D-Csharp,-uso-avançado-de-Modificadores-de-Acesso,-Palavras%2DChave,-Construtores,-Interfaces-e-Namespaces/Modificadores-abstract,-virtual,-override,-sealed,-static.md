@@ -172,3 +172,25 @@ Além disso, aqui estão algumas informações importantes sobre o uso do overri
 O modificador sealed em C# é usado para restringir a herança de classes, métodos ou propriedades.
 
 Também é possível usar o modificador **sealed** em um método ou propriedade que substitui um método ou propriedade virtual em uma classe base. Com isso, é possível permitir que classes sejam derivadas de sua classe e impedir que substituam métodos ou propriedades virtuais [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Abaixo um exemplo:
+
+```csharp
+class X
+{
+    protected virtual void F() { Console.WriteLine("X.F"); }
+    protected virtual void F2() { Console.WriteLine("X.F2"); }
+}
+
+class Y : X
+{
+    sealed protected override void F() { Console.WriteLine("Y.F"); }
+    protected override void F2() { Console.WriteLine("Y.F2"); }
+}
+
+class Z : Y
+{
+    // Tentar substituir F causa erro de compilação CS0239.
+    // protected override void F() { Console.WriteLine("Z.F"); }
+    // Substituir F2 é permitido.
+    protected override void F2() { Console.WriteLine("Z.F2"); }
+}
+```
