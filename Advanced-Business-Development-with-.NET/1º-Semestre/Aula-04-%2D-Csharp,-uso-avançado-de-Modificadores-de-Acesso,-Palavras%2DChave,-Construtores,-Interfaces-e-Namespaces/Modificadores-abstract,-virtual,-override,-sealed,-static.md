@@ -78,3 +78,8 @@ public virtual double Area()
 ```
 
 ## Propriedades Virtuais
+
+
+Propriedades virtuais funcionam de maneira semelhante a métodos virtuais, mas são usadas para acessar campos de dados.
+Exemplo de uma propriedade virtual chamada **Name**:
+
