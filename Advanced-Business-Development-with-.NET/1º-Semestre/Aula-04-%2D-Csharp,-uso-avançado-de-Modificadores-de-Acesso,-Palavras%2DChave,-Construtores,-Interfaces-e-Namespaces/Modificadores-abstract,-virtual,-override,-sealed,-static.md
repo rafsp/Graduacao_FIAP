@@ -168,3 +168,7 @@ Além disso, aqui estão algumas informações importantes sobre o uso do overri
 - Uma declaração override **não** pode alterar a acessibilidade do método **virtual**.
 
 ## Sealed
+
+O modificador sealed em C# é usado para restringir a herança de classes, métodos ou propriedades.
+
+Também é possível usar o modificador **sealed** em um método ou propriedade que substitui um método ou propriedade virtual em uma classe base. Com isso, é possível permitir que classes sejam derivadas de sua classe e impedir que substituam métodos ou propriedades virtuais [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-04-%2D-Csharp,-uso-avançado-de-Modificadores-de-Acesso,-Palavras%2DChave,-Construtores,-Interfaces-e-Namespaces/Referências). Abaixo um exemplo:
