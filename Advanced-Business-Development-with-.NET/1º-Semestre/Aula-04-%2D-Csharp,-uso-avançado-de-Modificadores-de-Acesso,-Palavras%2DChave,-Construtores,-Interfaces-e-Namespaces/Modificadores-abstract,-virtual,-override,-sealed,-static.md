@@ -59,3 +59,6 @@ static void Main()
 // Saída: Au Au
 ```
 
+Aqui, a classe **Dog** herda de **Animal** e fornece a implementação do método abstrato **makeSound()**.
+Caso o método makeSound() não seja implementado pela classe Dog, então teremos o erro à seguir:
+
