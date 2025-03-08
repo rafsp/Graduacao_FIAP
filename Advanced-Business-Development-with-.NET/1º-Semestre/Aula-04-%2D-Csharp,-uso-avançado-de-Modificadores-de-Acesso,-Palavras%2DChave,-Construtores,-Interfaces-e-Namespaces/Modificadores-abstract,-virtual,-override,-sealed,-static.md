@@ -157,3 +157,12 @@ class Square : Shape
 }
 // Saída: Área do quadrado = 144
 ```
+
+Neste exemplo:
+- A classe **Square** herda de **Shape**;
+- O método **GetArea()** na classe **Square** substitui o método abstrato **GetArea()** da classe base **Shape**.
+- O uso do modificador **override** indica que estamos fornecendo uma nova implementação para o método herdado.
+  
+Além disso, aqui estão algumas informações importantes sobre o uso do override:
+- O método base substituído deve ser **virtual**, **abstract** ou **override**;
+- Uma declaração override **não** pode alterar a acessibilidade do método **virtual**.
