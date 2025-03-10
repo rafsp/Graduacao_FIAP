@@ -52,7 +52,7 @@ Agora que temos um repositório público disponível através do GitHub, o próx
    dotnet new classlib -n ClassProject --force
    ```
    ```csharp
-   namespace ClassLibrary;
+   namespace ClassProject;
 
    public class PontoClass
    {
@@ -73,3 +73,4 @@ Agora que temos um repositório público disponível através do GitHub, o próx
        }
    }
    ```
+   
