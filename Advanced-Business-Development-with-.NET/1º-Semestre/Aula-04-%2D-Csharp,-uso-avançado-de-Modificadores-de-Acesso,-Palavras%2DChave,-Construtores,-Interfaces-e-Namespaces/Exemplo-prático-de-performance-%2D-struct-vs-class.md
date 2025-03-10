@@ -31,7 +31,12 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 - Ao executar as linhas de comando acima, caso apareça o erro "fatal: repository ... not found" no final, vamos precisar remover as credenciais do GitHub no Windows. Para isso, entre em "Gerenciador de Credenciais, e remova as credenciais do Github
   ![image.png](/.attachments/image-ba3bea5d-dd51-4cb2-b63a-0223160d3e2e.png)
 - Posteriormente, entre no git bash e execute os seguintes comandos
-  
+  ```bash
+  git init
+  git config --global user.name "xahifij991"
+  git config --global user.email "na.sabbag@gmail.com"
+  git config --global init.defaultBranch main
+  ```
   
 
 ## Clonar o Repositório
