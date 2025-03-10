@@ -137,4 +137,10 @@ Já temos o projeto ClassProject e StructProject criados. O próximo passo está
    ![animacao.gif](/.attachments/animacao-23a824c5-242a-4485-9d97-932d71d64d7c.gif)
 
 # Rodar o Console de Testes
+
+8. Próximo passo, rodar o projeto PerformanceText
+   ```bash
+   dotnet run
+   ```
+   
    
