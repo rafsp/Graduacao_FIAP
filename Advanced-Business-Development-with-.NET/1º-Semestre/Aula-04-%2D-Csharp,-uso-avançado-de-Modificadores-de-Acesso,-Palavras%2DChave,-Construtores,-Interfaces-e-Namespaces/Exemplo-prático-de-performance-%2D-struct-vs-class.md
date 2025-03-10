@@ -16,6 +16,8 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 - Para criar um novo repositório, entre em https://github.com/new
 - Depois preencha conforme a animação abaixo e clique em "Create repository"
   ![animacao.gif](/.attachments/animacao-2d768eba-1c1f-41e2-8b71-01f921e5dfbe.gif)
+- Perceba que apareceram algumas linhas de comando para serem executadas
+  
 
 ## Clonar o Repositório
 
