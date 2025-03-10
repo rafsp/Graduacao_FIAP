@@ -143,4 +143,7 @@ Já temos o projeto ClassProject e StructProject criados. O próximo passo está
    dotnet run
    ```
    ![animacao.gif](/.attachments/animacao-80a6f3e0-73da-4ef8-82b9-4a599eb37f9d.gif)
+
+# Publicar um commit no repositório
+  
    
