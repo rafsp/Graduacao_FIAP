@@ -97,8 +97,8 @@ Já temos o projeto ClassProject e StructProject criados. O próximo passo está
    ```csharp
    using System;
    using System.Diagnostics;
-   using StructLibrary;
-   using ClassLibrary;
+   using StructProject;
+   using ClassProject;
 
    // Teste com struct
    PontoStruct p1 = new PontoStruct(3, 4);
