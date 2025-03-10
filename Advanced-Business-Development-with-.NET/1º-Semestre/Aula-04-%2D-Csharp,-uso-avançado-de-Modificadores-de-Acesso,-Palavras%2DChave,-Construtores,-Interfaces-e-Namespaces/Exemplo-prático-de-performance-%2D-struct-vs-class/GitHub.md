@@ -24,13 +24,18 @@
    git remote add origin [LINK GIT DO REPOSITÓRIO]
    git push -u origin main
    ```
+
 4. Uma das formas de executar as linhas de comando acima seria através do Visual Studio Code
   ![image.png](/.attachments/image-4fa4a234-fece-48aa-b50d-2c900064244f.png)
+
 5. Depois de entrar, escolha a pasta no qual vamos trabalhar com o repositório
   ![image.png](/.attachments/image-61fe02ce-0cc3-471f-a1fe-29239b4c704e.png)
+
 6. Posteriormente, aperte as teclas **"Ctrl + [aspas simples]"** para abrir o terminal e executar as linhas de comando
+
 7. Segue uma animação, mostrando o "cenário feliz"
   ![animacao.gif](/.attachments/animacao-1b1bd07b-c209-4225-a5af-59d98b3cee1f.gif)  
+
 8. Para confirmar se tudo ocorreu nos conformes, basta entrar no link do seu repositório através de uma guia anônima e verificar se o arquivo "README.md" aparece
   ![animacao.gif](/.attachments/animacao-f2995afd-00bf-4584-b0ed-a67f5590283a.gif)
   
