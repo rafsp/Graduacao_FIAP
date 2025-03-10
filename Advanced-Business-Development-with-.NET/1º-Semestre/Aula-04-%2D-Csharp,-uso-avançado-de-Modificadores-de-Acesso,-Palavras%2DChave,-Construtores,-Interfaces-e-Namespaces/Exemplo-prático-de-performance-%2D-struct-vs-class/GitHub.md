@@ -24,6 +24,12 @@
   git remote add origin [LINK GIT DO REPOSITÓRIO]
   git push -u origin main
   ```
+- Uma das formas de executar as linhas de comando acima seria através do Visual Studio Code
+  ![image.png](/.attachments/image-4fa4a234-fece-48aa-b50d-2c900064244f.png)
+- Depois de entrar, escolha a pasta no qual vamos trabalhar com o repositório
+  ![image.png](/.attachments/image-61fe02ce-0cc3-471f-a1fe-29239b4c704e.png)
+- 
+
 ## Erros Comuns
 ### Resolvendo o erro do Repositório não encontrado
 - Ao executar as linhas de comando acima, caso apareça o erro "fatal: repository ... not found" no final, vamos precisar remover as credenciais do GitHub no Windows. Para isso, entre em "Gerenciador de Credenciais, e remova as credenciais do Github
