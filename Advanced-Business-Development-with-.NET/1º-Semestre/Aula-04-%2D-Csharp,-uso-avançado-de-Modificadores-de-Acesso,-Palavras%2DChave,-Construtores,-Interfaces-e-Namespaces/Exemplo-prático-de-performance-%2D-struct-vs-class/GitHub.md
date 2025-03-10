@@ -21,7 +21,7 @@
   git add README.md
   git commit -m "first commit"
   git branch -M main
-  git remote add origin https://github.com/xahifij991/struct-vs-class.git
+  git remote add origin [LINK GIT DO REPOSITÓRIO]
   git push -u origin main
   ```
 ## Erros Comuns
