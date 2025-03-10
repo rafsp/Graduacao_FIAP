@@ -10,4 +10,11 @@ Agora que temos um repositório público disponível através do GitHub, o próx
 
 ## Criar e desenvolver a library para o struct
 
+1. Dentro do Visual Studio Code, no Terminal (Ctrl + aspas simples), digite a linha abaixo para criar um novo projeto do tipo library:
+   ```csharp
+   dotnet new classlib -n StructProject --force
+   ```
+   
+
+
 
