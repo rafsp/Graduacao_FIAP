@@ -26,7 +26,9 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
   git remote add origin https://github.com/xahifij991/struct-vs-class.git
   git push -u origin main
   ```
-- Ao realizar os procedimentos acima, caso apareça o erro "fatal: repository ... not found", vamos precisar remover as credenciais do GitHub no Windows. Para isso, entre em "Gerenciador de Credenciais, e remova o Github
+- Ao realizar os procedimentos acima, caso apareça o erro "fatal: repository ... not found", vamos precisar remover as credenciais do GitHub no Windows. Para isso, entre em "Gerenciador de Credenciais, e remova as credenciais do Github
+  ![image.png](/.attachments/image-ba3bea5d-dd51-4cb2-b63a-0223160d3e2e.png)
+- Posteriormente 
   
 
 ## Clonar o Repositório
