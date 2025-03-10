@@ -47,7 +47,29 @@ Agora que temos um repositório público disponível através do GitHub, o próx
 
 ## Criar e desenvolver a library para Class
 
-1. Vamos repetir o procedimento acima, porém dessa vez criando um projeto para Class
-   
-   
-   
+4. Vamos repetir o procedimento acima, porém dessa vez criando um projeto para Class
+   ```csharp
+   dotnet new classlib -n ClassProject --force
+   ```
+   ```csharp
+   namespace ClassLibrary;
+
+   public class PontoClass
+   {
+       public int X { get; }
+       public int Y { get; }
+
+       public PontoClass(int x, int y)
+       {
+           X = x;
+           Y = y;
+       }
+
+       public double Distancia(PontoClass outro)
+       {
+           int deltaX = X - outro.X;
+           int deltaY = Y - outro.Y;
+           return Math.Sqrt(deltaX * deltaX + deltaY * deltaY);
+       }
+   }
+   ```
