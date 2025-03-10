@@ -134,3 +134,6 @@ Já temos o projeto ClassProject e StructProject criados. O próximo passo está
    sw.Stop();
    Console.WriteLine($"Tempo com class: {sw.ElapsedMilliseconds} ms");
    ```
+   
+
+8. 
