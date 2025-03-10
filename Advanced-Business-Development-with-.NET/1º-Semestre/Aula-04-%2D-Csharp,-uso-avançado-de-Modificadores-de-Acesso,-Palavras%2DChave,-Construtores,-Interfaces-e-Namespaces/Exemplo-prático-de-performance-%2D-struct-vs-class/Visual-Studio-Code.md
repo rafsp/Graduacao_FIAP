@@ -14,6 +14,8 @@ Agora que temos um repositório público disponível através do GitHub, o próx
    ```csharp
    dotnet new classlib -n StructProject --force
    ```
+   ![animacao.gif](/.attachments/animacao-267eeec8-25d2-49ff-9ca3-6884b3e51423.gif)
+2. Crie um arquivo chamado ``PontoStruct.cs``
    
 
 
