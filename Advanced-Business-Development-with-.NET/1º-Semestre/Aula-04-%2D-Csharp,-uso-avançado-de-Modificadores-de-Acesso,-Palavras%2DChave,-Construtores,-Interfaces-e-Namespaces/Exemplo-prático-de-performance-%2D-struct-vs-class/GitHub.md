@@ -29,7 +29,7 @@
 - Depois de entrar, escolha a pasta no qual vamos trabalhar com o repositório
   ![image.png](/.attachments/image-61fe02ce-0cc3-471f-a1fe-29239b4c704e.png)
 - Posteriormente, aperte as teclaS **"Ctrl + [aspas simples]"** para abrir o terminal e executar as linhas de comando
-
+  
 
 ## Erros Comuns
 ### Resolvendo o erro do Repositório não encontrado
