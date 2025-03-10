@@ -40,5 +40,9 @@ Agora que temos um repositório público disponível através do GitHub, o próx
    ```
    ![animacao.gif](/.attachments/animacao-801055fe-3424-4b22-abef-6cdf5b9c6533.gif)
 3. Agora vamos buildar o projeto, para ver se está tudo certo
+   ```csharp
+   dotnet build
+   ```
+   ![animacao.gif](/.attachments/animacao-cd4be883-ddc1-4ec8-af7d-e77a72c59d6e.gif)
    
    
