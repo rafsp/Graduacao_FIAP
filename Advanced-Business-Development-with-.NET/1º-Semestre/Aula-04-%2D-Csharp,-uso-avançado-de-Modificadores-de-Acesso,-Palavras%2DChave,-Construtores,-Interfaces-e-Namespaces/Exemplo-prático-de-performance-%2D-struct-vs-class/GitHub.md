@@ -28,7 +28,7 @@
   ![image.png](/.attachments/image-4fa4a234-fece-48aa-b50d-2c900064244f.png)
 - Depois de entrar, escolha a pasta no qual vamos trabalhar com o repositório
   ![image.png](/.attachments/image-61fe02ce-0cc3-471f-a1fe-29239b4c704e.png)
-- 
+- Posteriormente, aperte as teclar **"Ctrl + [aspas simples]"** para abrir o terminal
 
 ## Erros Comuns
 ### Resolvendo o erro do Repositório não encontrado
