@@ -79,6 +79,9 @@ Agora que temos um repositório público disponível através do GitHub, o próx
 
 Já temos o projeto ClassProject e StructProject criados. O próximo passo está em criar o projeto responsável por chamar as libraries e fazer o nosso teste simples de performance
 
-```csharp
-dotnet new console -n PerformanceTest --force
-```
+5. Criar o projeto console
+   ```csharp
+   dotnet new console -n PerformanceTest --force
+   ```
+   
+
