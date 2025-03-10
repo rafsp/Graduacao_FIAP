@@ -8,7 +8,7 @@ Agora que temos um repositório público disponível através do GitHub, o próx
 
 ![animacao.gif](/.attachments/animacao-b52fbd7d-c3d0-4383-8232-2ddccee63a17.gif)
 
-## Criar e desenvolver a library para o struct
+## Criar e desenvolver a library para Struct
 
 1. Dentro do Visual Studio Code, no Terminal (Ctrl + aspas simples), digite a linha abaixo para criar um novo projeto do tipo library:
    ```csharp
@@ -44,5 +44,10 @@ Agora que temos um repositório público disponível através do GitHub, o próx
    dotnet build
    ```
    ![animacao.gif](/.attachments/animacao-cd4be883-ddc1-4ec8-af7d-e77a72c59d6e.gif)
+
+## Criar e desenvolver a library para Class
+
+1. Vamos repetir o procedimento acima, porém dessa vez criando um projeto para Class
+   
    
    
