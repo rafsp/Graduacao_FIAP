@@ -73,4 +73,5 @@ Agora que temos um repositório público disponível através do GitHub, o próx
        }
    }
    ```
+   ![animacao.gif](/.attachments/animacao-69b36369-a209-4fb8-be2a-cad28fc4dc3c.gif)
    
