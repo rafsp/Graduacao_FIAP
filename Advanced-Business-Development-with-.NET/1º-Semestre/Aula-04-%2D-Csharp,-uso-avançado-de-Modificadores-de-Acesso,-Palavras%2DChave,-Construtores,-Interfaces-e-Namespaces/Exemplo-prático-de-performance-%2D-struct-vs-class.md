@@ -13,7 +13,7 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 
 ## Criar um Repositório
 
-- Segue abaixo o procedimento para criar um repositório público
+- Para criar um novo repositório, entre em https://github.com/new
   ![animacao.gif](/.attachments/animacao-bfba3c71-5c70-4841-8b5b-1b61e7b29c32.gif)
 
 ## Clonar o Repositório
