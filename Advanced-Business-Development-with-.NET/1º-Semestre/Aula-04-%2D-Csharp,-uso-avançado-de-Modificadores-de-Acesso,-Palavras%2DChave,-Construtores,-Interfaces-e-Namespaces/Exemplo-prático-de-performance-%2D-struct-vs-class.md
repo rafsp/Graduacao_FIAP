@@ -17,7 +17,15 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 - Depois preencha conforme a animação abaixo e clique em "Create repository"
   ![animacao.gif](/.attachments/animacao-2d768eba-1c1f-41e2-8b71-01f921e5dfbe.gif)
 - Perceba que apareceram algumas linhas de comando para serem executadas
-  
+  ```bash
+  echo "# struct-vs-class" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/xahifij991/struct-vs-class.git
+  git push -u origin main
+  ```
 
 ## Clonar o Repositório
 
