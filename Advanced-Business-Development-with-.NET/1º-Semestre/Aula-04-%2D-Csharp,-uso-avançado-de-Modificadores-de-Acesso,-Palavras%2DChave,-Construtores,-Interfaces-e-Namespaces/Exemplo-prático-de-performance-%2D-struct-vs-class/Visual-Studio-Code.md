@@ -8,3 +8,6 @@ Agora que temos um repositório público disponível através do GitHub, o próx
 
 ![animacao.gif](/.attachments/animacao-b52fbd7d-c3d0-4383-8232-2ddccee63a17.gif)
 
+## Criar e desenvolver a library para o struct
+
+
