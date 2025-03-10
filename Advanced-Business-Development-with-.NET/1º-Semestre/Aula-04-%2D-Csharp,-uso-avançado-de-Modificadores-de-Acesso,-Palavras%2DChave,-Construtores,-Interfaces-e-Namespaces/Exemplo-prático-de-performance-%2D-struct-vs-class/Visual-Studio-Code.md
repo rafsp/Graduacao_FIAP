@@ -16,7 +16,25 @@ Agora que temos um repositório público disponível através do GitHub, o próx
    ```
    ![animacao.gif](/.attachments/animacao-267eeec8-25d2-49ff-9ca3-6884b3e51423.gif)
 2. Crie um arquivo chamado ``PontoStruct.cs``
-   
+   ```csharp
+   namespace StructProject;
 
+public struct PontoStruct
+{
+    public int X { get; }
+    public int Y { get; }
 
+    public PontoStruct(int x, int y)
+    {
+        X = x;
+        Y = y;
+    }
 
+    public double Distancia(PontoStruct outro)
+    {
+        int deltaX = X - outro.X;
+        int deltaY = Y - outro.Y;
+        return Math.Sqrt(deltaX * deltaX + deltaY * deltaY);
+    }
+}
+   ```
