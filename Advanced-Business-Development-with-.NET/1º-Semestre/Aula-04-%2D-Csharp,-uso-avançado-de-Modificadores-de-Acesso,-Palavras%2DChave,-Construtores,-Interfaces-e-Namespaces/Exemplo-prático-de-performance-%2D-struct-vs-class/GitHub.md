@@ -9,12 +9,12 @@
 
 # Criar um Repositório
 
-- Para criar um novo repositório, entre em https://github.com/new
-- Depois preencha conforme a animação abaixo e clique em "Create repository"
+1. Para criar um novo repositório, entre em https://github.com/new
+2. Depois preencha conforme a animação abaixo e clique em "Create repository"
   ![animacao.gif](/.attachments/animacao-2d768eba-1c1f-41e2-8b71-01f921e5dfbe.gif)
 
 # Usar o Repositório
-- Quando o repositório foi criado, perceba que algumas linhas de comando apareceram para serem executadas
+3. Quando o repositório foi criado, perceba que algumas linhas de comando apareceram para serem executadas
   ```bash
   echo "# struct-vs-class" >> README.md
   git init
@@ -24,13 +24,15 @@
   git remote add origin [LINK GIT DO REPOSITÓRIO]
   git push -u origin main
   ```
-- Uma das formas de executar as linhas de comando acima seria através do Visual Studio Code
+4. Uma das formas de executar as linhas de comando acima seria através do Visual Studio Code
   ![image.png](/.attachments/image-4fa4a234-fece-48aa-b50d-2c900064244f.png)
-- Depois de entrar, escolha a pasta no qual vamos trabalhar com o repositório
+5. Depois de entrar, escolha a pasta no qual vamos trabalhar com o repositório
   ![image.png](/.attachments/image-61fe02ce-0cc3-471f-a1fe-29239b4c704e.png)
-- Posteriormente, aperte as teclaS **"Ctrl + [aspas simples]"** para abrir o terminal e executar as linhas de comando
+6. Posteriormente, aperte as teclas **"Ctrl + [aspas simples]"** para abrir o terminal e executar as linhas de comando
+7. Segue uma animação, mostrando o "cenário feliz"
+  ![animacao.gif](/.attachments/animacao-1b1bd07b-c209-4225-a5af-59d98b3cee1f.gif)  
+8. Para confirmar se tudo ocorreu nos conformes, basta entrar no link do seu repositório através de uma guia anônima e verificar se o arquivo "README.md" aparece
   
-
 ## Erros Comuns
 ### Resolvendo o erro do Repositório não encontrado
 - Ao executar as linhas de comando acima, caso apareça o erro "fatal: repository ... not found" no final, vamos precisar remover as credenciais do GitHub no Windows. Para isso, entre em "Gerenciador de Credenciais, e remova as credenciais do Github
@@ -44,4 +46,4 @@
   ```
 - A tela abaixo deverá aparecer  
   ![image.png](/.attachments/image-79750640-123e-4a55-94be-3461bc58f368.png)
-- Se logue pelo navegador e continue com a sua publicação normalmente
+- Se logue pelo navegador e continue com a sua publicação normalmente, a partir do passo 7
