@@ -4,11 +4,11 @@
 
 Agora que temos um repositório público disponível através do GitHub, o próximo passo está em criar os projetos no VS Code. Para isso, entre no Visual Studio Code e abra a pasta do repositório ou siga o procedimento abaixo:
 
-## Abrir o repositório do GitHub no VS Code
+# Abrir o repositório do GitHub no VS Code
 
 ![animacao.gif](/.attachments/animacao-b52fbd7d-c3d0-4383-8232-2ddccee63a17.gif)
 
-## Criar e desenvolver a library para Struct
+# Criar e desenvolver a library para Struct
 
 1. Dentro do Visual Studio Code, no Terminal (Ctrl + aspas simples), digite a linha abaixo para criar um novo projeto do tipo library:
    ```csharp
@@ -45,7 +45,7 @@ Agora que temos um repositório público disponível através do GitHub, o próx
    ```
    ![animacao.gif](/.attachments/animacao-cd4be883-ddc1-4ec8-af7d-e77a72c59d6e.gif)
 
-## Criar e desenvolver a library para Class
+# Criar e desenvolver a library para Class
 
 4. Vamos repetir o procedimento acima, porém dessa vez criando um projeto para Class
    ```csharp
@@ -75,3 +75,7 @@ Agora que temos um repositório público disponível através do GitHub, o próx
    ```
    ![animacao.gif](/.attachments/animacao-69b36369-a209-4fb8-be2a-cad28fc4dc3c.gif)
    
+# Criar e desenvolver o projeto Console
+
+Já temos o projeto ClassProject e StructProject criados. O próximo passo está em criar o projeto responsável por chamar as libraries e fazer o nosso teste simples de performance
+
