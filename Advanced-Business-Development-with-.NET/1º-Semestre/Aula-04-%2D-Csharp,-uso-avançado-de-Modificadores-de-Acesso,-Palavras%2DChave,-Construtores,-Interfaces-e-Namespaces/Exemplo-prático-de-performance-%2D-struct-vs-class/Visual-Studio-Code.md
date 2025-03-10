@@ -86,4 +86,9 @@ Já temos o projeto ClassProject e StructProject criados. O próximo passo está
    ![animacao.gif](/.attachments/animacao-aa7c61cd-ca47-4240-a72d-359603e87dfb.gif)
 
 6. Referenciar as libraries
-   
+   ```bash
+   cd ../PerformanceTest
+   dotnet add reference ../StructProject/StructProject.csproj 
+   dotnet add reference ../ClassProject/ClassProject.csproj
+   ```
+
