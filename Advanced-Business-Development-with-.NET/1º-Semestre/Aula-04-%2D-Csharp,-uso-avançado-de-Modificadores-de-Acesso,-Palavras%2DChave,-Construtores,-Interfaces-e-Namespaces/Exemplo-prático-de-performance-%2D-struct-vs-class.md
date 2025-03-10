@@ -34,7 +34,7 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
   ```bash
   git init
   git config --global user.name "xahifij991"
-  git config --global user.email "na.sabbag@gmail.com"
+  git config --global user.email "xahifij991@oziere.com"
   git config --global init.defaultBranch main
   ```
   
