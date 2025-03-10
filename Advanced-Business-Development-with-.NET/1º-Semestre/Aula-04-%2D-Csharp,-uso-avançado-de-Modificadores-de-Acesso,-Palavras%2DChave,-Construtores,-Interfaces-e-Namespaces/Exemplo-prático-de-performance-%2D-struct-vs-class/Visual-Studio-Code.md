@@ -91,4 +91,5 @@ Já temos o projeto ClassProject e StructProject criados. O próximo passo está
    dotnet add reference ../StructProject/StructProject.csproj 
    dotnet add reference ../ClassProject/ClassProject.csproj
    ```
+   ![animacao.gif](/.attachments/animacao-fc73190a-9896-477d-af9c-9e5685cc7a73.gif)
 
