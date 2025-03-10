@@ -145,5 +145,5 @@ Já temos o projeto ClassProject e StructProject criados. O próximo passo está
    ![animacao.gif](/.attachments/animacao-80a6f3e0-73da-4ef8-82b9-4a599eb37f9d.gif)
 
 # Publicar um commit no repositório
-  
+  ![animacao.gif](/.attachments/animacao-94c7c9b9-19d2-4612-8ccd-ced55a278f6c.gif)
    
