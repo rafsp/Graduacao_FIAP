@@ -16,7 +16,9 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
 - Para criar um novo repositório, entre em https://github.com/new
 - Depois preencha conforme a animação abaixo e clique em "Create repository"
   ![animacao.gif](/.attachments/animacao-2d768eba-1c1f-41e2-8b71-01f921e5dfbe.gif)
-- Perceba que apareceram algumas linhas de comando para serem executadas
+
+## Usar o Repositório
+- Quando o repositório foi criado, perceba que apareceram algumas linhas de comando para serem executadas
   ```bash
   echo "# struct-vs-class" >> README.md
   git init
@@ -26,9 +28,10 @@ Neste exemplo prático, vamos criar um repositório no GitHub. Depois, vamos cri
   git remote add origin https://github.com/xahifij991/struct-vs-class.git
   git push -u origin main
   ```
-- Ao realizar os procedimentos acima, caso apareça o erro "fatal: repository ... not found", vamos precisar remover as credenciais do GitHub no Windows. Para isso, entre em "Gerenciador de Credenciais, e remova as credenciais do Github
+- Ao executar as linhas de comando acima, caso apareça o erro "fatal: repository ... not found" no final, vamos precisar remover as credenciais do GitHub no Windows. Para isso, entre em "Gerenciador de Credenciais, e remova as credenciais do Github
   ![image.png](/.attachments/image-ba3bea5d-dd51-4cb2-b63a-0223160d3e2e.png)
-- Posteriormente 
+- Posteriormente, entre no git bash e execute os seguintes comandos
+  
   
 
 ## Clonar o Repositório
