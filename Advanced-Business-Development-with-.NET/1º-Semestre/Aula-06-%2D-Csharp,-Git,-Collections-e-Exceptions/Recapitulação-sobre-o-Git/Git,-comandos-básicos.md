@@ -25,5 +25,5 @@ O comando git status é uma ferramenta útil para verificar o estado atual do se
 
 # Git Add
 ```bash
-git status
+git add
 ```
