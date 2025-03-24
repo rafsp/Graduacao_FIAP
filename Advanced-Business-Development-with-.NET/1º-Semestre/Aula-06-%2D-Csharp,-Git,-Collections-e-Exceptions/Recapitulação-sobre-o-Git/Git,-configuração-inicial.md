@@ -36,4 +36,9 @@ Para listarmos o usuário e endereço de e-mail globais associados ao git, utili
 
 Para removermos o usuário e endereço de e-mail globais associados ao git, utilize os comandos abaixo:
 
+```bash
+git config --global --unset user.name
+git config --global --unset user.email
+```
+
 
