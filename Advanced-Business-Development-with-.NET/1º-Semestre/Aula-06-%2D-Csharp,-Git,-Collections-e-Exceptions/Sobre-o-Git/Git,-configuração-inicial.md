@@ -15,7 +15,7 @@ Outra forma de poder utilizar o git é através do Git Bash. O Git Bash é um em
 ![image.png](/.attachments/image-120cd8df-8993-4fd6-8d45-0ff336e75f51.png)
 ![image.png](/.attachments/image-cf85324c-5348-41d3-88f8-c5ffd4c54488.png)
 
-# Configurações de nome de usuário e endereço de e-mail
+# Configurações: nome de usuário e endereço de e-mail
       
 As configurações de nome de usuário e e-mail no Git são importantes porque ajudam a identificar quem fez quais alterações em um repositório Git. Quando você faz um commit em um repositório Git, o Git registra o nome de usuário e o endereço de e-mail associados a essa ação.
     
