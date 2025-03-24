@@ -12,3 +12,14 @@ git branch <nome_do_branch>
 ![image.png](/.attachments/image-6e0191fb-dcc0-483c-bc7a-3f0ce20a9b1a.png)
 
 #Listar Branches
+      
+Para listar todos os branches em seu repositório Git, você pode usar o comando git branch. Este comando mostrará uma lista de todos os branches locais e indicará qual branch está atualmente sendo usado com um asterisco (*).
+
+```bash   
+git branch
+```
+
+![image.png](/.attachments/image-4dbf6482-5445-414c-9d41-5a657823212a.png)
+
+# Alternar entre Branches
+
