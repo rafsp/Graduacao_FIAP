@@ -23,3 +23,10 @@ git branch
 
 # Alternar entre Branches
 
+Alternar para um branch existente: Use o comando git checkout <nome_do_branch> para mudar para um branch específico. Por exemplo, git checkout feature-nova.
+
+```bash
+git checkout
+```
+
+![image.png](/.attachments/image-93316ef4-4230-43de-a44a-39b3314b504d.png)
