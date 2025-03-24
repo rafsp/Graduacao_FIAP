@@ -44,3 +44,10 @@ git clone
 ```
 
 # Publicar arquivos do Repositório Local para o Repositório Remoto
+
+Quando você deseja enviar suas alterações locais para um repositório remoto, utiliza o comando git push <nome_remoto> <branch_local>. Por exemplo, git push origin master envia as alterações do branch master para o repositório remoto chamado origin.
+
+```bash
+git push --set-upstream
+```
+
