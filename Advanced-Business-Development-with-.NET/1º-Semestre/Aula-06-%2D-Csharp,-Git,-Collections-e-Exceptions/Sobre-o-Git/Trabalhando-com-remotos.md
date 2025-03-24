@@ -29,4 +29,12 @@ git remote -v
       
 Utilize o comando git reset –hard para atualizar os arquivos do branch remoto para o branch local.
 
+```bash
+git reset --hard
+```
 
+![image.png](/.attachments/image-e76c9c79-97ae-4e2b-ad10-a545f1bb9fdc.png)
+
+```bash
+git clone
+```
