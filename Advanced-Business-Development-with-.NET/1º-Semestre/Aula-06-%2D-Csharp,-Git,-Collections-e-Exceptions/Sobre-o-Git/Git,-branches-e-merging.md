@@ -32,3 +32,12 @@ git checkout
 ![image.png](/.attachments/image-93316ef4-4230-43de-a44a-39b3314b504d.png)
 
 # Combinar alterações de diferentes branches
+
+      
+Quando você deseja combinar as alterações de um branch com outro, você utiliza o comando git merge. 
+
+```bash
+git merge
+``
+
+Por exemplo, se você está no branch master e deseja mesclar as alterações do branch feature-nova nele, você faria o seguinte:
