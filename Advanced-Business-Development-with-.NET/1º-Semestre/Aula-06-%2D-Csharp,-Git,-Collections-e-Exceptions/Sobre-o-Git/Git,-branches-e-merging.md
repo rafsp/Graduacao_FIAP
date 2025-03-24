@@ -57,3 +57,6 @@ Por exemplo, se você está no branch master e deseja mesclar as alterações do
   ![image.png](/.attachments/image-9fa9a0b6-57e3-4cb8-8c14-c1f0745109e0.png)
 
 # Deletar uma branch
+
+Para deletar um branch, utilize o comando git branch -d <nome_do_branch>. Por exemplo, git branch -d feature-nova.
+
