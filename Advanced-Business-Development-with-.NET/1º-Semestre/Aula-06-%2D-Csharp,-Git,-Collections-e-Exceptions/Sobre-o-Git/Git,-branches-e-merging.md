@@ -41,7 +41,6 @@ git merge
 ```
 
 Por exemplo, se você está no branch master e deseja mesclar as alterações do branch feature-nova nele, você faria o seguinte:
-
       
 - Primeiro, mude para o branch onde deseja mesclar as alterações: git checkout master;
 
