@@ -42,3 +42,5 @@ Quando você precisa obter uma cópia completa de um projeto hospedado em um rep
 ```bash
 git clone
 ```
+
+# Publicar arquivos do Repositório Local para o Repositório Remoto
