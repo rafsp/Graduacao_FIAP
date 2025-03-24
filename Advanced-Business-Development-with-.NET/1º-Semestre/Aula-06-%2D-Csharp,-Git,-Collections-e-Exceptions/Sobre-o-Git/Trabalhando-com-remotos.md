@@ -35,6 +35,10 @@ git reset --hard
 
 ![image.png](/.attachments/image-e76c9c79-97ae-4e2b-ad10-a545f1bb9fdc.png)
 
+# Clonar um Repositório (recapitulação)
+
+Quando você precisa obter uma cópia completa de um projeto hospedado em um repositório remoto (como GitHub, GitLab ou Bitbucket), o git clone é a ferramenta certa.
+
 ```bash
 git clone
 ```
