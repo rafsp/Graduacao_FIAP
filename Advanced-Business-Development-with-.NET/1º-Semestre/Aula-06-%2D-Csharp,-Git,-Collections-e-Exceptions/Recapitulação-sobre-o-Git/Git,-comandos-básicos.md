@@ -33,7 +33,7 @@ O comando git add é usado para adicionar arquivos ao índice do Git, também co
 
 ![image.png](/.attachments/image-2ab57a32-7b50-4889-81a1-5d120c38c78b.png)
 
-# Git rm cached
+# Git Rm Cached
 ```bash
 git rm --cached
 ```
@@ -44,7 +44,7 @@ O comando git rm é utilizado no Git para remover arquivos do seu repositório G
 
 ![image.png](/.attachments/image-e03ba2ce-f769-479c-8248-04a676a78507.png)
 
-# Git commit
+# Git Commit
 
 O comando git commit é usado para criar um novo commit no repositório Git, que registra as alterações feitas desde o último commit. Para criar um commit, você precisa incluir uma mensagem que descreva as alterações que estão sendo feitas. Isso ajuda a manter um histórico claro e compreensível das mudanças em seu projeto.
 
