@@ -1,4 +1,5 @@
-      
+[[_TOC_]]
+
 No Git, branches são uma ferramenta poderosa que permitem trabalhar em diferentes linhas de desenvolvimento de forma isolada. Aqui está uma explicação prática de como usar os comandos git branch, git checkout e git merge:
 
 # Criar Branches
