@@ -60,3 +60,8 @@ Por exemplo, se você está no branch master e deseja mesclar as alterações do
 
 Para deletar um branch, utilize o comando git branch -d <nome_do_branch>. Por exemplo, git branch -d feature-nova.
 
+```bash
+git branch -d
+```
+
+![image.png](/.attachments/image-3f1c3933-ff10-4e52-b977-8dbcc8ad0c20.png)
