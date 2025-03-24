@@ -46,8 +46,7 @@ git config --global --unset user.email
 Para incluirmos o usuário e endereço de e-mail globais associados ao git, utilize os comandos abaixo:
 
 - Incluir Usuário e/ou E-mail globais:
-
-```bash 
-git config --global user.name "Seu Nome"
-git config --global user.email "seuemail@dominio.com"
-```
+  ```bash 
+  git config --global user.name "Seu Nome"
+  git config --global user.email "seuemail@dominio.com"
+  ```
