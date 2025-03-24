@@ -51,3 +51,6 @@ Quando você deseja enviar suas alterações locais para um repositório remoto,
 git push --set-upstream
 ```
 
+O --set-upstream no Git é usado para mapear um ramo local para um ramo remoto, permitindo que você simplesmente faça git push sem especificar explicitamente o ramo remoto.
+
+![image.png](/.attachments/image-e3ea6d93-4eb8-4dd8-a34d-af440b8b5a35.png)
