@@ -30,3 +30,5 @@ git checkout
 ```
 
 ![image.png](/.attachments/image-93316ef4-4230-43de-a44a-39b3314b504d.png)
+
+# Combinar alterações de diferentes branches
