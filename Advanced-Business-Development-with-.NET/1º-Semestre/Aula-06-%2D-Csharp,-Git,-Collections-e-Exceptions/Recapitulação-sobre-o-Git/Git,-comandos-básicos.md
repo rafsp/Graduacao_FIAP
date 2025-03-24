@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 Agora vamos conhecer alguns comandos básicos do Git.
 
 # Git Clone
