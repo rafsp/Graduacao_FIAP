@@ -33,8 +33,10 @@ O comando git add é usado para adicionar arquivos ao índice do Git, também co
 
 ![image.png](/.attachments/image-2ab57a32-7b50-4889-81a1-5d120c38c78b.png)
 
-# Git rm --cached
-
+# Git rm cached
+```bash
+git rm --cached
+```
 O comando git rm é utilizado no Git para remover arquivos do seu repositório Git e também do seu sistema de arquivos local. Ele é usado principalmente para instruir o Git a parar de rastrear um arquivo que já está sob controle de versão ou para remover um arquivo que foi adicionado ao índice (git add), mas ainda não foi commitado.
       
 - **git rm <arquivo>:** Remove o arquivo do diretório de trabalho e também o remove do índice, ou seja, prepara o arquivo para ser removido no próximo commit;
