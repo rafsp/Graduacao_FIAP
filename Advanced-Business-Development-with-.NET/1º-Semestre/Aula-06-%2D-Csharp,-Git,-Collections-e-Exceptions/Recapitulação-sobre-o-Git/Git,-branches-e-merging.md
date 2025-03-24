@@ -9,3 +9,6 @@ Para criar um novo branch, você utiliza o comando git branch <nome_do_branch>. 
 ```bash   
 git branch <nome_do_branch>
 ```
+![image.png](/.attachments/image-6e0191fb-dcc0-483c-bc7a-3f0ce20a9b1a.png)
+
+#Listar Branches
