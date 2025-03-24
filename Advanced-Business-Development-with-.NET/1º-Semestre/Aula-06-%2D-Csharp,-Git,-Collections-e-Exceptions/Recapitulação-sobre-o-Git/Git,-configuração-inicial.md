@@ -26,3 +26,14 @@ As configurações de nome de usuário e e-mail no Git são importantes porque a
 Para listarmos o usuário e endereço de e-mail globais associados ao git, utilize os comandos abaixo:
 
 - Listar o Usuário
+  ```bash
+  git config user.name
+  ```
+- Listar o E-mail
+  ```bash
+  git config user.email
+  ```
+
+Para removermos o usuário e endereço de e-mail globais associados ao git, utilize os comandos abaixo:
+
+
