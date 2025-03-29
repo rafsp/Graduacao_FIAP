@@ -4,5 +4,6 @@ O padrão de arquitetura MVC (Model-View-Controller) separa um aplicativo em tr�
 O seguinte diagrama mostra os três componentes principais e quais deles referenciam os outros:
 
 ::: mermaid
- graph TD; A-->B; A-->C; B-->D; C-->D;
+ graph TD; 
+ View-->Model; Controller-->Model; Controller-->View;
 :::
