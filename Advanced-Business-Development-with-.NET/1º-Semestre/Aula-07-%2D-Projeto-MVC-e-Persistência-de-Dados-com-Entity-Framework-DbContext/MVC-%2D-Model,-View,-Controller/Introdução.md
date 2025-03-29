@@ -39,3 +39,13 @@ Através do Razor é possível desenvolver, de uma maneira simples, clara e leve
 A abordagem mais robusta é especificar um tipo de modelo na exibição. Esse modelo é conhecido como viewmodel. Você passa uma instância do tipo viewmodel para a exibição da ação [3].
 Usar um viewmodel para passar dados para uma exibição permite que a exibição tire proveito da verificação de tipo forte. Tipagem forte (ou fortemente tipado) significa que cada variável e constante têm um tipo definido explicitamente (por exemplo, string, int ou DateTime). A validade dos tipos usados em uma exibição é verificada em tempo de compilação [3].
 
+```html
+@model WebApplication1.ViewModels.Address
+
+<h2>Contact</h2>
+<address>
+    @Model.Street<br>
+    @Model.City, @Model.State @Model.PostalCode<br>
+    <abbr title="Phone">P:</abbr> 425.555.0100
+</address>
+```
