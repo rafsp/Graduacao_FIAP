@@ -5,5 +5,5 @@ O seguinte diagrama mostra os três componentes principais e quais deles referen
 
 ::: mermaid
  graph TD; 
- View-->Model; Controller-->Model; Controller-->View;
+ View-->|text1|Model; Controller-->|text2|Model; Controller-->|text3|View;
 :::
