@@ -55,6 +55,7 @@ Exemplo de View:
       
 Os controladores são os componentes que cuidam da interação do usuário, trabalham com o modelo e, em última análise, selecionam uma exibição a ser renderizada. Em um aplicativo MVC, a exibição mostra apenas informações; o controlador manipula e responde à entrada e à interação do usuário. No padrão MVC, o controlador é o ponto de entrada inicial e é responsável por selecionar quais tipos de modelo serão usados para o trabalho e qual exibição será renderizada (daí seu nome – ele controla como o aplicativo responde a determinada solicitação) [2].
 
+Abaixo um exemplo de Controller:
 ```csharp
 [Route("api/[controller]")]
 public class ProductsController : Controller
@@ -64,5 +65,18 @@ public class ProductsController : Controller
     {
       ...
     }
+}
+```
+
+Abaixo um exemplo de validação de uma ViewModel dentro de uma Action:
+```csharp
+public async Task<IActionResult> Login(LoginViewModel model)
+{
+    if (ModelState.IsValid)
+    {
+      // work with the model
+    }
+    // At this point, something failed, redisplay form
+    return View(model);
 }
 ```
