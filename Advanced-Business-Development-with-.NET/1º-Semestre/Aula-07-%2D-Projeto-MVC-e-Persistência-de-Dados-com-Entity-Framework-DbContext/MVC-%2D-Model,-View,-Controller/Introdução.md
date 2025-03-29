@@ -39,6 +39,7 @@ Através do Razor é possível desenvolver, de uma maneira simples, clara e leve
 A abordagem mais robusta é especificar um tipo de modelo na exibição. Esse modelo é conhecido como viewmodel. Você passa uma instância do tipo viewmodel para a exibição da ação [3].
 Usar um viewmodel para passar dados para uma exibição permite que a exibição tire proveito da verificação de tipo forte. Tipagem forte (ou fortemente tipado) significa que cada variável e constante têm um tipo definido explicitamente (por exemplo, string, int ou DateTime). A validade dos tipos usados em uma exibição é verificada em tempo de compilação [3].
 
+Exemplo de View:
 ```html
 @model WebApplication1.ViewModels.Address
 
@@ -48,4 +49,20 @@ Usar um viewmodel para passar dados para uma exibição permite que a exibição
     @Model.City, @Model.State @Model.PostalCode<br>
     <abbr title="Phone">P:</abbr> 425.555.0100
 </address>
+```
+
+# Controllers
+      
+Os controladores são os componentes que cuidam da interação do usuário, trabalham com o modelo e, em última análise, selecionam uma exibição a ser renderizada. Em um aplicativo MVC, a exibição mostra apenas informações; o controlador manipula e responde à entrada e à interação do usuário. No padrão MVC, o controlador é o ponto de entrada inicial e é responsável por selecionar quais tipos de modelo serão usados para o trabalho e qual exibição será renderizada (daí seu nome – ele controla como o aplicativo responde a determinada solicitação) [2].
+
+```csharp
+[Route("api/[controller]")]
+public class ProductsController : Controller
+{
+    [HttpGet("{id}")]
+    public IActionResult GetProduct(int id)
+    {
+      ...
+    }
+}
 ```
