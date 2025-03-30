@@ -74,5 +74,5 @@ if (!app.Environment.IsDevelopment())
 Configura o pipeline de solicitações HTTP. Se o ambiente não estiver em modo de desenvolvimento, ele usa um manipulador de exceções para as rotas /Home/Error.
 
 ```csharp
-var app = builder.Build();
+app.UseHttpsRedirection();
 ```
