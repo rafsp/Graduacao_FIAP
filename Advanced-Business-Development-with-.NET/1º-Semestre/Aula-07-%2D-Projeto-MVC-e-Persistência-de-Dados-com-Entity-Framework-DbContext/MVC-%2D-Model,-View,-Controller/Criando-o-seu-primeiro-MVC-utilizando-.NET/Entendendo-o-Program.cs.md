@@ -11,7 +11,7 @@ O arquivo Program.cs em um projeto C# MVC serve como ponto de entrada para a apl
 
 Em versões mais recentes do .NET, como o .NET 6, o arquivo Program.cs também assumiu responsabilidades que anteriormente estavam no arquivo Startup.cs, como a configuração de serviços e middlewares. 
 
-Isso faz parte de uma simplificação geral para tornar o código mais conciso e fácil de entender [4].
+Isso faz parte de uma simplificação geral para tornar o código mais conciso e fácil de entender [[4]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-07-%2D-Projeto-MVC-e-Persistência-de-Dados-com-Entity-Framework-DbContext/Referências).
 
 Abaixo um exemplo de um código no Program.cs :
 
