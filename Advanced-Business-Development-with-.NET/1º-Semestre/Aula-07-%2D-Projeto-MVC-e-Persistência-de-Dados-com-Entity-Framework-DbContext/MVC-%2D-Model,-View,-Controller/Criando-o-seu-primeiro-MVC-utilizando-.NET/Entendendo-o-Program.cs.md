@@ -13,3 +13,5 @@ Em versões mais recentes do .NET, como o .NET 6, o arquivo Program.cs também a
 
 Isso faz parte de uma simplificação geral para tornar o código mais conciso e fácil de entender [4].
 
+Abaixo um exemplo de um código no Program.cs :
+
