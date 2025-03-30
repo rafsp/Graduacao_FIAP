@@ -61,3 +61,14 @@ Registra os controladores e as views no contêiner de serviços, permitindo que 
 var app = builder.Build();
 ```
 Constrói a aplicação web a partir do construtor.
+
+```csharp      
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+```
+Configura o pipeline de solicitações HTTP. Se o ambiente não estiver em modo de desenvolvimento, ele usa um manipulador de exceções para as rotas /Home/Error.
