@@ -6,7 +6,7 @@ Nesta aula, vamos explorar o SQL Server, um sistema amplamente utilizado no merc
 
 # Sobre o SQL Server
 
-O SQL Server é um sistema de gerenciamento de banco de dados relacional desenvolvido pela Microsoft. Ele é projetado para gerenciar e armazenar informações, facilitando a recuperação de dados para outras aplicações e usuários [5].
+O SQL Server é um sistema de gerenciamento de banco de dados relacional desenvolvido pela Microsoft. Ele é projetado para gerenciar e armazenar informações, facilitando a recuperação de dados para outras aplicações e usuários [[5]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-07-%2D-Projeto-MVC-e-Persistência-de-Dados-com-Entity-Framework-DbContext/Referências).
 
 # Componentes e tecnologias do SQL Server
 
