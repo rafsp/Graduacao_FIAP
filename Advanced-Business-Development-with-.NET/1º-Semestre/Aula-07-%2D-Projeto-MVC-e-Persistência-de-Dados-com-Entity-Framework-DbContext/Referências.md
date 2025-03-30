@@ -14,8 +14,5 @@
   
 
 6. Install SQL Server - Microsoft. Disponível em: https://learn.microsoft.com/pt-br/sql/database-engine/install-windows/install-sql-server. Acesso em: 17 fev. 2024.  
-  
 
-7. Install SQL Server from the Command Prompt - Microsoft. Disponível em: https://learn.microsoft.com/pt-br/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt. Acesso em: 17 fev. 2024.
-
-8. Working with DbContext - Microsoft. Disponível em: https://learn.microsoft.com/pt-br/ef/ef6/fundamentals/working-with-dbcontext. Acesso em: 17 fev. 2024.
+7. Working with DbContext - Microsoft. Disponível em: https://learn.microsoft.com/pt-br/ef/ef6/fundamentals/working-with-dbcontext. Acesso em: 17 fev. 2024.
