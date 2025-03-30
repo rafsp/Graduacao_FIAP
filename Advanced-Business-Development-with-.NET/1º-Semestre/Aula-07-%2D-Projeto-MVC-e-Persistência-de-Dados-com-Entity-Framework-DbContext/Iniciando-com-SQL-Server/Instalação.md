@@ -11,7 +11,7 @@
 
 4.  **Aceite os termos de licença**: Leia e aceite os termos de licença para continuar;
 
-![==image_2==.png](/.attachments/==image_2==-ffd160c9-f983-4e95-b2ad-a04bba3665ad.png)   
+    ![==image_2==.png](/.attachments/==image_2==-ffd160c9-f983-4e95-b2ad-a04bba3665ad.png)   
 
 5.  **Especifique o local de instalação**: Defina o nome e as configurações da instância do SQL Server;
 ![==image_3==.png](/.attachments/==image_3==-fd240c75-4328-468c-a612-516695f37e90.png)
@@ -26,15 +26,14 @@ sqlcmd -S nome_do_computador -E
 2.  **Configuração no Visual Studio**: Em “View”, clicar em “SQL Server Object Explorer”:
 ![==image_6==.png](/.attachments/==image_6==-27df0cf6-66db-4380-88d0-67946b336591.png)   
 
-Depois, em “SQL Server Object Explorer”, clicar com o botão direito em “SQL Server” e posteriormente em “Add SQL Server”:
+3. Depois, em “SQL Server Object Explorer”, clicar com o botão direito em “SQL Server” e posteriormente em “Add SQL Server”:
 ![==image_7==.png](/.attachments/==image_7==-91d23573-e091-4e8c-8f8c-ca77853c5a90.png)   
 
-Em “Local”, selecionar a configuração desejada:
+4. Em “Local”, selecionar a configuração desejada:
 ![==image_8==.png](/.attachments/==image_8==-ebae4275-d6a2-4474-8819-477cc3d46200.png)   
 
-Em “Trust Server Certificate”, selecionar “True”. Em seguida, clicar em “Connect”.
+5. Em “Trust Server Certificate”, selecionar “True”. Em seguida, clicar em “Connect”.
 ![==image_9==.png](/.attachments/==image_9==-8b143d3f-6699-4310-9d2a-ca54553fb2a8.png)   
 
-  
-Pronto 😊. Agora temos configurado o SQL no nosso Visual Studio:
+6. Pronto 😊. Agora temos configurado o SQL no nosso Visual Studio:
 ![==image_10==.png](/.attachments/==image_10==-306dc197-7d82-41f3-b262-a07bc61ea4af.png) 
