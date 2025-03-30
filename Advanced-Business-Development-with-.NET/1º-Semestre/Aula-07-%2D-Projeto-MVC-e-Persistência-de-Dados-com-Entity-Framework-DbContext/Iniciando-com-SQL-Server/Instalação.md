@@ -2,7 +2,7 @@
 
 # Passo a passo da instalação
 
-1.  **Obtenha a mídia de instalação**: Você pode baixar o SQL Server diretamente do site oficial da Microsoft [6]. Para facilitar, entre no link [Downloads do SQL Server | Microsoft](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads);
+1.  **Obtenha a mídia de instalação**: Você pode baixar o SQL Server diretamente do site oficial da Microsoft [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-07-%2D-Projeto-MVC-e-Persistência-de-Dados-com-Entity-Framework-DbContext/Referências). Para facilitar, entre no link [Downloads do SQL Server | Microsoft](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads);
 ![==image_0==.png](/.attachments/==image_0==-85581712-f013-4090-a897-babfa8546997.png)   
 
 2.  **Execute o arquivo de instalação**: Localize o arquivo baixado e execute-o;
@@ -21,7 +21,10 @@
 # Pós Instalação  
   
 1.  **Verificação da instalação**: Use o prompt de comando para verificar se a configuração está ok.
+
+```bash
 sqlcmd -S nome_do_computador -E
+```
 ![==image_5==.png](/.attachments/==image_5==-6cb9c9d7-4298-48fe-9da5-10f069192dc9.png) 
 2.  **Configuração no Visual Studio**: Em “View”, clicar em “SQL Server Object Explorer”:
 ![==image_6==.png](/.attachments/==image_6==-27df0cf6-66db-4380-88d0-67946b336591.png)   
