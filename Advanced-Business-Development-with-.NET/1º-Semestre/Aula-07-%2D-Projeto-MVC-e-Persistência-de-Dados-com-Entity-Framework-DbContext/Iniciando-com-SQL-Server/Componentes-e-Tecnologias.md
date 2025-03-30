@@ -1,3 +1,7 @@
+
+
+# Introdução
+
 Nesta aula, vamos explorar o SQL Server, um sistema amplamente utilizado no mercado de trabalho, assim como o Oracle, que abordaremos nas aulas seguintes.
 
 # Sobre o SQL Server
