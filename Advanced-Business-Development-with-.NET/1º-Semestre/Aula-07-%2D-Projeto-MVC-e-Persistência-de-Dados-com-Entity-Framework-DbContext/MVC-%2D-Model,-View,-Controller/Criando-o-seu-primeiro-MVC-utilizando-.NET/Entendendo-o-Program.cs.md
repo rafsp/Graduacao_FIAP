@@ -76,3 +76,4 @@ Configura o pipeline de solicitações HTTP. Se o ambiente não estiver em modo 
 ```csharp
 app.UseHttpsRedirection();
 ```
+Redireciona todas as solicitações HTTP para HTTPS.
