@@ -47,3 +47,17 @@ app.Run();
 
 Explicando o código, linha por linha...
 
+```csharp      
+var builder = WebApplication.CreateBuilder(args);
+```
+Cria um novo construtor de aplicação web com os argumentos fornecidos, que geralmente são os argumentos da linha de comando.  
+
+```csharp
+builder.Services.AddControllersWithViews();
+```
+Registra os controladores e as views no contêiner de serviços, permitindo que o MVC seja usado na aplicação.
+
+```csharp
+var app = builder.Build();
+```
+Constrói a aplicação web a partir do construtor.
