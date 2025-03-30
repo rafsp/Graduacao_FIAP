@@ -18,13 +18,12 @@
 6.  **Conclua a instalação**: Revise as configurações e finalize a instalação;
 ![==image_4==.png](/.attachments/==image_4==-f9953d78-8bac-4e59-b977-bd7e320ca890.png) 
 
-**Pós Instalação  
+# Pós Instalação  
   
-**
-7.  **Verificação da instalação**: Use o prompt de comando para verificar se a configuração está ok.
+1.  **Verificação da instalação**: Use o prompt de comando para verificar se a configuração está ok.
 sqlcmd -S nome_do_computador -E
 ![==image_5==.png](/.attachments/==image_5==-6cb9c9d7-4298-48fe-9da5-10f069192dc9.png) 
-8.  **Configuração no Visual Studio**: Em “View”, clicar em “SQL Server Object Explorer”:
+2.  **Configuração no Visual Studio**: Em “View”, clicar em “SQL Server Object Explorer”:
 ![==image_6==.png](/.attachments/==image_6==-27df0cf6-66db-4380-88d0-67946b336591.png)   
 
 Depois, em “SQL Server Object Explorer”, clicar com o botão direito em “SQL Server” e posteriormente em “Add SQL Server”:
