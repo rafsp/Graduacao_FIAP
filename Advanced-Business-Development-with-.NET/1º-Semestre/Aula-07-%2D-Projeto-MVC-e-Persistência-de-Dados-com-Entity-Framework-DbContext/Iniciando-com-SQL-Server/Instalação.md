@@ -21,11 +21,10 @@
 # Pós Instalação  
   
 1.  **Verificação da instalação**: Use o prompt de comando para verificar se a configuração está ok.
-
-```bash
-sqlcmd -S nome_do_computador -E
-```
-![==image_5==.png](/.attachments/==image_5==-6cb9c9d7-4298-48fe-9da5-10f069192dc9.png) 
+    ```bash
+    sqlcmd -S nome_do_computador -E
+    ```
+    ![==image_5==.png](/.attachments/==image_5==-6cb9c9d7-4298-48fe-9da5-10f069192dc9.png) 
 2.  **Configuração no Visual Studio**: Em “View”, clicar em “SQL Server Object Explorer”:
 ![==image_6==.png](/.attachments/==image_6==-27df0cf6-66db-4380-88d0-67946b336591.png)   
 
