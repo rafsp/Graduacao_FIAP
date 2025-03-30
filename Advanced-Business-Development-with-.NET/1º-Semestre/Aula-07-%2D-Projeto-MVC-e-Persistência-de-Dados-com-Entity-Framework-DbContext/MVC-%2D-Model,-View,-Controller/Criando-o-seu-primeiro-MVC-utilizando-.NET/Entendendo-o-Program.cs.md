@@ -77,3 +77,30 @@ Configura o pipeline de solicitações HTTP. Se o ambiente não estiver em modo 
 app.UseHttpsRedirection();
 ```
 Redireciona todas as solicitações HTTP para HTTPS.
+
+```csharp      
+app.UseStaticFiles();
+```
+Permite que a aplicação sirva arquivos estáticos, como imagens, CSS e JavaScript.
+
+```csharp
+app.UseRouting();
+```
+Habilita o roteamento na aplicação.
+
+```csharp
+app.UseAuthorization();
+```
+Adiciona a autorização ao pipeline de solicitações.
+
+```csharp
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+```
+Define uma rota padrão para o MVC, que mapeia para o controlador Home e a ação Index por padrão, com um parâmetro opcional id.
+
+```csharp
+app.Run();
+```
+Inicia a aplicação web.
