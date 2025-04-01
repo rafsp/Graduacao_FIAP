@@ -10,7 +10,8 @@ O DBContext é uma classe central no **Entity Framework**, que serve como um can
 
 # Vendo na prática
 
-Abaixo os procedimentos para baixar o projeto na máquina local através do Git:
-**Link do Repositório:** [https://nagibsabbag.visualstudio.com/FIAP/_git/student-mvc-dbcontext](https://nagibsabbag.visualstudio.com/FIAP/_git/student-mvc-dbcontext)
-**Usuário Git:** [alunos.fiap@outlook.com](mailto:alunos.fiap@outlook.com)
-**Senha:** Kcio2103S
+## Link para o Clone
+
+```
+https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/mvc-dbcontext
+```
