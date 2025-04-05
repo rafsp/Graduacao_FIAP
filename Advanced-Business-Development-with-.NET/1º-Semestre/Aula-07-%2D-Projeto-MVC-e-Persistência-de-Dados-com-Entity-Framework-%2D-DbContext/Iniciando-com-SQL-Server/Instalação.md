@@ -2,7 +2,7 @@
 
 # Passo a passo da instalação
 
-1.  **Obtenha a mídia de instalação**: Você pode baixar o SQL Server diretamente do site oficial da Microsoft [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-07-%2D-Projeto-MVC-e-Persistência-de-Dados-com-Entity-Framework-DbContext/Referências). Para facilitar, entre no link [Downloads do SQL Server | Microsoft](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads);
+1.  **Obtenha a mídia de instalação**: Você pode baixar o SQL Server diretamente do site oficial da Microsoft [[6]](/Advanced-Business-Development-with-.NET/1º-Semestre/Aula-07-%2D-Projeto-MVC-e-Persistência-de-Dados-com-Entity-Framework-%2D-DbContext/Referências). Para facilitar, entre no link [Downloads do SQL Server | Microsoft](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads);
 ![==image_0==.png](/.attachments/==image_0==-85581712-f013-4090-a897-babfa8546997.png)   
 
 2.  **Execute o arquivo de instalação**: Localize o arquivo baixado e execute-o;
