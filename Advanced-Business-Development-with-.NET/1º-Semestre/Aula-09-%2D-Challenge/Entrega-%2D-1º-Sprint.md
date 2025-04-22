@@ -17,3 +17,8 @@
 # Observação
 
 A organização e apresentação do trabalho terá impacto na redução da nota ou penalidade adicional no trabalho.
+
+# Cronograma
+
+Até 23/05 - Entrega da Sprint 1
+
