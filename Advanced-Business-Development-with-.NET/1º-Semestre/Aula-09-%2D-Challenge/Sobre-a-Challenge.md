@@ -16,4 +16,4 @@
 
 # Observação
 
-A organização e apresentação do trabalho terá impacto na redução da nota ou penalidade adicional no trabalho
+A organização e apresentação do trabalho terá impacto na redução da nota ou penalidade adicional no trabalho.
