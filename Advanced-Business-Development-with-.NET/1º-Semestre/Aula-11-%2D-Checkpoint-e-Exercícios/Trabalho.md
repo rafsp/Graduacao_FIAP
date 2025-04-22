@@ -7,7 +7,7 @@ O trabalho deverá ser entregue até **05/05, às 23:59**, por meio do envio do 
 Criar uma solução de sua preferência ou evoluir uma solução existente (exemplo do Checkpoint anterior) que atenda aos seguintes requisitos:  
 
 1. **Estrutura do projeto**  
-   - Deve conter, pelo menos, um **projeto de console** e um **projeto de biblioteca (lib)**;
+   - Deve conter, pelo menos, um **projeto de webapi** e um **projeto de biblioteca (lib)**;
    - O **projeto console** deve referenciar e utilizar os objetos do **projeto lib**.  
 
 2. **Requisitos técnicos**  
