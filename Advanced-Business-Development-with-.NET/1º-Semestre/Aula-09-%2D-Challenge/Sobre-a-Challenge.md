@@ -11,3 +11,9 @@
 - Open API Implementada seguindo os padrões para documentação das API's com interface gráfica (Swagger, Redoc ou Scalar)
 
 # ReadMe do projeto e Github (15 pts)
+
+- Implementação do Readme do projeto apresentando: Descrição do projeto, Rotas, Instalação
+
+# Observação
+
+A organização e apresentação do trabalho terá impacto na redução da nota ou penalidade adicional no trabalho
