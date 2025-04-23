@@ -4,12 +4,15 @@
 
 CandidatoModel.cs:
 ```csharp
-public class CandidatoModel
+namespace CandidatosBusiness
 {
-    public int Id { get; set; }
-    public string Nome { get; set; }
-    public string Partido { get; set; }
-    public int Idade { get; set; }
+    public class CandidatoModel
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Partido { get; set; }
+        public int Idade { get; set; }
+    }
 }
 ```
 
