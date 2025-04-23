@@ -8,3 +8,10 @@ cd ..
 dotnet new classlib -n CandidatosBusiness
 ```
 ![gifanimation.gif](/.attachments/gifanimation-5485f355-5015-4f55-9036-e60bace08dba.gif)
+
+# Adicionar referência
+
+Adicionar a referência do projeto de Business para a WebApi:
+```bash
+dotnet add CandidatosApi/ reference CandidatosBusiness/
+```
