@@ -1,7 +1,7 @@
 [[_TOC_]]
 
 # Projeto Library do Business
-No nosso cenário exemplo, vamos considerar o NTier Architecture. Sendo assim, vamos criar um projeto de Business, para ser integrado com a WebApi. No Visual Studio Code, iremos apertar as teclas ``Ctrl`` + ``'`` e escrever conforme abaixo:
+No nosso cenário exemplo, vamos considerar o [NTier Architecture](https://leaders.tec.br/artigo/separacao-de-responsabilidades-na-pratica-comparacao-entre-ntier-architecture-e-clean-architecture). Sendo assim, vamos criar um projeto de Business, para ser integrado com a WebApi. No Visual Studio Code, iremos apertar as teclas ``Ctrl`` + ``'`` e escrever conforme abaixo:
 
 ```bash
 cd ..
