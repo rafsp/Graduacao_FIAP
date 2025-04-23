@@ -13,3 +13,4 @@ public class CandidatoModel
 }
 ```
 
+![gifanimation.gif](/.attachments/gifanimation-946df558-c743-4c88-8dc5-06a062223cc0.gif)
