@@ -45,3 +45,5 @@ namespace CandidatosBusiness
     }
 }
 ```
+
+![gifanimation.gif](/.attachments/gifanimation-eee76a26-6253-4bd8-ae91-d833694e56ca.gif)
