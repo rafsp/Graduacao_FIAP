@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Remoção do WeatherForecast
 
 Remova os códigos relacionados ao WeatherForecast
