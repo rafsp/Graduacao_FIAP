@@ -2,7 +2,7 @@
 
 # Criação do arquivo no projeto CandidatosModel
 
-CandidatoModel.cs:
+Código do CandidatoModel.cs:
 ```csharp
 namespace CandidatosBusiness
 {
