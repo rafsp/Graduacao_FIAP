@@ -35,7 +35,7 @@ namespace CandidatosApi.Controllers
             return CreatedAtAction(nameof(Get), new { id = criado.Id }, criado);
         }
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] Candidato candidato)
+        public IActionResult Put(int id, [FromBody] CandidatoModel candidato)
         {
             if (candidato == null || candidato.Id != id)
                 return BadRequest("Dados inconsistentes.");
