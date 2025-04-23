@@ -15,3 +15,4 @@ Adicionar a referência do projeto de Business para a WebApi:
 ```bash
 dotnet add CandidatosApi/ reference CandidatosBusiness/
 ```
+![gifanimation.gif](/.attachments/gifanimation-25dab86f-93c3-4237-81c6-b75748a6c0e0.gif)
