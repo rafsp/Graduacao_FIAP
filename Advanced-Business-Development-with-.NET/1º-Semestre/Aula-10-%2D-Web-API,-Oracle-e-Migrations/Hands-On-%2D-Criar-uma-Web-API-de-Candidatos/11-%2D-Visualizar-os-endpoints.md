@@ -11,3 +11,6 @@ Estamos trabalhando com Minimal API, isso significa que não existe um "front" m
    ![gifanimation.gif](/.attachments/gifanimation-16913573-03a3-4a0b-9382-2c22f19e5229.gif)
 
 # Instalar a extensão da OpenAPI no Visual Studio Code
+
+Em "Extensions", escrever OpenAPI e instalar a extensão:
+
