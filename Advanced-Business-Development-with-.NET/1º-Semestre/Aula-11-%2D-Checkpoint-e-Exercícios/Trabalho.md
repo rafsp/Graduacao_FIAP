@@ -18,8 +18,8 @@ Criar uma solução de sua preferência ou evoluir uma solução existente (exem
      - `400 Bad Request`: Quando os dados enviados são inválidos.
      - `404 Not Found`: Quando a solicitação não foi encontrada.
    - Open API Implementada seguindo os padrões para documentação das API's com interface gráfica (Swagger, Redoc ou Scalar)
-   - Integração do Banco de dados Oracle via EF Core, com utilização de migrations para criação das tabelas
   - Implementação do Readme do projeto apresentando: Descrição do projeto, Rotas, Instalação
+   - Integração do Banco de dados Oracle via EF Core, com utilização de migrations para criação das tabelas
 
 ## ❌ Restrições  
 - **Arquivos do projeto não devem estar compactados (ZIP)** dentro do repositório;
