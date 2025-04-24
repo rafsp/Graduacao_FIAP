@@ -2,7 +2,8 @@
 
 # Criação do arquivo no projeto CandidatosApi
 
-Código do CandidatosController.cs:
+Criar um arquivo dentro de `CandidatosApi/Controllers`, com o nome `CandidatosController.cs` e com o código abaixo:
+
 ```csharp
 using CandidatosBusiness;
 using CandidatosModel;
