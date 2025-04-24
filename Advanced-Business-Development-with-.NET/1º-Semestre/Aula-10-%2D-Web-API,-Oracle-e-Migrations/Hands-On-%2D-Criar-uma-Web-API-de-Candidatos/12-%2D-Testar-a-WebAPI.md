@@ -11,9 +11,9 @@ Agora podemos testar a API. É claro que ainda não estamos conectando com o ban
   **OBSERVAÇÃO IMPORTANTE:** Essa configuração é TEMPORÁRIA, quando a gente se conectar com o banco vamos precisar voltar ao Scoped.
 
 - Rodar a WebApi
-  Próximo passo está em rodar a WebApi
+  Próximo passo está em rodar a WebApi:
   ![gifanimation.gif](/.attachments/gifanimation-d170d363-6c4b-4f0b-a17c-f3b20413249e.gif)
 
 - Testar as chamadas
-  
+  Agora que a WebApi está rodando, o próximo passo está em testar algumas chamadas:
   
