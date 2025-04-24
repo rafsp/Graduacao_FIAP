@@ -55,9 +55,11 @@ Accept: application/json
 ![gifanimation.gif](/.attachments/gifanimation-8ede928c-4c15-4df2-a32c-39868b868fae.gif)
 
 
-# Instalar a extensão `REST Client`
+# Instalar a extensão de testes Rest
 
 Para que a gente consiga testar, o próximo passo está em instalar a extensão `REST Client`:
+
+
 
 - Rodar a WebApi
   Próximo passo está em rodar a WebApi:
