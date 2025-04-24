@@ -15,3 +15,6 @@ Estamos trabalhando com Minimal API, isso significa que não existe um "front" m
 Em `Extensions`, escrever OpenAPI e instalar a extensão `OpenAPI (Swagger) Editor`:
 
 ![gifanimation.gif](/.attachments/gifanimation-99f3b669-1fd8-4a51-a4a1-a114a48ab47d.gif)
+
+# Visualizar a documentação
+
