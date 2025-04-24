@@ -13,3 +13,9 @@ dotnet build CandidatosApi
 
 # Rodar a WebApi
 
+Execute o comando abaixo:
+
+```bash
+dotnet run --project CandidatosApi
+```
+
