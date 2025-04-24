@@ -4,3 +4,4 @@ Criar a conexão com [Scoped](https://leaders.tec.br/artigo/comparacao-de-transi
 ```csharp
 builder.Services.AddScoped<CandidatoService>();
 ```
+
