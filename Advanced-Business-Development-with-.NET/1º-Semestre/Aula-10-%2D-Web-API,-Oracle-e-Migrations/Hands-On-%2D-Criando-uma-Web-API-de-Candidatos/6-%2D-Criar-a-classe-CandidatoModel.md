@@ -4,7 +4,7 @@
 
 Código do CandidatoModel.cs:
 ```csharp
-namespace CandidatosBusiness;
+namespace CandidatosModel;
 public class CandidatoModel
 {
     public int Id { get; set; }
