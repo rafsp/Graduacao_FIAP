@@ -11,4 +11,5 @@ Agora podemos testar a API. É claro que ainda não estamos conectando com o ban
   **OBSERVAÇÃO IMPORTANTE:** Essa configuração é TEMPORÁRIA, quando a gente se conectar com o banco vamos precisar voltar ao Scoped.
 
 - Rodar a WebApi
+  ![gifanimation.gif](/.attachments/gifanimation-d170d363-6c4b-4f0b-a17c-f3b20413249e.gif)
   
