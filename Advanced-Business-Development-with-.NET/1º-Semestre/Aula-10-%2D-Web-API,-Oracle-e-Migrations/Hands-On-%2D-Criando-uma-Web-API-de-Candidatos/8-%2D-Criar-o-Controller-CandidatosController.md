@@ -3,6 +3,7 @@
 # Criação do arquivo no projeto CandidatosApi
 
 Código do CandidatosController.cs:
+```csharp
 using CandidatosBusiness;
 using CandidatosModel;
 using Microsoft.AspNetCore.Mvc;
