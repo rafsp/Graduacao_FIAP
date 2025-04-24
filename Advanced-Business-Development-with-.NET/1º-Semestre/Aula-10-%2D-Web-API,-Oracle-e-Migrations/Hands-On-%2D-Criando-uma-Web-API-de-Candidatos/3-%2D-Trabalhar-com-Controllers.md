@@ -9,7 +9,7 @@ app.MapControllers();
 
 ![gifanimation.gif](/.attachments/gifanimation-090ef93f-85f5-4445-aedd-403a255cd174.gif)
 
-Escrever o código abaixo antes do `builder.Build()`:
+Escrever o código abaixo antes do `var app = builder.Build()`:
 ```csharp
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
