@@ -12,11 +12,10 @@ Criar uma solução de sua preferência ou evoluir uma solução existente (exem
 2. **Requisitos técnicos**
    - A **webapi** deve ter, pelo menos, 4 endpoints (GET, POST, PUT, DELETE);
    - Apresentar os retornos HTTP adequados para cada endpoint:
-     - POST – `201 Created`
-       - Indica que um novo recurso foi criado com sucesso.
-     - PUT – `204 No Content` / `200 OK` / `400 Bad Request`
-       - `204 No Content`: Quando a atualização foi bem-sucedida, mas não há necessidade de retornar um corpo.
-       - `200 OK`: Quando você quer retornar o recurso atualizado ou alguma confirmação.
+     - `200 OK`: Quando você quer retornar o recurso atualizado ou alguma confirmação.
+     - `201 Created`: indica que um novo recurso foi criado com sucesso.
+     - `204 No Content`: Quando a atualização foi bem-sucedida, mas não há necessidade de retornar um corpo.
+
        - `400 Bad Request`: Quando os dados enviados são inválidos.
      - DELETE – `204 No Content` / `200 OK` / `400 Bad Request`
        - `204 No Content`: Quando a exclusão foi bem-sucedida e você não precisa retornar nada.
