@@ -24,12 +24,14 @@ public class CandidatosController
         var candidatos = candidatoService.ListarTodos();
         return candidatos.Count == 0 ? NoContent() : Ok(candidatos);
     }
+
     [HttpGet("{id}")]
     public IActionResult Get(int id)
     {
         var candidato = candidatoService.ObterPorId(id);
         return candidato == null ? NotFound() : Ok(candidato);
     }
+
     [HttpPost]
     public IActionResult Post([FromBody] CandidatoModel candidato)
     {
@@ -38,6 +40,7 @@ public class CandidatosController
         var criado = candidatoService.Criar(candidato);
         return CreatedAtAction(nameof(Get), new { id = criado.Id }, criado);
     }
+
     [HttpPut("{id}")]
     public IActionResult Put(int id, [FromBody] CandidatoModel candidato)
     {
@@ -45,6 +48,7 @@ public class CandidatosController
             return BadRequest("Dados inconsistentes.");
         return candidatoService.Atualizar(candidato) ? NoContent() : NotFound();
     }
+
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
     {
@@ -52,3 +56,5 @@ public class CandidatosController
     }
 }
 ```
+
+![gifanimation.gif](/.attachments/gifanimation-9b34bbda-8c06-48ef-9f42-9030d8bf2e6b.gif)
