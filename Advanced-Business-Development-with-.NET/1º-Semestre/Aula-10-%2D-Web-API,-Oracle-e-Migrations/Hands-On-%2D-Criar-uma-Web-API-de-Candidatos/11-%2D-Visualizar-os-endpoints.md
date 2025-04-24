@@ -2,7 +2,7 @@
 
 # Salvar o arquivo v1.json
 
-Estamos trabalhando com Minimal API, isso significa que não existe um "front" mostrando a documentação dos endpoints. Porém podemos utilizar o arquivo que foi gerado da OpenAPI para verificar o resultado. Sendo assim:
+No nosso projeto, não estamos priorizando a criação de uma interface visual para exibição dos endpoints. Isso significa que não há uma interface gráfica (como o Swagger) para apresentar a documentação da API no navegador. Porém podemos utilizar o arquivo que foi gerado da OpenAPI para verificar o resultado. Sendo assim:
 
 1. Entrar no link do arquivo json, com a configuração da OpenAPI (no meu caso, está no link http://localhost:5263/openapi/v1.json ):
 
