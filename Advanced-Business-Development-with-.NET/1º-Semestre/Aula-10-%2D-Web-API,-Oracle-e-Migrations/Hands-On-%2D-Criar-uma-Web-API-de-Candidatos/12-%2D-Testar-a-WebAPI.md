@@ -12,4 +12,6 @@ Agora podemos testar a API. É claro que ainda não estamos conectando com o ban
 
 - Rodar a WebApi
   ![gifanimation.gif](/.attachments/gifanimation-d170d363-6c4b-4f0b-a17c-f3b20413249e.gif)
+
+- Testar as chamadas
   
