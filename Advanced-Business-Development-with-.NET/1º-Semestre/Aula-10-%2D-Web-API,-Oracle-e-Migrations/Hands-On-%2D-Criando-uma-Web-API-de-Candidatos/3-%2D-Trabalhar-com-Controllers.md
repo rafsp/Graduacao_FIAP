@@ -20,5 +20,5 @@ builder.Services.AddEndpointsApiExplorer();
 
 # Na pasta do Projeto CandidatosApi
 
-Crie uma nova pasta chamada `Controllers`:
+Criar uma nova pasta chamada `Controllers`:
 ![gifanimation.gif](/.attachments/gifanimation-af0f4ef4-a9ae-4938-be97-5041a833eaef.gif)
