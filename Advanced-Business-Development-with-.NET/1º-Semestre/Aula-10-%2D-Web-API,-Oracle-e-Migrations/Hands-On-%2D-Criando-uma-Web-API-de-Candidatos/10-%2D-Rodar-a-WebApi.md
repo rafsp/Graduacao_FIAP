@@ -1,3 +1,4 @@
+[[_TOC_]]
 
 # Build para verificar a compilação e possíveis erros
 
