@@ -62,10 +62,5 @@ Para que a gente consiga testar, o próximo passo está em instalar a extensão 
 
 # Testar a WebAPI
 
-- Rodar a WebApi
-  Próximo passo está em rodar a WebApi:
-  ![gifanimation.gif](/.attachments/gifanimation-d170d363-6c4b-4f0b-a17c-f3b20413249e.gif)
+Por fim, vamos rodar e testar os endpoints:
 
-- Testar as chamadas
-  Agora que a WebApi está rodando, o próximo passo está em testar algumas chamadas:
-  
