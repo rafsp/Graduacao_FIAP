@@ -2,7 +2,7 @@
 
 # No Program.cs
 
-Escrever o código abaixo antes do `app.Run()`:
+Escrever o código abaixo antes do `builder.Build()`:
 ```csharp
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
