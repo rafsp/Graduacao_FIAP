@@ -11,22 +11,12 @@ Criar uma solução de sua preferência ou evoluir uma solução existente (exem
   
 2. **Requisitos técnicos**
    - A **webapi** deve ter, pelo menos, 4 endpoints (GET, POST, PUT, DELETE);
-   - Apresentar os retornos HTTP adequados para cada endpoint:
-     - `200 OK`: Quando você quer retornar o recurso atualizado ou alguma confirmação.
+   - Apresentar os retornos HTTP adequados de acordo com a necessidade de cada endpoint:
+     - `200 OK`: Quando você quer consultar os dados realizar ou alguma confirmação.
      - `201 Created`: indica que um novo recurso foi criado com sucesso.
-     - `204 No Content`: Quando a atualização foi bem-sucedida, mas não há necessidade de retornar um corpo.
-
-       - `400 Bad Request`: Quando os dados enviados são inválidos.
-     - DELETE – `204 No Content` / `200 OK` / `400 Bad Request`
-       - `204 No Content`: Quando a exclusão foi bem-sucedida e você não precisa retornar nada.
-       - `200 OK`: Se quiser confirmar a exclusão com alguma mensagem.
-       - `400 Bad Request`: Se, por exemplo, a requisição estiver malformada ou tentar deletar algo que não pode ser deletado.
-     - GET – `200 OK` / `204 No Content` / `400 Bad Request`
-       - `200 OK`: Quando há dados para retornar.
-       - `204 No Content`: Quando a requisição está correta, mas não há dados para mostrar (ex: filtro sem resultados).
-       - `400 Bad Request`: Se os parâmetros de consulta forem inválidos.
-     - Rotas não encontradas – `404 Not Found`
-       - Correto para quando o endpoint solicitado não existe.
+     - `204 No Content`: Quando o procedimento foi bem-sucedido, mas não há necessidade de retornar um corpo.
+     - `400 Bad Request`: Quando os dados enviados são inválidos.
+     - `404 Not Found`: Quando a solicitação não foi encontrada.
    - Integração do Banco de dados Oracle via EF Core, com utilização de migrations para criação das tabelas
    - Open API Implementada seguindo os padrões para documentação das API's com interface gráfica (Swagger, Redoc ou Scalar)
   - Implementação do Readme do projeto apresentando: Descrição do projeto, Rotas, Instalação
