@@ -1,7 +1,7 @@
 # 🚀 Checkpoint - Entrega do Trabalho  
 
 ## 📅 Prazo de Entrega  
-O trabalho deverá ser entregue até **05/05, às 23:59**, por meio do envio do link de um **repositório público no GitHub**.  
+O trabalho deverá ser entregue até **12/05, às 23:59**, por meio do envio do link de um **repositório público no GitHub**.  
 
 ## 🎯 Objetivo  
 Criar uma solução de sua preferência ou evoluir uma solução existente (exemplo do Checkpoint anterior) que atenda aos seguintes requisitos:  
