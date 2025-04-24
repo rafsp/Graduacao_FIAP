@@ -6,7 +6,7 @@ Remover os códigos relacionados ao WeatherForecast:
 
 ![gifanimation.gif](/.attachments/gifanimation-b4179797-e60f-4446-b563-43bc249adf07.gif)
 
-# Arquivo CandidatosApi.http
+# No arquivo CandidatosApi.http
 
 No nosso cenário, vamos desconsiderar o arquivo .http. Portanto, vamos remover esse arquivo:
 
