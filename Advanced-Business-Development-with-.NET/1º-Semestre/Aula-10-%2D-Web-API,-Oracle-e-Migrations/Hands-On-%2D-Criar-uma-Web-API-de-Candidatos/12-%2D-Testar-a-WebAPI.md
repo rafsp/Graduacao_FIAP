@@ -6,4 +6,6 @@ Se você chegou até aqui, parabéns! Significa que você acabou de desenvolver 
 
 Agora podemos testar a API. É claro que ainda não estamos conectando com o banco de dados, então podemos forçar um `Singleton` para ver alguma ação legal nisso.
 
-- Configurar TEMPORARIAMENTE o Singleton (só para ver um resultado melhor enquanto a gente não conecta com o banco)
+- Configurar TEMPORARIAMENTE o Singleton (só para ver um resultado melhor enquanto a gente não conecta com o banco):
+  ![gifanimation.gif](/.attachments/gifanimation-65d03b7e-6059-4b4d-8b80-80b3399365ca.gif)
+  **OBSERVAÇÃO IMPORTANTE:** 
