@@ -8,5 +8,5 @@ Perceba que estamos trabalhando com Minimal API, isso significa que não existe 
 
    ![gifanimation.gif](/.attachments/gifanimation-a149f8b7-2027-4f21-95f5-7f95aa44538c.gif)
 
-2. Copie o conteúdo e cole em um arquivo chamado `v1.json`, dentro de uma nova pasta chamada `OpenAPI`:
+2. Copie o conteúdo e cole em um arquivo chamado `v1.json`, dentro de uma nova pasta chamada `CandidatosDocs`:
 
