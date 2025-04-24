@@ -2,7 +2,8 @@
 
 # Criação do arquivo no projeto CandidatosModel
 
-Código do CandidatoModel.cs:
+Criar um arquivo dentro de `CandidatosModel`, com o nome `CandidatoModel.cs` e com o código abaixo:
+
 ```csharp
 namespace CandidatosModel;
 public class CandidatoModel
