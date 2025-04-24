@@ -18,5 +18,6 @@ Em `Extensions`, escrever OpenAPI e instalar a extensão `OpenAPI (Swagger) Edit
 
 # Visualizar a documentação
 
-Selecionar o arquivo `v1.json` e depois clique em `OpenAPI: show preview`:
+Selecionar o arquivo `v1.json` e depois clicar em `OpenAPI: show preview`:
 
+![gifanimation.gif](/.attachments/gifanimation-1dec5f3d-4054-4989-ba45-3593fff2bcff.gif)
