@@ -52,6 +52,8 @@ DELETE {{baseUrl}}/api/Candidatos/1
 Accept: application/json
 ```
 
+![gifanimation.gif](/.attachments/gifanimation-8ede928c-4c15-4df2-a32c-39868b868fae.gif)
+
 
 - Rodar a WebApi
   Próximo passo está em rodar a WebApi:
