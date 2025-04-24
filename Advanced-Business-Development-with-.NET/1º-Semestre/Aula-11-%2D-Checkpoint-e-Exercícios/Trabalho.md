@@ -7,7 +7,7 @@ O trabalho deverá ser entregue até **05/05, às 23:59**, por meio do envio do 
 Criar uma solução de sua preferência ou evoluir uma solução existente (exemplo do Checkpoint anterior) que atenda aos seguintes requisitos:  
 
 1. **Estrutura do projeto**  
-- Deve conter, pelo menos, um **projeto de webapi** e um **projeto de biblioteca (lib)**, sendo que o ideal seria a solução conter, pelo menos, de 3 a 4 projetos;
+- Deve conter, pelo menos, um **projeto de webapi** e um **projeto de biblioteca (lib)**, sendo que o ideal seria a solução conter, pelo menos, de 3 a 4 projetos.
   
 2. **Requisitos técnicos**
 - A **webapi** deve ter, pelo menos, 4 endpoints (GET, POST, PUT, DELETE);
