@@ -8,6 +8,6 @@ Remover os códigos relacionados ao WeatherForecast:
 
 # No arquivo CandidatosApi.http
 
-No nosso cenário, vamos desconsiderar o arquivo .http. Portanto, vamos remover esse arquivo:
+No nosso cenário, vamos remover o arquivo .http:
 
 ![gifanimation.gif](/.attachments/gifanimation-8c3c294a-b6b9-44d7-be9d-aa611a560f3e.gif)
