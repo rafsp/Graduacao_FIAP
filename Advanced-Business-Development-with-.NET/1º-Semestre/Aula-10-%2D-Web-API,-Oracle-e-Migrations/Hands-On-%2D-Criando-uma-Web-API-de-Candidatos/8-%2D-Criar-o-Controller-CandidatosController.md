@@ -3,58 +3,50 @@
 # Criação do arquivo no projeto CandidatosApi
 
 Código do CandidatosController.cs:
-```csharp
 using CandidatosBusiness;
 using CandidatosModel;
+using Microsoft.AspNetCore.Mvc;
 
-namespace CandidatosApi.Controllers
+namespace CandidatosApi.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class CandidatosController
+(
+    CandidatoService candidatoService
+) : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class CandidatosController : ControllerBase
+    [HttpGet]
+    public IActionResult Get()
     {
-        private readonly CandidatoService _service;
-        public CandidatosController(CandidatoService service)
-        {
-            _service = service;
-        }
-
-        [HttpGet]
-        public IActionResult Get()
-        {
-            var candidatos = _service.ListarTodos();
-            return candidatos.Count == 0 ? NoContent() : Ok(candidatos);
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
-        {
-            var candidato = _service.ObterPorId(id);
-            return candidato == null ? NotFound() : Ok(candidato);
-        }
-
-        [HttpPost]
-        public IActionResult Post([FromBody] CandidatoModel candidato)
-        {
-            if (string.IsNullOrWhiteSpace(candidato.Nome))
-                return BadRequest("Nome é obrigatório.");
-            var criado = _service.Criar(candidato);
-            return CreatedAtAction(nameof(Get), new { id = criado.Id }, criado);
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] CandidatoModel candidato)
-        {
-            if (candidato == null || candidato.Id != id)
-                return BadRequest("Dados inconsistentes.");
-            return _service.Atualizar(candidato) ? NoContent() : NotFound();
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
-        {
-            return _service.Remover(id) ? NoContent() : NotFound();
-        }
+        var candidatos = candidatoService.ListarTodos();
+        return candidatos.Count == 0 ? NoContent() : Ok(candidatos);
+    }
+    [HttpGet("{id}")]
+    public IActionResult Get(int id)
+    {
+        var candidato = candidatoService.ObterPorId(id);
+        return candidato == null ? NotFound() : Ok(candidato);
+    }
+    [HttpPost]
+    public IActionResult Post([FromBody] CandidatoModel candidato)
+    {
+        if (string.IsNullOrWhiteSpace(candidato.Nome))
+            return BadRequest("Nome é obrigatório.");
+        var criado = candidatoService.Criar(candidato);
+        return CreatedAtAction(nameof(Get), new { id = criado.Id }, criado);
+    }
+    [HttpPut("{id}")]
+    public IActionResult Put(int id, [FromBody] CandidatoModel candidato)
+    {
+        if (candidato == null || candidato.Id != id)
+            return BadRequest("Dados inconsistentes.");
+        return candidatoService.Atualizar(candidato) ? NoContent() : NotFound();
+    }
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        return candidatoService.Remover(id) ? NoContent() : NotFound();
     }
 }
 ```
