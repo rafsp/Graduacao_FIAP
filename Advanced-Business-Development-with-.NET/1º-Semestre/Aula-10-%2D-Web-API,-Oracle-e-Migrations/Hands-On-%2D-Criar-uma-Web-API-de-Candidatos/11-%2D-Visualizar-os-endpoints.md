@@ -18,3 +18,4 @@ Em `Extensions`, escrever OpenAPI e instalar a extensão `OpenAPI (Swagger) Edit
 
 # Visualizar a documentação
 
+Selecione o arquivo `v1.json` e depois clique em 
