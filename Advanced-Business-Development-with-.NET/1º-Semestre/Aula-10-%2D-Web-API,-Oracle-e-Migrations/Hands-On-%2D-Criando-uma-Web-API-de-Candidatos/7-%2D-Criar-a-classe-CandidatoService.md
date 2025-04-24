@@ -15,7 +15,7 @@ public class CandidatoService
     private static int _nextId = 1;
 
     public List<CandidatoModel> ListarTodos() => _candidatos;
-    public Candidato? ObterPorId(int id) => _candidatos.FirstOrDefault(c => c.Id == id);
+    public CandidatoModel? ObterPorId(int id) => _candidatos.FirstOrDefault(c => c.Id == id);
 
     public CandidatoModel Criar(CandidatoModel candidato)
     {
