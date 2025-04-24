@@ -19,3 +19,4 @@ Execute o comando abaixo:
 dotnet run --project CandidatosApi
 ```
 
+![gifanimation.gif](/.attachments/gifanimation-d7aa6636-c6ee-43b8-9dc2-ba25d0375dfe.gif)
