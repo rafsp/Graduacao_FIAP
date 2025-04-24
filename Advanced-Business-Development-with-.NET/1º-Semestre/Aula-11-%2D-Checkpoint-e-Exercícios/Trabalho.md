@@ -16,7 +16,7 @@ Criar uma solução de sua preferência ou evoluir uma solução existente (exem
   - `201 Created`: indica que um novo recurso foi criado com sucesso.
   - `204 No Content`: Quando o procedimento foi bem-sucedido, mas não há necessidade de retornar um corpo.
   - `400 Bad Request`: Quando os dados enviados são inválidos.
-  - `404 Not Found`: Quando a solicitação não foi encontrada.
+  - `404 Not Found`: Quando a informação ou página não foi encontrada.
 - OpenAPI Implementada seguindo os padrões para documentação das API's;
 - Implementação do Readme do projeto apresentando: Descrição do projeto, Rotas, Instalação
 - Integração do Banco de dados Oracle via EF Core, com utilização de migrations para criação das tabelas
