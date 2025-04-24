@@ -10,4 +10,4 @@ Estamos trabalhando com Minimal API, isso significa que não existe um "front" m
 2. Copiar o conteúdo e colar em um arquivo chamado `v1.json`, dentro de uma nova pasta chamada `CandidatosDocs`:
    ![gifanimation.gif](/.attachments/gifanimation-16913573-03a3-4a0b-9382-2c22f19e5229.gif)
 
-# 
+# Instalar a extensão da OpenAPI
