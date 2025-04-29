@@ -4,7 +4,7 @@
 
 - Apresentar um CRUD pelo menos (GET (mais de 3 rotas e devidamente parametrizadas com QueryParams ou PathParams), POST, PUT, DELETE)
 
-- Apresentar os retornos HTTP adequados para cada rota (ok, NotFound, BadRequest, NoConent, Created)
+- Apresentar os retornos HTTP adequados para cada rota (ok, NotFound, BadRequest, NoContent, Created)
 
 - Integração do Banco de dados Oracle via EF Core, com utilização de migrations para criação das tabelas
 
