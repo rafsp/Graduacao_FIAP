@@ -15,7 +15,7 @@ docker run -d -p 1521:1521 -e ORACLE_PASSWORD=dOJN@IhD12342 --name oracle-free g
 
 # Comando log para verificar os logs do processo
 ```bash
-docker logs oracle-free
+docker logs oracle-free -f
 ```
 
 # Acessando no SQL Developer
