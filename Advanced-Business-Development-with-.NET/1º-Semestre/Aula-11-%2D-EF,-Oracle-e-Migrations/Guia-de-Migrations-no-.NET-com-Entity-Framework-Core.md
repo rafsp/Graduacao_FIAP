@@ -34,7 +34,7 @@ public class AppDbContext : DbContext
 }
 ``` 
 
-# Configurar o `Program.cs`:
+## Configuração:
 `Program.cs`:
 ```csharp
     builder.Services.AddDbContext<AppDbContext>(options =>
@@ -48,12 +48,12 @@ public class AppDbContext : DbContext
     } 
 ```
 
-### 3. Crie a primeira Migration
+# Utilizar o Migrations
 
 Comando no terminal (na raiz do projeto):
-
+```csharp
     dotnet ef migrations add Inicial
-    
+``` 
 
 > 💡 Substitua "Inicial" pelo nome que quiser dar à sua migração.
 
