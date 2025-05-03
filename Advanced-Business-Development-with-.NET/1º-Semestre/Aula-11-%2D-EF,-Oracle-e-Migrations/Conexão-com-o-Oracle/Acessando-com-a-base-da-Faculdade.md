@@ -10,9 +10,11 @@
 
 # Informações para a conexão
 
-1. Conexão: pode utilizar qualquer nome, exemplo: “FIAP” Usuário: RM<99999> (número do seu RM) 
-2. Senha: A senha é sua data de nascimento, exemplo: 230713 (dia, mês e ano com dois dígitos). 
-3. Para acessar o Oracle na FIAP, utilizamos a seguinte configuração: 
-3.1. HOST: oracle.fiap.com.br 
-3.2. Porta: 1521 
-3.3. SID: ORCL
+## Configurações básicas
+- **Conexão:** pode utilizar qualquer nome, exemplo: **“FIAP”** 
+- **Usuário:** **RM<99999>** (número do seu RM) 
+- **Senha:** A senha é sua data de nascimento, exemplo: **230713 (dia, mês e ano com dois dígitos)**. 
+## Para acessar o Oracle, utilizamos a seguinte configuração:
+- **HOST:** oracle.fiap.com.br 
+- **Porta:** 1521 
+- **SID:** ORCL
