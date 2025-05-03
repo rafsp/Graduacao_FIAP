@@ -10,8 +10,8 @@ Este projeto tem como objetivo criar uma solução baseada em arquitetura modula
 
 A solução está dividida em múltiplos projetos, organizados conforme a responsabilidade de cada camada:
 
-- `MinhaSolução.WebApi` – Responsável pela exposição dos endpoints.
-- `MinhaSolução.Domain` – Contém as entidades de domínio e interfaces.
+- `Candidatos.CandidatosApi` – Responsável pela exposição dos endpoints.
+- `Candidatos.CandidatosModel` – Contém os modelos de domínio.
 - `MinhaSolução.Application` – Implementa as regras de negócio da aplicação.
 - `MinhaSolução.Infrastructure` – Responsável pela persistência dos dados (EF Core + Oracle).
 
