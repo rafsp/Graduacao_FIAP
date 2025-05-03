@@ -120,15 +120,3 @@ Se você alterar ou adicionar propriedades nas classes de modelo, siga os passos
 *   Evite editar arquivos de migration manualmente.
     
 *   Para ambientes de produção, revise e teste bem antes de aplicar migrations automáticas.
-    
-
-* * *
-
-✅ Conclusão
------------
-
-O recurso de migrations no .NET com EF Core é poderoso para manter seu banco de dados alinhado com a lógica da aplicação, reduzindo erros manuais e agilizando o desenvolvimento.
-
-* * *
-
-Se quiser, posso gerar um exemplo funcional com código e banco em um projeto `.NET`. Deseja isso?
