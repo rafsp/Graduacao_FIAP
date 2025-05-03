@@ -54,3 +54,4 @@ dotnet ef database update --project ../CandidatosData
 
 # Execute a aplicação
 dotnet run
+```
