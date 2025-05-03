@@ -11,3 +11,5 @@ cd CandidatosData
 dotnet ef migrations add Initial
 ```
 ![gifanimation.gif](/.attachments/gifanimation-06df4374-0390-4136-a3c5-54d25e3a4510.gif)
+
+# Verificar os arquivos que foram criados
