@@ -2,7 +2,7 @@
 
 # Iniciar a conexão
 
-1. Clicar em "+" e depois em "Nova Conexão de Banco de Dados":
+1. Clicar em "+" e depois em "Nova Conexão de Banco de Dados"
 ![image.png](/.attachments/image-83712327-b97e-4454-b7dc-e1e927ca782d.png)
 
 2. Configurar a janela abaixo, conforme instruções para acessar o Oracle da FIAP
@@ -21,8 +21,7 @@
 
 # Testar a conexão
 
-3. Clicar no botão **Testar** e verificar o **Status**, que deverá ser **Com Sucesso**, conforme imagem abaixo:
-
+3. Clicar no botão **Testar** e verificar o **Status**, que deverá ser **Com Sucesso**, conforme imagem abaixo
    ![image.png](/.attachments/image-36c31c8a-f607-4a51-86ed-dc5828f41570.png)
 
 # Conectar
