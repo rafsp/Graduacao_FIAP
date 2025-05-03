@@ -11,8 +11,3 @@ dotnet tool list -g
 dotnet tool install --global dotnet-ef
 ```
 ![gifanimation.gif](/.attachments/gifanimation-b4200db9-ad11-4bcc-989b-317286ccc609.gif)
-
-```bash
-cd CandidatosData
-dotnet ef migrations add Initial
-```
