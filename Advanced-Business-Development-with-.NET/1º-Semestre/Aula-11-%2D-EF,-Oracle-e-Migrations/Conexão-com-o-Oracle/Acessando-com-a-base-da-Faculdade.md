@@ -8,7 +8,7 @@
 2. Configure a janela abaixo, conforme instruções para acessar o Oracle da FIAP
 ![image.png](/.attachments/image-61c0d77c-424d-4c1f-84b7-10ab476c7a6d.png)
 
-# Configurações
+# Informações para a conexão
 
 - Informações para a conexão
 1. Conexão: pode utilizar qualquer nome, exemplo: “FIAP” Usuário: RM<99999> (número do seu RM) 
