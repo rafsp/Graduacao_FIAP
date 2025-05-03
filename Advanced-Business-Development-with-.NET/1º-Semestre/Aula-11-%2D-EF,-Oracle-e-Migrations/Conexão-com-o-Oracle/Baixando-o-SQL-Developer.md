@@ -10,3 +10,5 @@ https://www.oracle.com/tools/downloads/sqldev-downloads.html
 
 1. Fazer o download do software;
 2. Criar um diretório simples próximo ao raiz e transfira o download para lá. Unzip no arquivo.
+
+N
