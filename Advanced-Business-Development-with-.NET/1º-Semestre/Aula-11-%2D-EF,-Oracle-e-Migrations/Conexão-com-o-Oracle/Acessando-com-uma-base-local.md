@@ -24,3 +24,8 @@ docker logs oracle-free -f
 - Nome do Host: `localhost`
 - Porta: `1521`
 - Nome do Serviço: `FREEPDB1`
+
+# String de conexão
+```bash
+User Id=system;Password=dOJN@IhD12342;Data Source=localhost:1521/FREEPDB1;
+```
