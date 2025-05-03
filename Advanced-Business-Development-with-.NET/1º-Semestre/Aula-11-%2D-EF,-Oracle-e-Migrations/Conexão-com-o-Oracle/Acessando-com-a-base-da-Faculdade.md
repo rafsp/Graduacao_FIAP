@@ -10,7 +10,6 @@
 
 # Informações para a conexão
 
-- Informações para a conexão
 1. Conexão: pode utilizar qualquer nome, exemplo: “FIAP” Usuário: RM<99999> (número do seu RM) 
 2. Senha: A senha é sua data de nascimento, exemplo: 230713 (dia, mês e ano com dois dígitos). 
 3. Para acessar o Oracle na FIAP, utilizamos a seguinte configuração: 
