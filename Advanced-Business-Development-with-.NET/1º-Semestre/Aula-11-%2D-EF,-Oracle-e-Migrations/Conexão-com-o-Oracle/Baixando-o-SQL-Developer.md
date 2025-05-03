@@ -8,5 +8,5 @@ Com o SQL Developer é possível navegar, criar e editar objetos do banco, execu
 
 https://www.oracle.com/tools/downloads/sqldev-downloads.html
 
-1. Faça o download do software;
-2. Crie um diretório simples próximo ao raiz e transfira o download para lá. Unzip no arquivo.
+1. Fazer o download do software;
+2. Criar um diretório simples próximo ao raiz e transfira o download para lá. Unzip no arquivo.
