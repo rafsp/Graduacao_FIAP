@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 # Sobre o SQL Developer
 
 Com o SQL Developer é possível navegar, criar e editar objetos do banco, executar comandos e scripts SQL, criar, editar e debugar scripts PL/SQL, além de criar, editar e executar relatórios, analisar os planos de execução. SQL Developer pode se conectar a qualquer banco de dados Oracle versão 9.2.0.1 e posterior e roda em Windows, Linux e Mac OSX.
