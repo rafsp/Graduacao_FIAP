@@ -13,13 +13,13 @@ A solução está dividida em múltiplos projetos, organizados conforme a respon
 - `Candidatos.CandidatosApi` – Responsável pela exposição dos endpoints.
 - `Candidatos.CandidatosModel` – Contém os modelos e entidades.
 - `Candidatos.CandidatosBusiness` – Implementa as regras de negócio da aplicação.
-- `MinhaSolução.Infrastructure` – Responsável pela persistência dos dados (EF Core + Oracle).
+- `Candidatos.CandidatosData` – Responsável pela persistência dos dados (EF Core + Oracle).
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- ASP.NET Core 9
+- .NET Core 9
 - Entity Framework Core
 - Oracle Database
 - Swagger/OpenAPI
@@ -35,20 +35,22 @@ A solução está dividida em múltiplos projetos, organizados conforme a respon
 - Oracle Database disponível
 - Ferramenta para testes de API (Postman, Insomnia etc.)
 
+---
+
 ### 🏁 Passos
 
 ```bash
 # Clone o repositório
-git clone https://github.com/usuario/repositorio.git
+git clone https://nagibsabbag.visualstudio.com/2tdspx-2025/_git/api-sample
 
 # Acesse a pasta do projeto
-cd repositorio/MinhaSolução.WebApi
+cd Candidatos/CandidatosApi
 
 # Restaure os pacotes
 dotnet restore
 
 # Aplique as migrations (caso ainda não aplicadas)
-dotnet ef database update --project ../MinhaSolução.Infrastructure
+dotnet ef database update --project ../CandidatosData
 
 # Execute a aplicação
 dotnet run
