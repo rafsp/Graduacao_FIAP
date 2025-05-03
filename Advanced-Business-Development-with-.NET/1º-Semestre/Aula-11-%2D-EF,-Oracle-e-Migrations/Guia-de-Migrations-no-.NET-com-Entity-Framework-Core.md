@@ -22,7 +22,7 @@ dotnet add package Oracle.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 ```
 
-## Configurar o `DbContext`
+## Criar o `DbContext`
 Exemplo:
 ```csharp
 public class AppDbContext : DbContext
