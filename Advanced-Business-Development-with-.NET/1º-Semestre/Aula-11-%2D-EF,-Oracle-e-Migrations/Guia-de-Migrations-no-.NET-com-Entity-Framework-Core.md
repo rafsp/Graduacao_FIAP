@@ -52,55 +52,40 @@ public class AppDbContext : DbContext
 
 Comando no terminal (na raiz do projeto):
 ```csharp
-    dotnet ef migrations add Inicial
+dotnet ef migrations add Inicial
 ``` 
 
-> 💡 Substitua "Inicial" pelo nome que quiser dar à sua migração.
+> 💡 Substituir "Inicial" pelo nome que quiser dar à sua migração.
 
 Esse comando:
 *   Cria uma pasta chamada `Migrations`.
-    
 *   Gera arquivos com instruções C# para criar o banco de dados conforme o modelo atual.
-    
 
-* * *
-
-### 4. Aplique a migration ao banco de dados
-
-    dotnet ef database update
-    
-
+# Aplicar ao banco de dados
+```csharp
+dotnet ef database update
+```    
 Esse comando:
 *   Cria o banco de dados (caso ainda não exista).
     
 *   Aplica a migração no banco.
-    
 
-* * *
-
-### 5. Adicionando novas alterações
+# Adicionar novas alterações
 
 Se você alterar ou adicionar propriedades nas classes de modelo, siga os passos abaixo:
+```csharp
+dotnet ef migrations add NovaAlteracao
+dotnet ef database update
+```    
 
-    dotnet ef migrations add NovaAlteracao
-    dotnet ef database update
-    
-
-* * *
-
-📁 Organização
---------------
+# Organização
 
 *   A pasta `Migrations` contém:
     *   Arquivos `.cs` com código gerado para criar/modificar tabelas.
         
     *   Um snapshot (`ModelSnapshot`) da estrutura atual do banco.
-        
 
-* * *
-
-🧹 Comandos úteis
------------------
+# Comandos úteis
 
 | Comando | Descrição |
 | --- | --- |
@@ -110,13 +95,8 @@ Se você alterar ou adicionar propriedades nas classes de modelo, siga os passos
 | `dotnet ef database update NomeDaMig` | Aplica até uma migration específica |
 | `dotnet ef migrations script` | Gera um script SQL da migration |
 
-* * *
-
-❗ Dicas Importantes
--------------------
+# Dicas Importantes
 
 *   Sempre **comite suas migrations** no controle de versão (ex: Git).
-    
 *   Evite editar arquivos de migration manualmente.
-    
 *   Para ambientes de produção, revise e teste bem antes de aplicar migrations automáticas.
