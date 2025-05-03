@@ -11,8 +11,8 @@ Este projeto tem como objetivo criar uma solução baseada em arquitetura modula
 A solução está dividida em múltiplos projetos, organizados conforme a responsabilidade de cada camada:
 
 - `Candidatos.CandidatosApi` – Responsável pela exposição dos endpoints.
-- `Candidatos.CandidatosModel` – Contém os modelos de domínio.
-- `MinhaSolução.Application` – Implementa as regras de negócio da aplicação.
+- `Candidatos.CandidatosModel` – Contém os modelos e entidades.
+- `Candidatos.CandidatosBusiness` – Implementa as regras de negócio da aplicação.
 - `MinhaSolução.Infrastructure` – Responsável pela persistência dos dados (EF Core + Oracle).
 
 ---
