@@ -10,7 +10,7 @@ https://hub.docker.com/r/gvenzl/oracle-free
 
 # Comado docker
 ```bash
-docker run -d -p 1521:1521 -e ORACLE_PASSWORD=dOJN@IhD12342 gvenzl/oracle-free
+docker run -d -p 1521:1521 -e ORACLE_PASSWORD=dOJN@IhD12342 --name oracle-free gvenzl/oracle-free
 ```
 
 # Acessando no SQL Developer
