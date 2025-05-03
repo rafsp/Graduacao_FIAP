@@ -8,9 +8,14 @@
 # Sobre a imagem
 https://hub.docker.com/r/gvenzl/oracle-free
 
-# Comado docker
+# Comado docker para gerar uma base Oracle na máquina local
 ```bash
 docker run -d -p 1521:1521 -e ORACLE_PASSWORD=dOJN@IhD12342 --name oracle-free gvenzl/oracle-free
+```
+
+# Comando log para verificar os logs do processo
+```bash
+docker logs oracle-free
 ```
 
 # Acessando no SQL Developer
