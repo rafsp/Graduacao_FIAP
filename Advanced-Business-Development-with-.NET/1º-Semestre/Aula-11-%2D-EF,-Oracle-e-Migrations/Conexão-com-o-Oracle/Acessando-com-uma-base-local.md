@@ -19,3 +19,8 @@ docker logs oracle-free -f
 ```
 
 # Acessando no SQL Developer
+- Nome de usuário: `my_user`
+- Senha: `dOJN@IhD12342`
+- Nome do Host: `localhost`
+- Porta: `1521`
+- Nome do Serviço: `FREEPDB1`
