@@ -32,20 +32,14 @@ A **entrega** deve conter os seguintes artefatos:
 - Vídeo Pitch (máx. 3 minutos).
 
 # Dicas do professor
-> 1. **Sobre a Documentação no README (diagramas):**
->
->    Os diagramas também podem ser no formato 'plaintext' ou um Mermaid, caso queiram.
->
->    Ainda sobre a diagramação, códigos de diagramas (como o diagrama de sequência) também podem ser considerados.
-> 2. **Sobre a documentação com Swagger:**
->
->    Tanto a visualização através do Swagger quanto apenas o formato de documentação de OpenAPI podem ser considerados.
->
->    O mais importante é ter ou disponibilizar um formato de documentação da OpenAPI (pode ser json ou yaml).
->
->    O conteúdo deverá ser gerado automaticamente, através do código da API no .NET
-> 3. **Sobre a viabilidade e inovação:**
->
->    Avaliar a inovação é uma questão subjetiva, pode variar de professor para professor. Como sugestão, pensem simples. 
->
->    Um MVP bem feito e viável gera um valor muito maior do que uma solução super inovadora e mal trabalhada.
+1. Documentação no README (Diagramas)
+   - Os diagramas podem ser apresentados em formato _plaintext_ ou utilizando Mermaid, conforme preferirem;
+   - Diagramas representados por código (como diagramas de sequência) também são bem-vindos.
+    
+2. Documentação com Swagger
+    - Tanto a interface visual do Swagger quanto a especificação no formato OpenAPI (JSON ou YAML) são aceitáveis;
+    - O mais importante é que a documentação da API esteja disponível nesse formato e seja gerada automaticamente a partir do código da aplicação em .NET.
+    
+3. Viabilidade e Inovação
+    - A avaliação de inovação é subjetiva e pode variar entre os professores. Como orientação, priorizem soluções simples e funcionais.  
+    - Um MVP bem estruturado e viável costuma ter mais valor do que uma proposta altamente inovadora, mas mal executada.
