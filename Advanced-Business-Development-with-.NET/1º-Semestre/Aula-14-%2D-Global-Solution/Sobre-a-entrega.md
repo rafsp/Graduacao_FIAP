@@ -41,5 +41,5 @@ A **entrega** deve conter os seguintes artefatos:
     - O mais importante é que a documentação da API esteja disponível nesse formato e seja gerada automaticamente a partir do código da aplicação em .NET.
     
 3. Viabilidade e Inovação
-    - A avaliação de inovação é subjetiva e pode variar entre os professores. Como orientação, priorizem soluções simples e funcionais.  
+    - A avaliação de inovação é subjetiva e pode variar entre os professores. Como orientação, priorizem soluções simples e funcionais;
     - Um MVP bem estruturado e viável costuma ter mais valor do que uma proposta altamente inovadora, mas mal executada.
