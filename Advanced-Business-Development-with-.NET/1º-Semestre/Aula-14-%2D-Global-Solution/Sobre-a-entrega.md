@@ -2,6 +2,8 @@
 
 # Sobre o Projeto
 
+[2TDS Fevereiro - Global Solution 2025-1.pdf](/.attachments/2TDS%20Fevereiro%20-%20Global%20Solution%202025-1-1a892e17-e7c7-4bd4-9334-48b7e26092bf.pdf)
+
 O projeto em Advanced Business Development with .NET deve abranger uma solução **criativa** e **inovadora** para o tema proposto nesta GS, criando basicamente uma API REST para tratar de problemas críticos e auxiliar as pessoas em períodos de extrema urgência. Para tanto, com base nas aulas deste semestre, o grupo deve desenvolver a solução atendendo aos seguintes requisitos:
 
 # Requisitos do Projeto
