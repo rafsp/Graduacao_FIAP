@@ -9,4 +9,4 @@ Para alinhar nossos trabalhos até o final do semestre vamos trabalhar da seguin
   Não terão direito à substitutiva aqueles que entregaram arquivos corrompidos, entregaram com erro ou que foram avaliados (mesmo com nota zero).
 
 - **23 a 27/06 Vistas de Provas**
-   Todas as aulas serão abertas somente pelo Teams. Irei abrir a aula no horário normal para eventuais dúvidas ou alinhamentos.
+   Aulas serão abertas pelo Teams. Irei abrir a aula no horário normal para eventuais dúvidas ou alinhamentos.
