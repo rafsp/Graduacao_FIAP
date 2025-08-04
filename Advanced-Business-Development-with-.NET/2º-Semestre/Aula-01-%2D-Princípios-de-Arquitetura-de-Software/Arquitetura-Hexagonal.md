@@ -1,10 +1,8 @@
 [[_TOC_]]
 
-### Arquitetura Hexagonal
-
 A Arquitetura Hexagonal, também conhecida como Arquitetura de Portos e Adaptadores, é um padrão de arquitetura de software que visa criar sistemas que sejam independentes de suas interfaces externas, facilitando a testabilidade e a manutenção do código. Este conceito é especialmente relevante no contexto da plataforma .NET, onde a construção de aplicações robustas e escaláveis é fundamental.
 
-#### Domain
+# Domain
 
 O domínio, ou a camada de domínio, é o núcleo da aplicação, onde reside a lógica de negócio. Na arquitetura hexagonal, o domínio não deve ter dependências diretas de frameworks, bibliotecas externas ou de qualquer interface de usuário. Isso permite que a lógica de negócio permaneça pura e facilmente testável.
 
@@ -34,7 +32,7 @@ public class Produto
     
 ```
 
-#### Ports
+# Ports
 
 Os "ports" (portas) são as interfaces que definem a forma como o domínio interage com o mundo exterior. Elas são contratos que descrevem as operações que o domínio pode realizar, sem se preocupar com a implementação específica. Os ports podem ser divididos em dois tipos: **input ports** e **output ports**.
 
@@ -55,7 +53,7 @@ public class CriaPedidoRequest
     
 ```
 
-#### Adapters
+# Adapters
 
 Os "adapters" (adaptadores) são as implementações concretas das portas. Eles conectam o mundo externo ao domínio da aplicação. Por exemplo, um adaptador pode ser um controlador de API em uma aplicação ASP.NET Core que manipula requisições HTTP e chama o input port correspondente. Aqui está um exemplo de como um adaptador poderia ser implementado:
 
@@ -82,5 +80,51 @@ nameof(CriarPedido), new { id = request.ClienteId });
 }
     
 ```
+
+# Design Exemplo
+```plaintext
+                         +-----------------------------+
+                         |  Adaptadores de Entrada     |
+                         |-----------------------------|
+                         |  - Controllers REST         |
+                         |  - CLI / UI / Kafka Consumer|
+                         |                             |
+                         |  Chamam as portas           |
+                         +-------------┬---------------+
+                                       |
+                      +----------------▼----------------+
+                      |       Portas de Entrada         |
+                      |      (Interfaces públicas)      |
+                      |  ex: IRegistrarUsuario          |
+                      +----------------┬----------------+
+                                       | Implementado por
+                          +------------▼-------------+
+                          |       Casos de Uso       |
+                          |--------------------------|
+                          |  - Orquestram o domínio  |
+                          |  - Não conhecem UI/DB    |
+                          +------------┬-------------+
+                                       | Usa
+                          +------------▼-------------+
+                          |         Domínio          |
+                          |--------------------------|
+                          | - Entidades e regras     |
+                          | - Independente de tudo   |
+                          +------------▲-------------+
+                                       | Define
+                      +----------------▼----------------+
+                      |       Portas de Saída           |
+                      |  (Interfaces: ex. IRepository)  |
+                      +----------------▲----------------+
+                                       | Implementado por
+                          +------------▼--------------+
+                          |  Adaptadores de Saída     |
+                          |---------------------------|
+                          |  - EF Core / Dapper       |
+                          |  - APIs externas          |
+                          |  - Repositórios concretos |
+                          +---------------------------+
+```
+
 
 Neste exemplo, o `PedidosController` atua como um adaptador que transforma requisições HTTP em chamadas para o input port `ICriaPedido`, permitindo que a lógica de criação de pedidos no domínio seja invocada sem que o domínio conheça detalhes sobre a origem da chamada.
