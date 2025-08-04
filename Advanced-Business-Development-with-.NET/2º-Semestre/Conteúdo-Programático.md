@@ -104,7 +104,3 @@ Este cronograma apresenta os tópicos que serão abordados ao longo do semestre,
     
 *   🗓️ **Vista de Provas**
     
-
-* * *
-
-Se quiser, posso transformar isso em um **PDF**, **imagem de cronograma visual** ou adaptá-lo para outros formatos (como slides). Deseja isso?
