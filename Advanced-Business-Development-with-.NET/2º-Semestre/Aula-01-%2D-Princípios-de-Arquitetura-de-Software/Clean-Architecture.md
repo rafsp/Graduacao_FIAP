@@ -1,12 +1,10 @@
 [[_TOC_]]
     
-# Clean Architecture com .NET
-    
-## Introdução à Clean Architecture
+# Introdução à Clean Architecture
     
 A Clean Architecture, proposta por Robert C. Martin (também conhecido como Uncle Bob), é uma abordagem arquitetural que visa a separação clara de responsabilidades em um sistema de software. Seu objetivo é permitir que a lógica de negócio seja completamente independente de frameworks, bancos de dados, interfaces de usuário ou qualquer outro detalhe externo. Isso facilita a manutenção, os testes e a evolução do sistema ao longo do tempo.
     
-## Visão Geral da Arquitetura
+# Visão Geral da Arquitetura
     
 A Clean Architecture propõe a divisão da aplicação em quatro camadas concêntricas:
     
@@ -17,11 +15,11 @@ A Clean Architecture propõe a divisão da aplicação em quatro camadas concên
     
 A **dependência** entre as camadas deve sempre apontar **do externo para o interno**, respeitando o princípio da **inversão de dependência**.
         
-## Entidades
+# Entidades
     
 As Entidades representam conceitos centrais e atemporais do domínio de negócio. Elas encapsulam as regras que são verdadeiras independentemente da aplicação, da interface ou da persistência de dados. Por isso, devem ser projetadas para não depender de nenhuma tecnologia.
     
-### Exemplo em .NET
+## Exemplo em .NET
     
 ```csharp
 public class Usuario         
@@ -39,7 +37,7 @@ public class Usuario
 }
 ```
 
-## Casos de Uso
+# Casos de Uso
 
 Os Casos de Uso encapsulam regras de negócio específicas da aplicação. Eles coordenam as Entidades e interagem com as portas de entrada e saída (interfaces), garantindo que as regras do sistema sejam executadas corretamente.
 
@@ -71,105 +69,87 @@ public class RegistrarUsuario : IRegistrarUsuario
 }
 ```
 
-## Interface de Entrada
+# Interface de Entrada
 
 A Interface de Entrada adapta requisições externas (como APIs HTTP) para chamadas aos casos de uso. Essa camada não contém lógica de negócio, apenas transforma dados de entrada em comandos que os casos de uso podem executar.
 
-### Exemplo em ASP.NET Core
-
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UsuarioController : ControllerBase
+## Exemplo em ASP.NET Core
+```csharp
+[ApiController]
+[Route("api/[controller]")]
+public class UsuarioController : ControllerBase
+{
+    private readonly IRegistrarUsuario _registrarUsuario;
+    
+    public UsuarioController(IRegistrarUsuario registrarUsuario)
     {
-        private readonly IRegistrarUsuario _registrarUsuario;
-    
-        public UsuarioController(IRegistrarUsuario registrarUsuario)
-        {
-            _registrarUsuario = registrarUsuario;
-        }
-    
-        [HttpPost]
-        public IActionResult Post([FromBody] UsuarioDto usuarioDto)
-        {
-            try
-            {
-                _registrarUsuario.Executar(
-                    usuarioDto.Nome,
-                    usuarioDto.Email,
-                    usuarioDto.Senha
-                );
-                return Ok("Usuário registrado com sucesso.");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+        _registrarUsuario = registrarUsuario;
     }
     
-    public class UsuarioDto
+    [HttpPost]
+    public IActionResult Post([FromBody] UsuarioDto usuarioDto)
     {
-        public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Senha { get; set; }
+        try
+        {
+            _registrarUsuario.Executar(
+                usuarioDto.Nome,
+                usuarioDto.Email,
+                usuarioDto.Senha
+            );
+            return Ok("Usuário registrado com sucesso.");
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
+}
     
+public class UsuarioDto
+{
+    public string Nome { get; set; }
+    public string Email { get; set; }
+    public string Senha { get; set; }
+}
+```
 
-* * *
-
-Interface de Saída
-------------------
+# Interface de Saída
 
 A Interface de Saída representa as dependências externas do sistema, como bancos de dados, sistemas de arquivos, serviços de terceiros, etc. Na Clean Architecture, essas dependências são acessadas através de **interfaces**, que são injetadas nos casos de uso.
 
-### Interface de Repositório
-
-    public interface IUsuarioRepository
-    {
-        void Adicionar(Usuario usuario);
-        Usuario ObterPorEmail(string email);
-    }
-    
+## Interface de Repositório
+```csharp
+public interface IUsuarioRepository
+{
+    void Adicionar(Usuario usuario);
+    Usuario ObterPorEmail(string email);
+}
+```
 
 ### Implementação no projeto de infraestrutura
-
-    public class UsuarioRepository : IUsuarioRepository
+```csharp
+public class UsuarioRepository : IUsuarioRepository
+{
+    private readonly DatabaseContext _context;
+    
+    public UsuarioRepository(DatabaseContext context)
     {
-        private readonly DatabaseContext _context;
-    
-        public UsuarioRepository(DatabaseContext context)
-        {
-            _context = context;
-        }
-    
-        public void Adicionar(Usuario usuario)
-        {
-            _context.Usuarios.Add(usuario);
-            _context.SaveChanges();
-        }
-    
-        public Usuario ObterPorEmail(string email)
-        {
-            return _context.Usuarios.FirstOrDefault(u => u.Email == email);
-        }
+        _context = context;
     }
     
+    public void Adicionar(Usuario usuario)
+    {
+        _context.Usuarios.Add(usuario);
+        _context.SaveChanges();
+    }
+    
+    public Usuario ObterPorEmail(string email)
+    {
+        return _context.Usuarios.FirstOrDefault(u => u.Email == email);
+    }
+}
+```    
 
-* * *
-
-Considerações Finais
---------------------
+# Considerações Finais
 
 Ao adotar a Clean Architecture, você obtém um sistema mais desacoplado, testável e flexível a mudanças tecnológicas. Em ambientes .NET, esse padrão é particularmente poderoso quando combinado com injeção de dependência, testes automatizados e separação clara entre domínios.
-
-* * *
-
-Referência Bibliográfica
-------------------------
-
-MARTIN, Robert C. _Clean Architecture: A Craftsman's Guide to Software Structure and Design._ Prentice Hall, 2017.
-
-    
-    ---
-    
-    Se quiser, posso também gerar um arquivo `.md` para download ou montar a estrutura de pastas do projeto (`Domain`, `Application`, `Infrastructure`, `WebAPI`). Deseja isso?
