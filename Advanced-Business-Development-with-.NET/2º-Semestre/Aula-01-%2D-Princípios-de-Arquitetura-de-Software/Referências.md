@@ -1,0 +1,1 @@
+1. MARTIN, Robert C. _Clean Architecture: A Craftsman's Guide to Software Structure and Design._ Prentice Hall, 2017.
