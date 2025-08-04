@@ -39,38 +39,37 @@ public class Usuario
 }
 ```
 
-Casos de Uso
+## Casos de Uso
 
 Os Casos de Uso encapsulam regras de negócio específicas da aplicação. Eles coordenam as Entidades e interagem com as portas de entrada e saída (interfaces), garantindo que as regras do sistema sejam executadas corretamente.
 
 ### Exemplo em .NET
 
-    public interface IRegistrarUsuario
+```csharp
+public interface IRegistrarUsuario
+{
+    void Executar(string nome, string email, string senha);
+}
+    
+public class RegistrarUsuario : IRegistrarUsuario
+{
+    private readonly IUsuarioRepository _usuarioRepository;
+    
+    public RegistrarUsuario(IUsuarioRepository usuarioRepository)             
     {
-        void Executar(string nome, string email, string senha);
-    }
+        _usuarioRepository = usuarioRepository;             
+    }              
     
-    public class RegistrarUsuario : IRegistrarUsuario
-    {             
-        private readonly IUsuarioRepository _usuarioRepository;
+    public void Executar(string nome, string email, string senha)             
+    {
+        if (!email.Contains("@"))
+            throw new ArgumentException("Email inválido.");
     
-        public RegistrarUsuario(IUsuarioRepository usuarioRepository)             
-        {                 
-            _usuarioRepository = usuarioRepository;             
-        }              
-    
-        public void Executar(string nome, string email, string senha)             
-        {                 
-            if (!email.Contains("@"))
-                throw new ArgumentException("Email inválido.");
-    
-            var usuario = new Usuario(nome, email, senha);        
-            _usuarioRepository.Adicionar(usuario);
-        }         
-    }
-    
-
-* * *
+        var usuario = new Usuario(nome, email, senha);        
+        _usuarioRepository.Adicionar(usuario);
+    }         
+}
+```
 
 Interface de Entrada
 --------------------
