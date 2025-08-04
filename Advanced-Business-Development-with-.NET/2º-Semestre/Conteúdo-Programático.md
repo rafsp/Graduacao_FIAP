@@ -4,7 +4,7 @@ Este cronograma apresenta os tópicos que serão abordados ao longo do semestre,
 
 # Agosto
 
-## 04/08: Princípios de Arquitetura
+## 04/08: Princípios de Arquitetura de Software
 *   Conceitos fundamentais de arquitetura de software
 *   Separação de responsabilidades
 *   Padrões arquiteturais
