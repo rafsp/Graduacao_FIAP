@@ -126,7 +126,7 @@ public interface IUsuarioRepository
 }
 ```
 
-### Implementação no projeto de infraestrutura
+## Implementação no projeto de infraestrutura
 ```csharp
 public class UsuarioRepository : IUsuarioRepository
 {
@@ -148,7 +148,46 @@ public class UsuarioRepository : IUsuarioRepository
         return _context.Usuarios.FirstOrDefault(u => u.Email == email);
     }
 }
-```    
+```
+
+# Design exemplo 
+
+```plaintext
++-------------------------------------------------------------+
+|                  Frameworks & Drivers                       |
+|                                                             |
+|  - ASP.NET Controllers                                      |
+|  - Entity Framework / Dapper                                |
+|  - Interface gráfica, CLI ou Worker                         |
+|  - Serviços externos (APIs, e-mail, filas, etc)             |
++--------------------------|----------------------------------+
+                           |
++--------------------------▼----------------------------------+
+|               Interface Adapters (Adapters)                 |
+|                                                             |
+|  - DTOs / ViewModels                                        |
+|  - Repositórios (implementações)                            |
+|  - Controllers chamam casos de uso                          |
+|  - Mappers                                                  |
++--------------------------|----------------------------------+
+                           |
++--------------------------▼----------------------------------+
+|                      Use Cases                              |
+|                                                             |
+|  - Orquestram entidades e lógica de aplicação               |
+|  - Definem regras de negócio específicas da aplicação       |
+|  - Dependem de interfaces (ports)                           |
+|  - Não dependem de frameworks                               |
++--------------------------|----------------------------------+
+                           |
++--------------------------▼----------------------------------+
+|                       Entidades                             |
+|                                                             |
+|  - Regras de negócio centrais                               |
+|  - Independentes de tecnologia                              |
+|  - Validadas apenas por lógica de domínio                   |
++-------------------------------------------------------------+
+```
 
 # Considerações Finais
 
