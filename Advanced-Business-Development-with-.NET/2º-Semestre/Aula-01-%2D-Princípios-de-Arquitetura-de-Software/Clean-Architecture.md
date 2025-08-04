@@ -71,8 +71,7 @@ public class RegistrarUsuario : IRegistrarUsuario
 }
 ```
 
-Interface de Entrada
---------------------
+## Interface de Entrada
 
 A Interface de Entrada adapta requisições externas (como APIs HTTP) para chamadas aos casos de uso. Essa camada não contém lógica de negócio, apenas transforma dados de entrada em comandos que os casos de uso podem executar.
 
