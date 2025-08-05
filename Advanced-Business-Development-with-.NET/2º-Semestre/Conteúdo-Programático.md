@@ -9,7 +9,7 @@ Este cronograma apresenta os tópicos que serão abordados ao longo do semestre,
 *   Separação de responsabilidades
 *   Padrões arquiteturais
     
-## 11/08: SOLID e Clean Code em C#
+## 11/08: SOLID e Clean Code em Csharp
 *   Princípios SOLID com exemplos práticos    
 *   Refatoração de código orientada à legibilidade e manutenibilidade
 
