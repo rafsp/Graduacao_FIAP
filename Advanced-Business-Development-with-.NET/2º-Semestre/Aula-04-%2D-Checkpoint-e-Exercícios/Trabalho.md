@@ -45,6 +45,6 @@ Criar uma solução **alinhada a uma arquitetura de microsserviços** que atenda
   - Descrição breve de **como os princípios SOLID** foram aplicados;    
   - **Endpoints principais** (incluindo o endpoint público consumido) e exemplos de request/response;
     
-  - **System Design** da solução (pode ser uma imagem, .DrawIO, Mermaid ou uma referência para um arquivo `.drawio`) indicando a atuação dos microsserviços, o MVC, o Oracle e a API pública.
+  - **System Design** da solução (pode ser uma imagem, Mermaid ou uma referência para um arquivo `.drawio`) indicando a atuação dos microsserviços, o MVC, o Oracle e a API pública.
     
 🍀 Boa sorte!
