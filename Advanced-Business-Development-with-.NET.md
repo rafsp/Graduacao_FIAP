@@ -4,70 +4,69 @@ Bem-vindos ao wiki oficial do curso! Aqui você encontrará todo o material orga
 
 ---
 
-## 📚 **1º Semestre**
+## 📚 **1º SEMESTRE**
 
 ### **Módulo Introdutório**
-- **[Aula 01](wiki/Aula-01)** - Introdução e Apresentação do Professor
-- **[Aula 02](wiki/Aula-02)** - Instalação do Ambiente .NET
-- **[Aula 03](wiki/Aula-03)** - Fundamentos do C# e Orientação a Objetos
+- **[Aula 01](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-01-%2D-Introdu%C3%A7%C3%A3o%2C-Apresenta%C3%A7%C3%A3o-do-Professor-e-Instala%C3%A7%C3%A3o-do-Ambiente-.NET)** - Introdução, Apresentação do Professor e Instalação do Ambiente .NET
+- **[Aula 02](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-02-%2D-IDE-Visual-Studio%2C-Primeiro-Programa-em-Csharp)** - IDE Visual Studio, Primeiro Programa em C#
+- **[Aula 03](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-03-%2D-Csharp%2C-instru%C3%A7%C3%B5es-b%C3%A1sicas-e-orienta%C3%A7%C3%A3o-a-objetos)** - C#, Instruções Básicas e Orientação a Objetos
 
-### **Desenvolvimento Web**
-- **[Aula 04](wiki/Aula-04)** - Modificadores de Acesso e Palavras-Chave
-- **[Aula 05](wiki/Aula-05)** - Entity Framework Básico
-- **[Aula 06](wiki/Aula-06)** - MVC - Model, View, Controller
-- **[Aula 07](wiki/Aula-07)** - Persistência com Entity Framework
+### **Desenvolvimento Avançado em C#**
+- **[Aula 04](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-04-%2D-Csharp%2C-uso-avan%C3%A7ado-de-Modificadores-de-Acesso%2C-Palavras%2DChave%2C-Construtores%2C-Interfaces-e-Namespaces)** - Uso Avançado de Modificadores de Acesso, Palavras-Chave, Construtores, Interfaces e Namespaces
+- **[Aula 05](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-05-%2D-Checkpoint-e-Exerc%C3%ADcios)** - Checkpoint e Exercícios
+- **[Aula 06](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-06-%2D-Csharp%2C-Git%2C-Collections-e-Exceptions)** - C#, Git, Collections e Exceptions
+
+### **Desenvolvimento Web com MVC**
+- **[Aula 07](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-07-%2D-Projeto-MVC-e-Persist%C3%AAncia-de-Dados-com-Entity-Framework-%2D-DbContext)** - Projeto MVC e Persistência de Dados com Entity Framework - DbContext
+- **[Aula 08](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-08-%2D-Projeto-MVC-e-Persist%C3%AAncia-de-Dados-com-Entity-Framework-%2D-Entidades-com-Anota%C3%A7%C3%B5es%2C-Controllers-e-Rotas)** - Projeto MVC com Entity Framework - Entidades, Controllers e Rotas
+- **[Aula 09](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-09-%2D-Challenge)** - Challenge - 1º Sprint
 
 ### **APIs e Integrações**
-- **[Aula 08](wiki/Aula-08)** - Entidades com Anotações e Controllers
-- **[Aula 09](wiki/Aula-09)** - Challenge - 1º Sprint
-- **[Aula 10](wiki/Aula-10)** - Web API e OpenAPI
-- **[Aula 11](wiki/Aula-11)** - Entity Framework com Oracle
+- **[Aula 10](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-10-%2D-Web-API%2C-OpenAPI-e-Inje%C3%A7%C3%A3o-de-Depend%C3%AAncia-na-Pr%C3%A1tica)** - Web API, OpenAPI e Injeção de Dependência na Prática
+- **[Aula 11](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-11-%2D-EF%2C-Oracle-e-Migrations)** - Entity Framework, Oracle e Migrations
+- **[Aula 12](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-12-%2D-Checkpoint-e-Exerc%C3%ADcios)** - Checkpoint e Exercícios
+
+### **Avaliações e Projetos**
+- **[Aula 13](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-13-%2D-CheckPoint-e-Exerc%C3%ADcios)** - CheckPoint e Exercícios
+- **[Aula 14](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-14-%2D-Global-Solution)** - Global Solution
+- **[Aula 15](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/1%C2%BA-Semestre/Aula-15-%2D-Pr%C3%B3ximas-Etapas)** - Próximas Etapas
 
 ---
 
-## 🚀 **2º Semestre**
+## 🚀 **2º SEMESTRE**
 
 ### **Arquitetura Avançada**
-- **[Aula 01](wiki/2S-Aula-01)** - Princípios de Arquitetura de Software
-- **[Aula 02](wiki/2S-Aula-02)** - SOLID e Clean Code em C#
-- **[Aula 03](wiki/2S-Aula-03)** - ASP.NET Core Web API RESTful
+- **[Arquitetura de Software](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/2%C2%BA-Semestre/Aula-01-%2D-Princ%C3%ADpios-de-Arquitetura-de-Software)** - Princípios de Arquitetura de Software
+- **[SOLID e Clean Code](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/2%C2%BA-Semestre/Aula-02-%2D-SOLID-e-Clean-Code-em-Csharp)** - SOLID e Clean Code em C#
+- **[ASP.NET Core RESTful](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/2%C2%BA-Semestre/Aula-03-%2D-ASP.NET--Core-Web-API-RESTful)** - ASP.NET Core Web API RESTful
 
-### **Projetos e Avaliações**
-- **[Aula 04](wiki/2S-Aula-04)** - Checkpoint e Exercícios
-- **[Global Solution](wiki/Global-Solution)** - Projeto Final
+### **Avaliações 2º Semestre**
+- **[Checkpoint Final](https://github.com/rafsp/Graduacao_FIAP/tree/main/Advanced-Business-Development-with-.NET/2%C2%BA-Semestre/Aula-04-%2D-Checkpoint-e-Exerc%C3%ADcios)** - Checkpoint e Exercícios
 
 ---
 
 ## 🔧 **Recursos Adicionais**
 
 ### **Links Úteis**
-- 📁 [Repositório de Código](https://github.com/rafsp/Graduacao_FIAP)
-- 👨‍🏫 [Sobre o Professor](wiki/Professor)
-- 💾 [Downloads e Ferramentas](wiki/Ferramentas)
+- 📁 [Repositório Completo](https://github.com/rafsp/Graduacao_FIAP)
+- 👨‍🏫 [Wiki Original do Professor](https://nagibsabbag.visualstudio.com/2tdspx-2025/_wiki/wikis/2tdspx-2025.wiki)
+- 📋 [Material de Apoio](.attachments/)
 
-### **Hands-On e Práticas**
-- 🛠️ [Exercícios Práticos](wiki/Hands-On)
-- 📝 [Templates e Exemplos](wiki/Templates)
-- 🎯 [Challenges e Projetos](wiki/Challenges)
-
----
-
-## 📖 **Como Navegar**
-
-1. **Use o menu lateral** para navegar entre páginas
-2. **Busque conteúdo** com `Ctrl + K`
-3. **Cada aula** tem material teórico e prático
-4. **Exercícios** estão organizados por dificuldade
+### **Como Estudar**
+1. **Siga a ordem das aulas** - cada uma constrói sobre a anterior
+2. **Pratique os Hands-On** - exercícios práticos são fundamentais
+3. **Faça os Challenges** - projetos que simulam situações reais
+4. **Use os Checkpoints** - para verificar seu progresso
 
 ---
 
 ## 📞 **Suporte**
 
-Dúvidas? Entre em contato:
-- 💬 Issues no GitHub
-- 📧 Email institucional
-- 🕐 Horário de atendimento: [Definir horários]
+Para dúvidas:
+- 💬 Abra uma Issue no GitHub
+- 📧 Entre em contato pelo email institucional
+- 🎯 Participe dos Challenges para prática
 
 ---
 
-*Última atualização: Janeiro 2025*
+*Wiki criado para facilitar o acesso ao conteúdo pelos alunos - Última atualização: Janeiro 2025*
