@@ -790,35 +790,35 @@
             const root = { name: GITHUB_REPO, type: 'folder', children: {} };
             
             files.forEach(file => {
-                // Decode URL-encoded paths for display
-                const decodedPath = decodeURIComponent(file.path);
-                const parts = decodedPath.split('/');
+                // Don't decode the path here - keep it as is from GitHub
+                const parts = file.path.split('/');
                 let current = root;
                 
                 parts.forEach((part, index) => {
+                    // Decode only for display
+                    const displayName = decodeURIComponent(part.replace(/\+/g, ' '));
+                    
                     if (index === parts.length - 1) {
                         // It's a file
                         if (file.type === 'blob') {
-                            current.children[part] = {
-                                name: part,
+                            current.children[displayName] = {
+                                name: displayName,
                                 type: 'file',
-                                path: file.path, // Keep original path for API calls
-                                displayPath: decodedPath, // Decoded path for display
+                                path: file.path, // Keep original path exactly as GitHub returns it
                                 url: file.url
                             };
                         }
                     } else {
                         // It's a folder
-                        if (!current.children[part]) {
-                            current.children[part] = {
-                                name: part,
+                        if (!current.children[displayName]) {
+                            current.children[displayName] = {
+                                name: displayName,
                                 type: 'folder',
-                                path: parts.slice(0, index + 1).join('/'),
-                                displayPath: parts.slice(0, index + 1).join('/'),
+                                path: file.path.split('/').slice(0, index + 1).join('/'),
                                 children: {}
                             };
                         }
-                        current = current.children[part];
+                        current = current.children[displayName];
                     }
                 });
             });
@@ -922,24 +922,51 @@
             document.getElementById('welcomeScreen').style.display = 'none';
             document.getElementById('documentContent').style.display = 'block';
             
-            // Update breadcrumb with decoded path
-            updateBreadcrumb(file.displayPath || file.path);
+            // Update breadcrumb - decode for display
+            const displayPath = decodeURIComponent(file.path.replace(/\+/g, ' '));
+            updateBreadcrumb(displayPath);
             
             try {
                 const ext = file.name.split('.').pop().toLowerCase();
-                // Use the encoded path for the URL
-                const encodedPath = encodeURIComponent(file.path).replace(/%2F/g, '/');
-                const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${encodedPath}`;
+                
+                // Fix double encoding issue: %252D should be %2D
+                let fixedPath = file.path;
+                
+                // Replace common double-encoded characters
+                fixedPath = fixedPath.replace(/%252D/g, '%2D'); // -- becomes -
+                fixedPath = fixedPath.replace(/%252C/g, '%2C'); // ,
+                fixedPath = fixedPath.replace(/%2520/g, '%20'); // space
+                fixedPath = fixedPath.replace(/%252F/g, '%2F'); // /
+                fixedPath = fixedPath.replace(/%2528/g, '%28'); // (
+                fixedPath = fixedPath.replace(/%2529/g, '%29'); // )
+                
+                // Build the raw URL
+                const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${fixedPath}`;
+                
+                console.log('Original path:', file.path);
+                console.log('Fixed path:', fixedPath);
+                console.log('Fetching from:', rawUrl);
                 
                 // Handle different file types
                 if (['md', 'txt', 'cs', 'js', 'json', 'xml', 'html', 'css', 'py', 'java', 'cpp', 'c', 'h'].includes(ext)) {
                     // Text files - fetch and display with syntax highlighting
                     const response = await fetch(rawUrl);
                     if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
+                        // Try alternative decoding if first attempt fails
+                        const altPath = decodeURIComponent(file.path);
+                        const altUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${altPath}`;
+                        console.log('First attempt failed, trying:', altUrl);
+                        
+                        const altResponse = await fetch(altUrl);
+                        if (!altResponse.ok) {
+                            throw new Error(`HTTP error! status: ${altResponse.status}`);
+                        }
+                        const content = await altResponse.text();
+                        displayContent(content, file);
+                    } else {
+                        const content = await response.text();
+                        displayContent(content, file);
                     }
-                    const content = await response.text();
-                    displayContent(content, file);
                 } else if (['pdf'].includes(ext)) {
                     // PDF files - embed viewer
                     displayPDF(rawUrl, file);
@@ -958,7 +985,7 @@
                 }
             } catch (error) {
                 console.error('Error loading file:', error);
-                showError(`Erro ao carregar arquivo: ${error.message}`);
+                showError(`Erro ao carregar arquivo: ${error.message}<br><br>Path tentado: ${file.path}`);
             }
         }
 
@@ -1110,13 +1137,11 @@
             const breadcrumb = document.getElementById('breadcrumb');
             breadcrumb.style.display = 'block';
             
-            // Decode the path for display
-            const decodedPath = decodeURIComponent(path);
-            const parts = decodedPath.split('/');
-            let html = '';
+            const parts = path.split('/');
+            let html = '<i class="fas fa-folder" style="color: var(--primary); margin-right: 0.5rem;"></i>';
             
             parts.forEach((part, index) => {
-                if (index > 0) html += ' <span>/</span> ';
+                if (index > 0) html += ' <span style="opacity: 0.5;">/</span> ';
                 html += `<span>${part}</span>`;
             });
             
