@@ -97,13 +97,14 @@
         .logo {
             display: flex;
             align-items: center;
-            gap: 0.75rem;
+            gap: 1rem;
             text-decoration: none;
             color: var(--text);
         }
 
-        .logo img {
-            height: 30px;
+        .logo-fiap-img {
+            height: 35px;
+            width: auto;
         }
 
         .logo-text {
@@ -145,6 +146,16 @@
         .header-btn:hover {
             background: var(--hover);
             border-color: var(--primary);
+        }
+
+        .header-btn.github-btn {
+            background: rgba(237, 20, 91, 0.1);
+            border-color: var(--primary);
+        }
+
+        .header-btn.github-btn:hover {
+            background: var(--primary);
+            color: white;
         }
 
         /* Main Layout */
@@ -333,7 +344,7 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.3);
         }
 
-        /* Welcome Screen */
+        /* Welcome Screen Improvements */
         .welcome {
             flex: 1;
             display: flex;
@@ -342,6 +353,8 @@
             align-items: center;
             padding: 2rem;
             text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
         }
 
         .welcome h1 {
@@ -362,7 +375,7 @@
         .welcome-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
+            gap: 1.5rem;
             max-width: 800px;
             width: 100%;
             margin-top: 2rem;
@@ -371,33 +384,95 @@
         .welcome-card {
             background: var(--dark);
             border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 1.5rem;
+            border-radius: 12px;
+            padding: 2rem 1.5rem;
             transition: all 0.3s;
             cursor: pointer;
         }
 
         .welcome-card:hover {
             border-color: var(--primary);
-            transform: translateY(-2px);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(237, 20, 91, 0.3);
         }
 
         .welcome-card i {
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: var(--primary);
-            margin-bottom: 0.5rem;
+            margin-bottom: 1rem;
         }
 
         .welcome-card h3 {
-            font-size: 1rem;
-            margin-bottom: 0.25rem;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
             color: white;
         }
 
         .welcome-card p {
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: var(--text);
             margin: 0;
+        }
+
+        .social-links {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: var(--dark);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .social-links h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        .social-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-btn {
+            padding: 0.75rem 1.5rem;
+            background: transparent;
+            border: 2px solid var(--border);
+            color: var(--text);
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1rem;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .social-btn.linkedin {
+            border-color: #0077B5;
+            color: #0077B5;
+        }
+
+        .social-btn.linkedin:hover {
+            background: #0077B5;
+            color: white;
+        }
+
+        .social-btn.github {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .social-btn.github:hover {
+            background: var(--primary);
+            color: white;
         }
 
         /* Markdown Styles */
@@ -659,7 +734,10 @@
                 <i class="fas fa-bars"></i>
             </button>
             <a href="#" class="logo">
-                <img src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/logo-fiap.png" alt="FIAP">
+                <img src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/sharing/fiap.png" 
+                     alt="FIAP" 
+                     class="logo-fiap-img"
+                     onerror="this.style.display='none'; this.nextElementSibling.innerHTML='<span style=\'color:#ED145B;font-weight:900;font-size:1.5rem;\'>FIAP</span>' + this.nextElementSibling.innerHTML;">
                 <div class="logo-text">
                     <h1>Advanced Business Development with .NET</h1>
                     <p>Prof. Rafael S. Novo Pereira - 2025</p>
@@ -667,13 +745,16 @@
             </a>
         </div>
         <div class="header-actions">
-            <a href="https://github.com/rafsp/Graduacao_FIAP" target="_blank" class="header-btn">
+            <a href="https://github.com/rafsp" target="_blank" class="header-btn github-btn">
                 <i class="fab fa-github"></i>
-                <span>GitHub</span>
+                <span>rafsp</span>
+            </a>
+            <a href="https://www.linkedin.com/in/rafsp" target="_blank" class="header-btn">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
             </a>
             <button class="header-btn" onclick="location.reload()">
                 <i class="fas fa-sync"></i>
-                <span>Atualizar</span>
             </button>
         </div>
     </header>
@@ -707,36 +788,48 @@
             <div class="document-viewer" id="documentViewer">
                 <!-- Welcome Screen -->
                 <div class="welcome" id="welcomeScreen">
-                    <h1>Bem-vindo! 🎓</h1>
+                    <h1>Bem-vindo ao Portal de Aprendizado! 🎓</h1>
                     <p>Navegue pelo conteúdo do curso usando o explorador à esquerda</p>
                     
                     <div class="thanks-box">
                         <h3>🙏 Agradecimentos Especiais</h3>
                         <p>Este material foi desenvolvido com base na excelente estrutura pedagógica criada pelo 
                         <strong>Professor Nagib Sabbag</strong>. Sua metodologia inovadora e organização didática 
-                        serviram como inspiração fundamental para a construção deste portal.</p>
+                        serviram como inspiração fundamental para a construção deste portal de aprendizado.</p>
                     </div>
 
                     <div class="welcome-grid">
                         <div class="welcome-card">
                             <i class="fas fa-book"></i>
-                            <h3>20+ Aulas</h3>
-                            <p>Conteúdo completo</p>
+                            <h3>Conteúdo Completo</h3>
+                            <p>Material organizado e atualizado</p>
                         </div>
                         <div class="welcome-card">
                             <i class="fas fa-code"></i>
-                            <h3>Exercícios</h3>
-                            <p>Prática constante</p>
+                            <h3>Exercícios Práticos</h3>
+                            <p>Aprenda fazendo</p>
                         </div>
                         <div class="welcome-card">
-                            <i class="fas fa-project-diagram"></i>
-                            <h3>Projetos</h3>
-                            <p>Aplicação real</p>
+                            <i class="fas fa-rocket"></i>
+                            <h3>Exemplos Reais</h3>
+                            <p>Casos do mercado</p>
                         </div>
                         <div class="welcome-card">
-                            <i class="fas fa-certificate"></i>
-                            <h3>Certificação</h3>
-                            <p>Microsoft Azure</p>
+                            <i class="fas fa-users"></i>
+                            <h3>Comunidade</h3>
+                            <p>Suporte e networking</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem; text-align: center;">
+                        <h3 style="color: var(--primary); margin-bottom: 1rem;">📬 Conecte-se</h3>
+                        <div style="display: flex; gap: 1rem; justify-content: center;">
+                            <a href="https://www.linkedin.com/in/rafsp" target="_blank" class="header-btn" style="font-size: 1rem;">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/rafsp" target="_blank" class="header-btn github-btn" style="font-size: 1rem;">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -929,63 +1022,93 @@
             try {
                 const ext = file.name.split('.').pop().toLowerCase();
                 
-                // Fix double encoding issue: %252D should be %2D
-                let fixedPath = file.path;
+                // Strategy: Try multiple encoding approaches
+                const pathVariations = [
+                    // 1. Original path as-is
+                    file.path,
+                    
+                    // 2. Fix double encoding
+                    file.path
+                        .replace(/%252D/g, '%2D')
+                        .replace(/%252C/g, '%2C')
+                        .replace(/%2520/g, '%20'),
+                    
+                    // 3. Encode special characters properly
+                    encodeURI(decodeURIComponent(file.path)),
+                    
+                    // 4. Manual encoding for problematic characters
+                    file.path
+                        .replace(/º/g, '%C2%BA')
+                        .replace(/ç/g, '%C3%A7')
+                        .replace(/ã/g, '%C3%A3')
+                        .replace(/õ/g, '%C3%B5')
+                        .replace(/á/g, '%C3%A1')
+                        .replace(/é/g, '%C3%A9')
+                        .replace(/í/g, '%C3%AD')
+                        .replace(/ó/g, '%C3%B3')
+                        .replace(/ú/g, '%C3%BA')
+                        .replace(/â/g, '%C3%A2')
+                        .replace(/ê/g, '%C3%AA')
+                        .replace(/ô/g, '%C3%B4'),
+                    
+                    // 5. Try with complete URI encoding
+                    encodeURIComponent(file.path).replace(/%2F/g, '/')
+                ];
                 
-                // Replace common double-encoded characters
-                fixedPath = fixedPath.replace(/%252D/g, '%2D'); // -- becomes -
-                fixedPath = fixedPath.replace(/%252C/g, '%2C'); // ,
-                fixedPath = fixedPath.replace(/%2520/g, '%20'); // space
-                fixedPath = fixedPath.replace(/%252F/g, '%2F'); // /
-                fixedPath = fixedPath.replace(/%2528/g, '%28'); // (
-                fixedPath = fixedPath.replace(/%2529/g, '%29'); // )
+                let content = null;
+                let successUrl = null;
                 
-                // Build the raw URL
-                const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${fixedPath}`;
-                
-                console.log('Original path:', file.path);
-                console.log('Fixed path:', fixedPath);
-                console.log('Fetching from:', rawUrl);
-                
-                // Handle different file types
-                if (['md', 'txt', 'cs', 'js', 'json', 'xml', 'html', 'css', 'py', 'java', 'cpp', 'c', 'h'].includes(ext)) {
-                    // Text files - fetch and display with syntax highlighting
-                    const response = await fetch(rawUrl);
-                    if (!response.ok) {
-                        // Try alternative decoding if first attempt fails
-                        const altPath = decodeURIComponent(file.path);
-                        const altUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${altPath}`;
-                        console.log('First attempt failed, trying:', altUrl);
-                        
-                        const altResponse = await fetch(altUrl);
-                        if (!altResponse.ok) {
-                            throw new Error(`HTTP error! status: ${altResponse.status}`);
+                // Try each variation until one works
+                for (const pathVariant of pathVariations) {
+                    const rawUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${pathVariant}`;
+                    
+                    console.log(`Attempting to fetch: ${rawUrl}`);
+                    
+                    try {
+                        const response = await fetch(rawUrl);
+                        if (response.ok) {
+                            content = await response.text();
+                            successUrl = rawUrl;
+                            console.log(`Success with URL: ${rawUrl}`);
+                            break;
                         }
-                        const content = await altResponse.text();
-                        displayContent(content, file);
-                    } else {
-                        const content = await response.text();
+                    } catch (e) {
+                        console.log(`Failed: ${e.message}`);
+                        continue;
+                    }
+                }
+                
+                if (content !== null) {
+                    // Handle different file types
+                    if (['md', 'txt', 'cs', 'js', 'json', 'xml', 'html', 'css', 'py', 'java', 'cpp', 'c', 'h'].includes(ext)) {
                         displayContent(content, file);
                     }
                 } else if (['pdf'].includes(ext)) {
-                    // PDF files - embed viewer
-                    displayPDF(rawUrl, file);
+                    displayPDF(successUrl || pathVariations[0], file);
                 } else if (['png', 'jpg', 'jpeg', 'gif', 'svg', 'webp'].includes(ext)) {
-                    // Images - display inline
-                    displayImage(rawUrl, file);
+                    displayImage(successUrl || pathVariations[0], file);
                 } else if (['mp4', 'webm', 'ogg'].includes(ext)) {
-                    // Videos - embed player
-                    displayVideo(rawUrl, file);
+                    displayVideo(successUrl || pathVariations[0], file);
                 } else if (['xlsx', 'xls', 'docx', 'doc', 'pptx', 'ppt'].includes(ext)) {
-                    // Office files - use Office viewer
-                    displayOfficeFile(rawUrl, file);
+                    displayOfficeFile(successUrl || pathVariations[0], file);
                 } else {
-                    // Other files - show download option
-                    displayDownload(rawUrl, file);
+                    displayDownload(successUrl || pathVariations[0], file);
                 }
+                
+                if (content === null && !['pdf', 'png', 'jpg', 'jpeg', 'gif', 'svg', 'webp', 'mp4', 'webm', 'ogg', 'xlsx', 'xls', 'docx', 'doc', 'pptx', 'ppt'].includes(ext)) {
+                    throw new Error(`Não foi possível carregar o arquivo. Tentadas ${pathVariations.length} variações de URL.`);
+                }
+                
             } catch (error) {
                 console.error('Error loading file:', error);
-                showError(`Erro ao carregar arquivo: ${error.message}<br><br>Path tentado: ${file.path}`);
+                showError(`
+                    <h3>Erro ao carregar arquivo</h3>
+                    <p>${error.message}</p>
+                    <p><strong>Arquivo:</strong> ${file.name}</p>
+                    <p><strong>Caminho:</strong> ${file.path}</p>
+                    <hr>
+                    <p><small>Verifique o console (F12) para mais detalhes.</small></p>
+                `);
             }
         }
 
@@ -995,6 +1118,24 @@
             const ext = file.name.split('.').pop().toLowerCase();
             
             if (ext === 'md') {
+                // Fix image paths in markdown content
+                const dirPath = file.path.substring(0, file.path.lastIndexOf('/'));
+                
+                // Replace image references to use GitHub raw URLs
+                content = content.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
+                    // If it's a relative path
+                    if (!src.startsWith('http')) {
+                        // Handle different types of relative paths
+                        if (src.startsWith('./')) {
+                            src = src.substring(2);
+                        }
+                        // Build the full GitHub raw URL
+                        const imageUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${dirPath}/${src}`;
+                        return `![${alt}](${imageUrl})`;
+                    }
+                    return match;
+                });
+                
                 // Parse markdown
                 const html = marked.parse(content);
                 contentDiv.innerHTML = `
@@ -1007,6 +1148,18 @@
                 // Highlight code blocks
                 contentDiv.querySelectorAll('pre code').forEach(block => {
                     hljs.highlightElement(block);
+                });
+                
+                // Fix broken images with error handling
+                contentDiv.querySelectorAll('img').forEach(img => {
+                    img.onerror = function() {
+                        this.onerror = null;
+                        this.style.display = 'none';
+                        const errorMsg = document.createElement('div');
+                        errorMsg.style.cssText = 'padding: 1rem; background: rgba(237,20,91,0.1); border: 1px solid var(--primary); border-radius: 8px; color: var(--text); margin: 1rem 0;';
+                        errorMsg.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Imagem não disponível: ${this.alt || 'image.png'}`;
+                        this.parentNode.insertBefore(errorMsg, this);
+                    };
                 });
             } else if (['cs', 'js', 'py', 'java', 'cpp', 'c', 'h', 'css', 'html', 'xml', 'json'].includes(ext)) {
                 // Display code with syntax highlighting
@@ -1048,15 +1201,28 @@
         // Display Image
         function displayImage(url, file) {
             const contentDiv = document.getElementById('documentContent');
+            
+            // Fix image paths that might be relative in markdown
+            let imageUrl = url;
+            
+            // If it's a relative path from markdown content
+            if (file.name.includes('image.png') || file.name.includes('image')) {
+                // Get the directory path of the current file
+                const dirPath = file.path.substring(0, file.path.lastIndexOf('/'));
+                imageUrl = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${dirPath}/${file.name}`;
+            }
+            
             contentDiv.innerHTML = `
                 <div class="file-header">
                     <i class="fas fa-image"></i> ${file.name}
-                    <a href="${url}" download="${file.name}" class="download-btn">
+                    <a href="${imageUrl}" download="${file.name}" class="download-btn">
                         <i class="fas fa-download"></i> Download
                     </a>
                 </div>
                 <div style="text-align: center; padding: 2rem;">
-                    <img src="${url}" alt="${file.name}" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+                    <img src="${imageUrl}" alt="${file.name}" 
+                         style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"
+                         onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\\\'http://www.w3.org/2000/svg\\\' width=\\\'400\\\' height=\\\'300\\\'%3E%3Crect fill=\\\'%23333\\\' width=\\\'400\\\' height=\\\'300\\\'/%3E%3Ctext fill=\\\'%23999\\\' x=\\\'50%25\\\' y=\\\'50%25\\\' text-anchor=\\\'middle\\\' dy=\\\'.3em\\\'%3EImagem não encontrada%3C/text%3E%3C/svg%3E';">
                 </div>
             `;
         }
